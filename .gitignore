@@ -1,0 +1,8 @@
+node_modules/
+logs/
+*.log
+data/private/
+.env
+*.env
+tools/__pycache__/
+shots/

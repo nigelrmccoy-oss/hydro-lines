@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hydro-Lines v0.1.0: Ontario grid (SW Ontario slice)</title>
+<link rel="stylesheet" href="vendor/cesium/Widgets/widgets.css" />
+<link rel="stylesheet" href="css/style.css" />
+<script src="vendor/cesium/Cesium.js"></script>
+</head>
+<body>
+<!-- v0.1.0 placeholder shell: the designed interface is being mocked up separately (design/). Keep this minimal. -->
+<header id="top">
+  <div class="brand">HYDRO-LINES <span>v0.1.0</span><small>Unofficial Ontario grid game · SW Ontario + GTA slice · public data only</small></div>
+  <nav id="layers"></nav>
+  <div id="views"></div>
+  <label>Day <select id="day"></select></label>
+  <label>Hour <input id="hour" type="range" min="1" max="24" value="18" /><b id="hourv"></b></label>
+  <button id="play">▶</button>
+  <label>Load × <input id="lm" type="range" min="0.7" max="1.4" step="0.01" value="1" /><b id="lmv"></b></label>
+  <label>MI export <input id="mi" type="range" min="-1650" max="2000" step="10" /><b id="miv"></b></label>
+  <label>NY export <input id="ny" type="range" min="-1835" max="2400" step="10" /><b id="nyv"></b></label>
+  <button id="bal" title="Re-dispatch gas/hydro/storage to remove the imbalance">Auto-balance</button>
+  <button id="reset">Reset hour</button>
+</header>
+<div id="kpis"></div>
+<main><div id="globe"></div><div id="mapLegend"></div><div id="mapTip"></div>
+  <aside id="dispatch"><h4>Dispatch (MW)</h4><div id="dlist"></div></aside>
+  <aside id="hist" class="hidden"><h4>History <input id="year" type="range" min="1920" max="2026" value="2026" /> <b id="yearv"></b></h4><div id="hlist"></div></aside>
+</main>
+<aside id="faceplate" class="hidden"></aside>
+<footer id="banner">Loading…</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

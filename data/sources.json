@@ -1,0 +1,295 @@
+{
+ "accessed": "2026-11-18",
+ "sources": {
+  "osm": {
+   "title": "OpenStreetMap contributors, via Overpass API (power=line/cable/substation/plant), ODbL",
+   "url": "https://www.openstreetmap.org/copyright",
+   "uses": 71
+  },
+  "overpass": {
+   "title": "Overpass API (query endpoint used for raw extracts in data/raw/)",
+   "url": "https://overpass-api.de/",
+   "uses": 0
+  },
+  "ieso_gen": {
+   "title": "IESO Generator Output and Capability report, 2026-11-16 (hourly per-unit output/capability)",
+   "url": "https://reports-public.ieso.ca/public/GenOutputCapability/PUB_GenOutputCapability_20261116.xml",
+   "uses": 212
+  },
+  "ieso_demand": {
+   "title": "IESO Hourly Demand report 2026 (Ontario and Market Demand)",
+   "url": "https://reports-public.ieso.ca/public/Demand/PUB_Demand.csv",
+   "uses": 2
+  },
+  "ieso_demand25": {
+   "title": "IESO Hourly Demand report 2025",
+   "url": "https://reports-public.ieso.ca/public/Demand/PUB_Demand_2025.csv",
+   "uses": 2
+  },
+  "ieso_zonal": {
+   "title": "IESO Hourly Zonal Demand report 2026",
+   "url": "https://reports-public.ieso.ca/public/DemandZonal/PUB_DemandZonal_2026.csv",
+   "uses": 1
+  },
+  "ieso_zonal25": {
+   "title": "IESO Hourly Zonal Demand report 2025",
+   "url": "https://reports-public.ieso.ca/public/DemandZonal/PUB_DemandZonal_2025.csv",
+   "uses": 2
+  },
+  "ieso_intertie": {
+   "title": "IESO Intertie Scheduling and Flow report, 2026-11-16",
+   "url": "https://reports-public.ieso.ca/public/IntertieScheduleFlow/PUB_IntertieScheduleFlow_20261116.xml",
+   "uses": 1
+  },
+  "ieso_powerdata": {
+   "title": "IESO Power Data (overview page)",
+   "url": "https://www.ieso.ca/power-data",
+   "uses": 0
+  },
+  "gridwatch": {
+   "title": "Gridwatch Ontario (public web app; one snapshot 2026-11-18 00:00-01:00 EST, data derived from IESO reports)",
+   "url": "https://live.gridwatch.ca/",
+   "uses": 1
+  },
+  "gridwatch_home": {
+   "title": "Gridwatch Ontario Edition (about page)",
+   "url": "https://gridwatch.ca/",
+   "uses": 0
+  },
+  "esri": {
+   "title": "Esri World Imagery tiles",
+   "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+   "uses": 0
+  },
+  "awsterrain": {
+   "title": "AWS Terrain Tiles (Mapzen/Tilezen terrarium)",
+   "url": "https://registry.opendata.aws/terrain-tiles/",
+   "uses": 0
+  },
+  "apo_interfaces": {
+   "title": "IESO 2025 Annual Planning Outlook: Ontario's Transmission Interfaces and Interties (Apr 2025), Table 1 TTCs",
+   "url": "https://www.ieso.ca/-/media/Files/IESO/Document-Library/planning-forecasts/apo/2025/Ontario-Transmission-Interfaces-and-Interties-Overview.pdf",
+   "uses": 16
+  },
+  "apo": {
+   "title": "IESO Annual Planning Outlook (landing page)",
+   "url": "https://www.ieso.ca/Sector-Participants/Planning-and-Forecasting/Annual-Planning-Outlook",
+   "uses": 0
+  },
+  "ro": {
+   "title": "IESO Reliability Outlook (landing page)",
+   "url": "https://www.ieso.ca/Sector-Participants/Planning-and-Forecasting/Reliability-Outlook",
+   "uses": 0
+  },
+  "kwcg_irrp26": {
+   "title": "IESO 2026 Kitchener-Waterloo-Cambridge-Guelph IRRP (08/07/2026)",
+   "url": "https://ieso.ca/-/media/Files/IESO/Document-Library/regional-planning/KWCG/KWCG-2026-IRRP-Report.pdf",
+   "uses": 8
+  },
+  "kwcg_scope24": {
+   "title": "IESO KWCG Scoping Assessment Outcome Report (Jul 2024)",
+   "url": "https://www.ieso.ca/-/media/Files/IESO/Document-Library/engage/kwcg/KWCG-20240708-scoping-assessment-outcome-report.pdf",
+   "uses": 3
+  },
+  "kwcg_irrp21": {
+   "title": "IESO KWCG IRRP (May 2021)",
+   "url": "https://ieso.ca/-/media/Files/IESO/Document-Library/regional-planning/KWCG/KWCG-IRRP-May-2021.pdf",
+   "uses": 0
+  },
+  "gtaw_26": {
+   "title": "IESO GTA West regional planning webinar, draft recommendations (2026-11-02)",
+   "url": "https://www.ieso.ca/-/media/Files/IESO/Document-Library/regional-planning/GTA-West/GTA-West-20261102-presentation.pdf",
+   "uses": 9
+  },
+  "gtaw_news": {
+   "title": "IESO news: draft recommendations for GTA West (Oct 2026)",
+   "url": "https://www.ieso.ca/Sector-Participants/IESO-News/2026/10/Oct-16---Presenting-Draft-Recommendations-to-Ensure-Reliability-and-Support-Economic-Growth",
+   "uses": 0
+  },
+  "gtaw_irrp_app": {
+   "title": "IESO GTA West IRRP Appendix (previous cycle)",
+   "url": "https://www.ieso.ca/-/media/Files/IESO/Document-Library/regional-planning/GTA-West/gta-west-IRRP-Appendix.pdf",
+   "uses": 0
+  },
+  "sac_memo25": {
+   "title": "IESO SAC memo, Transmission Planning (Jul 2025): bulk 500 kV recommendations",
+   "url": "https://ieso.ca/-/media/Files/IESO/Document-Library/sac/2025/SAC-20250716-Transmission-Planning-Memo.pdf",
+   "uses": 8
+  },
+  "ho_lxl": {
+   "title": "Hydro One: Longwood to Lakeshore Transmission Line (project page)",
+   "url": "https://www.hydroone.com/about/corporate-information/major-projects/longwood-to-lakeshore-transmission-line",
+   "uses": 2
+  },
+  "ho_lxl_esr": {
+   "title": "Hydro One: Longwood to Lakeshore Final ESR (Mar 2026)",
+   "url": "https://www.hydroone.com/abouthydroone/CorporateInformation/majorprojects/Longwood-to-Lakeshore/Documents/Final_ESR_LxL_March_31_2026.pdf",
+   "uses": 1
+  },
+  "ho_cxl": {
+   "title": "Hydro One: Chatham to Lakeshore Transmission Line (project page)",
+   "url": "https://www.hydroone.com/about/corporate-information/major-projects/chatham-to-lakeshore-transmission-line",
+   "uses": 2
+  },
+  "oeb_cxl_isd": {
+   "title": "OEB filing (Hydro One letter): CxL placed in service 2024-12-17",
+   "url": "https://www.rds.oeb.ca/CMWebDrawer/Record/883612/File/document",
+   "uses": 2
+  },
+  "oeb_swo_biannual": {
+   "title": "OEB EB-2022-0142 Hydro One SW Ontario Transmission Line Projects, bi-annual report Nov 2025-Apr 2026",
+   "url": "https://www.rds.oeb.ca/CMWebDrawer/Record/942324/File/document",
+   "uses": 5
+  },
+  "ho_projects": {
+   "title": "Hydro One major projects (index)",
+   "url": "https://www.hydroone.com/about/corporate-information/major-projects",
+   "uses": 0
+  },
+  "on_end_coal": {
+   "title": "Ontario.ca: The End of Coal",
+   "url": "https://www.ontario.ca/page/end-coal",
+   "uses": 6
+  },
+  "on_coal_bg": {
+   "title": "Ontario Newsroom backgrounder: Phasing out coal power in Ontario",
+   "url": "https://news.ontario.ca/en/backgrounder/14506/phasing-out-coal-power-in-ontario",
+   "uses": 2
+  },
+  "sierra_coal": {
+   "title": "Sierra Club Canada: Coal is kaput in Ontario (Thunder Bay last coal 2014-04-08)",
+   "url": "https://www.sierraclub.ca/its-official-coal-is-kaput-in-ontario/",
+   "uses": 3
+  },
+  "on_ieP": {
+   "title": "Ontario.ca: Energy for Generations (Integrated Energy Plan, 2025)",
+   "url": "https://www.ontario.ca/page/energy-generations",
+   "uses": 1
+  },
+  "on_pog": {
+   "title": "Ontario.ca: Powering Ontario's Growth (2023)",
+   "url": "https://www.ontario.ca/page/powering-ontarios-growth",
+   "uses": 0
+  },
+  "b2m_news": {
+   "title": "Hydro One news release 2012-06-19: Bruce to Milton line in service",
+   "url": "https://www.newswire.ca/news-releases/hydro-ones-bruce-to-milton-transmission-line-now-in-service-to-support-new-clean-energy-510397511.html",
+   "uses": 2
+  },
+  "b2m_lp": {
+   "title": "B2M Limited Partnership: The Line (176 km, double-circuit 500 kV, 3,000 MW, four circuits)",
+   "url": "https://b2mlp.ca/the-partnership/the-line/",
+   "uses": 2
+  },
+  "ho_2012": {
+   "title": "Hydro One 2012 year-end results (B2M placed in service May 2012)",
+   "url": "https://www.newswire.ca/news-releases/hydro-one-releases-2012-year-end-financial-results-us-gaap-511959471.html",
+   "uses": 1
+  },
+  "nyiso_ties": {
+   "title": "NYISO/IMO interconnection description (PA301/PA302 345 kV, BP76 230 kV, transformer ratings)",
+   "url": "https://www.nyiso.com/documents/20142/1397306/imonyiso.pdf/73afa0b0-3f20-15e2-1e61-33abf1c919d5",
+   "uses": 6
+  },
+  "nyiso_op09": {
+   "title": "NYISO Operating Study 2009 (Ontario-Michigan PARs on L4D, L51D, J5D, B3N)",
+   "url": "https://www.nyiso.com/documents/20142/1396226/s2009_operating_study_OC_Approved_051409.pdf/b3d58ea2-4376-17d4-14c6-abb98fd279b5",
+   "uses": 4
+  },
+  "wiki_bruce": {
+   "title": "Wikipedia: Bruce Nuclear Generating Station",
+   "url": "https://en.wikipedia.org/wiki/Bruce_Nuclear_Generating_Station",
+   "uses": 5
+  },
+  "bp_about": {
+   "title": "Bruce Power: About us",
+   "url": "https://www.brucepower.com/about-us/",
+   "uses": 1
+  },
+  "wiki_darl": {
+   "title": "Wikipedia: Darlington Nuclear Generating Station",
+   "url": "https://en.wikipedia.org/wiki/Darlington_Nuclear_Generating_Station",
+   "uses": 3
+  },
+  "wiki_pick": {
+   "title": "Wikipedia: Pickering Nuclear Generating Station",
+   "url": "https://en.wikipedia.org/wiki/Pickering_Nuclear_Generating_Station",
+   "uses": 4
+  },
+  "opg_smr": {
+   "title": "OPG: Darlington SMR (BWRX-300) project page (blocks scripted fetch; checked via search)",
+   "url": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/",
+   "uses": 1
+  },
+  "wiki_beck": {
+   "title": "Wikipedia: Sir Adam Beck Hydroelectric Generating Stations",
+   "url": "https://en.wikipedia.org/wiki/Sir_Adam_Beck_Hydroelectric_Generating_Stations",
+   "uses": 3
+  },
+  "wiki_lakeview": {
+   "title": "Wikipedia: Lakeview Generating Station",
+   "url": "https://en.wikipedia.org/wiki/Lakeview_Generating_Station",
+   "uses": 1
+  },
+  "wiki_lambton": {
+   "title": "Wikipedia: Lambton Generating Station",
+   "url": "https://en.wikipedia.org/wiki/Lambton_Generating_Station",
+   "uses": 1
+  },
+  "wiki_nanticoke": {
+   "title": "Wikipedia: Nanticoke Generating Station",
+   "url": "https://en.wikipedia.org/wiki/Nanticoke_Generating_Station",
+   "uses": 1
+  },
+  "wiki_tbay": {
+   "title": "Wikipedia: Thunder Bay Generating Station",
+   "url": "https://en.wikipedia.org/wiki/Thunder_Bay_Generating_Station",
+   "uses": 1
+  },
+  "wiki_atikokan": {
+   "title": "Wikipedia: Atikokan Generating Station",
+   "url": "https://en.wikipedia.org/wiki/Atikokan_Generating_Station",
+   "uses": 0
+  },
+  "opg_atikokan": {
+   "title": "OPG news release 2014-09-10: Atikokan GS operating on biomass (last coal 2012-09-11; Thunder Bay last coal 2014-04-08)",
+   "url": "https://www.newswire.ca/news-releases/atikokan-generating-station-operating-on-biomass-515605381.html",
+   "uses": 3
+  },
+  "wiki_blackout": {
+   "title": "Wikipedia: Northeast blackout of 2003",
+   "url": "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003",
+   "uses": 1
+  },
+  "wiki_on_gs": {
+   "title": "Wikipedia: List of generating stations in Ontario",
+   "url": "https://en.wikipedia.org/wiki/List_of_generating_stations_in_Ontario",
+   "uses": 14
+  },
+  "wiki_gea": {
+   "title": "Wikipedia: Green Energy Act, 2009 (Ontario)",
+   "url": "https://en.wikipedia.org/wiki/Green_Energy_Act,_2009",
+   "uses": 1
+  },
+  "bp_c": {
+   "title": "Bruce Power: The Bruce C Project (up to 4,800 MW option; no build decision)",
+   "url": "https://www.brucepower.com/the-bruce-c-project/",
+   "uses": 1
+  },
+  "iaac_brucec": {
+   "title": "Impact Assessment Agency of Canada: Bruce C Nuclear Project (88771)",
+   "url": "https://iaac-aeic.gc.ca/050/evaluations/proj/88771",
+   "uses": 1
+  },
+  "opg_q3_26": {
+   "title": "OPG 2026 Q3 MD&A: DNNP Unit 1 no longer expected Oct 2030; revised schedule by mid-2027",
+   "url": "https://www.opg.com/wp-content/uploads/2026/11/2026-Q3-OPG-PR-MDA-FS-FINAL.pdf",
+   "uses": 1
+  },
+  "ieso_rp": {
+   "title": "IESO Regional Planning (landing page; KWCG, GTA West, Toronto, GTA North/East)",
+   "url": "https://www.ieso.ca/Get-Involved/Regional-Planning",
+   "uses": 0
+  }
+ }
+}

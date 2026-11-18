@@ -1,0 +1,32 @@
+// Headless smoke (swiftshader): load app, wait for layers, check data counts, open popups, trip Bruce-Milton, toggle layers, history slider, deep link on a fresh page, one screenshot.
+// Usage: node tests/smoke.mjs [url]   (PW=/path/to/node_modules/playwright if not installed locally)
+import { createRequire } from 'module'; import { mkdirSync } from 'fs';
+const require = createRequire(import.meta.url); const { chromium } = require(process.env.PW || 'playwright');
+const url = process.argv[2] || 'http://127.0.0.1:8790/'; mkdirSync('docs', { recursive: true });
+const b = await chromium.launch({ args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
+const errs = [], fails = []; const ok = (c, m) => { if (!c) fails.push(m); };
+const page = async () => { const p = await b.newPage({ viewport: { width: 1600, height: 1000 } }); p.on('pageerror', e => errs.push('pageerror ' + e.message)); p.on('console', m => m.type() === 'error' && errs.push('console ' + m.text())); return p; };
+const p = await page(); await p.goto(url);
+await p.waitForFunction(() => window.HL && document.getElementById('banner').textContent.includes('Imagery'), null, { timeout: 240000 });
+const c = await p.evaluate(() => ({ lines: HL.groups.kv500?.length, flows: Object.keys(HL.R.flows).length, stations: HL.gens.stations.length, units: HL.gens.units.length, ev: HL.hist.events.length, plan: HL.planned.features.length, score: HL.R.score, ifs: HL.R.interfaces.map(i => i.id + ':' + Math.round(i.flow)).join(' ') }));
+console.log('counts', JSON.stringify(c)); ok(c.flows >= 40 && c.units > 150 && c.ev >= 20 && c.plan >= 20, 'data counts');
+await p.waitForFunction(() => HL.viewer.scene.globe.tilesLoaded, null, { timeout: 90000 }).catch(() => console.log('  (tiles still loading at screenshot)')); await p.waitForTimeout(3000); await p.screenshot({ path: 'docs/globe-v0.1.0.png', timeout: 120000 }).then(() => console.log('screenshot docs/globe-v0.1.0.png')).catch(e => console.log('  (screenshot timed out)', e.message));
+const t = await p.evaluate(() => { HL.openId('br:BRU-MIL', false); const h = document.querySelector('#faceplate h3').textContent; document.getElementById('trip').click(); const r = HL.R; const res = { h, over: r.overloads, score: r.score }; HL.E.toggleBranch('BRU-MIL'); HL.update(); return res; });
+console.log('trip', JSON.stringify(t)); ok(/BRU-MIL/.test(t.h) && t.over.length > 0, 'trip Bruce-Milton overloads');
+const pop = await p.evaluate(() => ['st:Bruce NGS', 'plan:p_wellington', 'hist:ev019', 'bus:BECK', Object.keys(HL.byId).find(k => k.startsWith('osm:way'))].map(id => { HL.openId(id, false); return id + ' -> ' + document.querySelector('#faceplate h3').textContent + ' rows=' + document.querySelectorAll('#faceplate tr').length; }));
+pop.forEach(x => console.log('popup', x)); ok(pop.every(x => !/Not found/.test(x)), 'popups');
+const lay = await p.evaluate(() => Object.keys(HL.layers).map(k => { const b = document.querySelector(`#layers button[data-l=${k}]`); const before = HL.layers[k]; b.click(); const after = HL.layers[k]; b.click(); return k + ':' + (before !== after && HL.layers[k] === before); }));
+console.log('layers', lay.join(' ')); ok(lay.every(x => x.endsWith('true')), 'layer toggles');
+const hy = await p.evaluate(() => { HL.layers.history = true; HL.apply(); const y = document.getElementById('year'); y.value = 2013; y.dispatchEvent(new Event('input')); return document.getElementById('hlist').textContent.slice(0, 120); });
+console.log('history 2013:', hy); ok(/Lambton|Nanticoke/.test(hy), 'history list');
+const g = await p.evaluate(() => { const h = document.getElementById('hour'); h.value = 12; h.dispatchEvent(new Event('input')); const m = document.getElementById('mi'); m.value = 2000; m.dispatchEvent(new Event('input')); const r = HL.R; return { mi: r.interfaces.find(i => i.id === 'ON-MI').loading, kpi: document.getElementById('kpis').textContent.slice(0, 160) }; });
+console.log('game', JSON.stringify(g)); ok(g.mi > 1, 'MI export 2000 breaches TTC');
+await p.close();
+const q = await page(); await q.goto(url + '#view=kw&open=br:CHA-LAK&hour=7&layers=kv500,kv230,flows,planned', { waitUntil: 'domcontentloaded' });
+await q.waitForFunction(() => window.HL && document.getElementById('banner').textContent.includes('Imagery'), null, { timeout: 240000 }); await q.waitForTimeout(1500);
+const dl = await q.evaluate(() => ({ fp: document.querySelector('#faceplate:not(.hidden) h3')?.textContent, hour: HL.E.state.hour, planned: HL.layers.planned, kv115: HL.layers.kv115 }));
+console.log('deeplink', JSON.stringify(dl)); ok(/CHA-LAK/.test(dl.fp || '') && dl.hour === 7 && dl.planned && !dl.kv115, 'deep link');
+await b.close();
+const real = errs.filter(e => !/Failed to load resource|ERR_|net::/.test(e));
+console.log('errors:', real.length, real.slice(0, 6).join('\n'));
+console.log(fails.length || real.length ? 'SMOKE FAIL ' + fails.join('; ') : 'SMOKE PASS'); process.exit(fails.length || real.length ? 1 : 0);

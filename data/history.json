@@ -1,0 +1,445 @@
+{
+ "note": "Dated grid events. date is ISO (YYYY, YYYY-MM or YYYY-MM-DD). est=true -> ESTIMATE date. Add events by appending; schema is stable.",
+ "schema": {
+  "id": "str",
+  "date": "ISO partial",
+  "year": "int",
+  "type": "plant_build|line_build|retirement|conversion|refurb|policy|event|snapshot",
+  "title": "str",
+  "detail": "str",
+  "src": "[source ids]",
+  "est": "bool",
+  "lon": "float",
+  "lat": "float",
+  "entity": "registry id or null"
+ },
+ "events": [
+  {
+   "id": "ev000",
+   "date": "1922",
+   "year": 1922,
+   "type": "plant_build",
+   "title": "Queenston-Chippawa (Sir Adam Beck I) in service",
+   "detail": "Hydro at Niagara",
+   "src": [
+    "wiki_beck"
+   ],
+   "est": false,
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": false,
+   "entity": "st:Sir Adam Beck (I, II, PGS)"
+  },
+  {
+   "id": "ev001",
+   "date": "1954",
+   "year": 1954,
+   "type": "plant_build",
+   "title": "Sir Adam Beck II in service",
+   "detail": "",
+   "src": [
+    "wiki_beck"
+   ],
+   "est": false,
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": false,
+   "entity": "st:Sir Adam Beck (I, II, PGS)"
+  },
+  {
+   "id": "ev002",
+   "date": "1962",
+   "year": 1962,
+   "type": "plant_build",
+   "title": "Lakeview GS (coal, Mississauga) in service",
+   "detail": "",
+   "src": [
+    "wiki_lakeview"
+   ],
+   "est": false,
+   "lon": -79.57,
+   "lat": 43.57,
+   "pos_est": true,
+   "entity": "hist:lakeview"
+  },
+  {
+   "id": "ev003",
+   "date": "1969",
+   "year": 1969,
+   "type": "plant_build",
+   "title": "Lambton GS (coal) in service",
+   "detail": "",
+   "src": [
+    "wiki_lambton"
+   ],
+   "est": false,
+   "lon": -82.45,
+   "lat": 42.79,
+   "pos_est": true,
+   "entity": "hist:lambton"
+  },
+  {
+   "id": "ev004",
+   "date": "1971",
+   "year": 1971,
+   "type": "plant_build",
+   "title": "Pickering A first unit in service",
+   "detail": "",
+   "src": [
+    "wiki_pick"
+   ],
+   "est": false,
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "pos_est": false,
+   "entity": "st:Pickering NGS"
+  },
+  {
+   "id": "ev005",
+   "date": "1972",
+   "year": 1972,
+   "type": "plant_build",
+   "title": "Nanticoke GS (coal) first units",
+   "detail": "Largest coal station in North America at the time",
+   "src": [
+    "wiki_nanticoke"
+   ],
+   "est": false,
+   "lon": -80.05,
+   "lat": 42.8,
+   "pos_est": true,
+   "entity": "hist:nanticoke"
+  },
+  {
+   "id": "ev006",
+   "date": "1977",
+   "year": 1977,
+   "type": "plant_build",
+   "title": "Bruce A first unit in service",
+   "detail": "",
+   "src": [
+    "wiki_bruce"
+   ],
+   "est": false,
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": false,
+   "entity": "st:Bruce NGS"
+  },
+  {
+   "id": "ev007",
+   "date": "1983",
+   "year": 1983,
+   "type": "plant_build",
+   "title": "Pickering B units enter service (1983-86)",
+   "detail": "",
+   "src": [
+    "wiki_pick"
+   ],
+   "est": false,
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "pos_est": false,
+   "entity": "st:Pickering NGS"
+  },
+  {
+   "id": "ev008",
+   "date": "1984",
+   "year": 1984,
+   "type": "plant_build",
+   "title": "Bruce B units enter service (1984-87)",
+   "detail": "",
+   "src": [
+    "wiki_bruce"
+   ],
+   "est": false,
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": false,
+   "entity": "st:Bruce NGS"
+  },
+  {
+   "id": "ev009",
+   "date": "1990",
+   "year": 1990,
+   "type": "plant_build",
+   "title": "Darlington units enter service (1990-93)",
+   "detail": "",
+   "src": [
+    "wiki_darl"
+   ],
+   "est": false,
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "pos_est": false,
+   "entity": "st:Darlington NGS"
+  },
+  {
+   "id": "ev010",
+   "date": "2003-08-14",
+   "year": 2003,
+   "type": "event",
+   "title": "Northeast blackout",
+   "detail": "Most of Ontario lost supply",
+   "src": [
+    "wiki_blackout"
+   ],
+   "est": false,
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "entity": null
+  },
+  {
+   "id": "ev011",
+   "date": "2005",
+   "year": 2005,
+   "type": "retirement",
+   "title": "Lakeview GS closes (coal, 2,400 MW)",
+   "detail": "First step of the coal phase-out",
+   "src": [
+    "on_end_coal",
+    "on_coal_bg"
+   ],
+   "est": false,
+   "lon": -79.57,
+   "lat": 43.57,
+   "pos_est": true,
+   "entity": "hist:lakeview"
+  },
+  {
+   "id": "ev012",
+   "date": "2009",
+   "year": 2009,
+   "type": "policy",
+   "title": "Green Energy Act / FIT programme",
+   "detail": "Wind and solar build-out in SW Ontario follows",
+   "src": [
+    "wiki_gea"
+   ],
+   "est": false,
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "pos_est": false,
+   "entity": null
+  },
+  {
+   "id": "ev013",
+   "date": "2010",
+   "year": 2010,
+   "type": "retirement",
+   "title": "Two units each at Nanticoke and Lambton shut",
+   "detail": "",
+   "src": [
+    "on_coal_bg"
+   ],
+   "est": false,
+   "lon": -80.05,
+   "lat": 42.8,
+   "pos_est": true,
+   "entity": "hist:nanticoke"
+  },
+  {
+   "id": "ev014",
+   "date": "2012-05",
+   "year": 2012,
+   "type": "line_build",
+   "title": "Bruce-Milton 500 kV double circuit in service",
+   "detail": "176-180 km; final connection ceremony 2012-06-19",
+   "src": [
+    "ho_2012",
+    "b2m_news",
+    "b2m_lp"
+   ],
+   "est": false,
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": false,
+   "entity": "br:BRU-MIL"
+  },
+  {
+   "id": "ev015",
+   "date": "2012-09-11",
+   "year": 2012,
+   "type": "retirement",
+   "title": "Atikokan GS burns last coal",
+   "detail": "",
+   "src": [
+    "opg_atikokan",
+    "on_end_coal"
+   ],
+   "est": false,
+   "lon": -91.62,
+   "lat": 48.84,
+   "pos_est": true,
+   "entity": "hist:atikokan"
+  },
+  {
+   "id": "ev016",
+   "date": "2012-10",
+   "year": 2012,
+   "type": "refurb",
+   "title": "Bruce A units 1 and 2 return after restart",
+   "detail": "Month ESTIMATE",
+   "src": [
+    "wiki_bruce"
+   ],
+   "est": true,
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": false,
+   "entity": "st:Bruce NGS"
+  },
+  {
+   "id": "ev017",
+   "date": "2013-10",
+   "year": 2013,
+   "type": "retirement",
+   "title": "Lambton GS closes (coal, 1,980 MW)",
+   "detail": "Month per Sierra Club",
+   "src": [
+    "on_end_coal",
+    "sierra_coal"
+   ],
+   "est": false,
+   "lon": -82.45,
+   "lat": 42.79,
+   "pos_est": true,
+   "entity": "hist:lambton"
+  },
+  {
+   "id": "ev018",
+   "date": "2013-12",
+   "year": 2013,
+   "type": "retirement",
+   "title": "Nanticoke GS closes (coal, 3,940 MW)",
+   "detail": "",
+   "src": [
+    "on_end_coal",
+    "sierra_coal"
+   ],
+   "est": false,
+   "lon": -80.05,
+   "lat": 42.8,
+   "pos_est": true,
+   "entity": "hist:nanticoke"
+  },
+  {
+   "id": "ev019",
+   "date": "2014-04-08",
+   "year": 2014,
+   "type": "retirement",
+   "title": "Thunder Bay GS burns last coal; Ontario coal-free",
+   "detail": "Later converted to advanced biomass",
+   "src": [
+    "opg_atikokan",
+    "sierra_coal",
+    "on_end_coal",
+    "wiki_tbay"
+   ],
+   "est": false,
+   "lon": -89.22,
+   "lat": 48.36,
+   "pos_est": true,
+   "entity": "hist:tbay"
+  },
+  {
+   "id": "ev020",
+   "date": "2014-07",
+   "year": 2014,
+   "type": "conversion",
+   "title": "Atikokan GS returns on 100% biomass",
+   "detail": "OPG release 2014-09-10; ontario.ca timeline says 2015 (conflict; ESTIMATE)",
+   "src": [
+    "opg_atikokan",
+    "on_end_coal"
+   ],
+   "est": true,
+   "lon": -91.62,
+   "lat": 48.84,
+   "pos_est": true,
+   "entity": "hist:atikokan"
+  },
+  {
+   "id": "ev021",
+   "date": "2016-10",
+   "year": 2016,
+   "type": "refurb",
+   "title": "Darlington refurbishment begins (Unit 2)",
+   "detail": "",
+   "src": [
+    "wiki_darl"
+   ],
+   "est": true,
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "pos_est": false,
+   "entity": "st:Darlington NGS"
+  },
+  {
+   "id": "ev022",
+   "date": "2020-01",
+   "year": 2020,
+   "type": "refurb",
+   "title": "Bruce Unit 6 Major Component Replacement begins",
+   "detail": "",
+   "src": [
+    "wiki_bruce"
+   ],
+   "est": true,
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": false,
+   "entity": "st:Bruce NGS"
+  },
+  {
+   "id": "ev023",
+   "date": "2024",
+   "year": 2024,
+   "type": "retirement",
+   "title": "Pickering units 1 and 4 shut down",
+   "detail": "",
+   "src": [
+    "wiki_pick"
+   ],
+   "est": true,
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "pos_est": false,
+   "entity": "st:Pickering NGS"
+  },
+  {
+   "id": "ev024",
+   "date": "2024-12-17",
+   "year": 2024,
+   "type": "line_build",
+   "title": "Chatham-Lakeshore 230 kV double circuit in service",
+   "detail": "One year ahead of schedule",
+   "src": [
+    "oeb_cxl_isd",
+    "ho_cxl"
+   ],
+   "est": false,
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": false,
+   "entity": "br:CHA-LAK"
+  },
+  {
+   "id": "ev025",
+   "date": "2026-11-16",
+   "year": 2026,
+   "type": "snapshot",
+   "title": "Pickering B units 5-8 at 0 MW in IESO report",
+   "detail": "Shown as unavailable on that day (IESO), not as retired",
+   "src": [
+    "ieso_gen"
+   ],
+   "est": false,
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "pos_est": false,
+   "entity": "st:Pickering NGS"
+  }
+ ]
+}

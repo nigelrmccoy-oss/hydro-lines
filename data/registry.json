@@ -1,0 +1,5089 @@
+{
+ "note": "Flat entity index; path[] is the tree location. OSM lines/substations are indexed by their osm id in the GeoJSON files (path Transmission/<kV>/<ref> and Stations/<kV>/<name>).",
+ "entities": [
+  {
+   "id": "st:Bruce NGS",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Bruce NGS"
+   ],
+   "type": "station",
+   "lon": -81.581625,
+   "lat": 44.32395,
+   "src": [
+    "ieso_gen",
+    "wiki_bruce",
+    "bp_about"
+   ]
+  },
+  {
+   "id": "st:Darlington NGS",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Darlington NGS"
+   ],
+   "type": "station",
+   "lon": -78.719938,
+   "lat": 43.870593,
+   "src": [
+    "ieso_gen",
+    "wiki_darl"
+   ]
+  },
+  {
+   "id": "st:Pickering NGS",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Pickering NGS"
+   ],
+   "type": "station",
+   "lon": -79.063224,
+   "lat": 43.811164,
+   "src": [
+    "ieso_gen",
+    "wiki_pick"
+   ]
+  },
+  {
+   "id": "st:Sir Adam Beck (I, II, PGS)",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Sir Adam Beck (I, II, PGS)"
+   ],
+   "type": "station",
+   "lon": -79.044208,
+   "lat": 43.145895,
+   "src": [
+    "ieso_gen",
+    "wiki_beck"
+   ]
+  },
+  {
+   "id": "st:DeCew Falls",
+   "path": [
+    "Generation",
+    "Hydro",
+    "DeCew Falls"
+   ],
+   "type": "station",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Greenfield Energy Centre",
+   "path": [
+    "Generation",
+    "Gas",
+    "Greenfield Energy Centre"
+   ],
+   "type": "station",
+   "lon": -82.452272,
+   "lat": 42.769556,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:St. Clair Energy Centre",
+   "path": [
+    "Generation",
+    "Gas",
+    "St. Clair Energy Centre"
+   ],
+   "type": "station",
+   "lon": -82.398425,
+   "lat": 42.897267,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:TransAlta Sarnia",
+   "path": [
+    "Generation",
+    "Gas",
+    "TransAlta Sarnia"
+   ],
+   "type": "station",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Brighton Beach",
+   "path": [
+    "Generation",
+    "Gas",
+    "Brighton Beach"
+   ],
+   "type": "station",
+   "lon": -83.094458,
+   "lat": 42.279331,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Halton Hills GS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Halton Hills GS"
+   ],
+   "type": "station",
+   "lon": -79.845344,
+   "lat": 43.560386,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Goreway Station",
+   "path": [
+    "Generation",
+    "Gas",
+    "Goreway Station"
+   ],
+   "type": "station",
+   "lon": -79.680167,
+   "lat": 43.746996,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Portlands Energy Centre",
+   "path": [
+    "Generation",
+    "Gas",
+    "Portlands Energy Centre"
+   ],
+   "type": "station",
+   "lon": -79.329752,
+   "lat": 43.649756,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Thorold Cogen",
+   "path": [
+    "Generation",
+    "Gas",
+    "Thorold Cogen"
+   ],
+   "type": "station",
+   "lon": -79.198531,
+   "lat": 43.106569,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:York Energy Centre",
+   "path": [
+    "Generation",
+    "Gas",
+    "York Energy Centre"
+   ],
+   "type": "station",
+   "lon": -79.531229,
+   "lat": 44.075489,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:East Windsor Cogen",
+   "path": [
+    "Generation",
+    "Gas",
+    "East Windsor Cogen"
+   ],
+   "type": "station",
+   "lon": -83.000193,
+   "lat": 42.325503,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Lennox GS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Lennox GS"
+   ],
+   "type": "station",
+   "lon": -76.851143,
+   "lat": 44.147793,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Napanee GS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Napanee GS"
+   ],
+   "type": "station",
+   "lon": -79.4,
+   "lat": 45.3,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Oneida Energy Storage",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Oneida Energy Storage"
+   ],
+   "type": "station",
+   "lon": -80.060881,
+   "lat": 42.829201,
+   "src": [
+    "ieso_gen",
+    "wiki_on_gs"
+   ]
+  },
+  {
+   "id": "st:Hagersville BESS",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Hagersville BESS"
+   ],
+   "type": "station",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "st:Nanticoke Solar",
+   "path": [
+    "Generation",
+    "Solar",
+    "Nanticoke Solar"
+   ],
+   "type": "station",
+   "lon": -80.035585,
+   "lat": 42.807638,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRUCEA-G1",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "BRUCEA-G1"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRUCEA-G2",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "BRUCEA-G2"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRUCEA-G3",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "BRUCEA-G3"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRUCEA-G4",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "BRUCEA-G4"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRUCEB-G5",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "BRUCEB-G5"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRUCEB-G6",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "BRUCEB-G6"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRUCEB-G7",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "BRUCEB-G7"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRUCEB-G8",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "BRUCEB-G8"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DARLINGTON-G1",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "DARLINGTON-G1"
+   ],
+   "type": "unit",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DARLINGTON-G2",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "DARLINGTON-G2"
+   ],
+   "type": "unit",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DARLINGTON-G3",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "DARLINGTON-G3"
+   ],
+   "type": "unit",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DARLINGTON-G4",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "DARLINGTON-G4"
+   ],
+   "type": "unit",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PICKERINGB-G5",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "PICKERINGB-G5"
+   ],
+   "type": "unit",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PICKERINGB-G6",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "PICKERINGB-G6"
+   ],
+   "type": "unit",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PICKERINGB-G7",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "PICKERINGB-G7"
+   ],
+   "type": "unit",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PICKERINGB-G8",
+   "path": [
+    "Generation",
+    "Nuclear",
+    "Units (IESO)",
+    "PICKERINGB-G8"
+   ],
+   "type": "unit",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BRIGHTON BEACH",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "BRIGHTON BEACH"
+   ],
+   "type": "unit",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CARDINAL",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "CARDINAL"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:COCHRANECGS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "COCHRANECGS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DESTEC",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "DESTEC"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DOWCHEMICAL",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "DOWCHEMICAL"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DPNTMTLND",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "DPNTMTLND"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:EAST WINDSOR-G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "EAST WINDSOR-G1"
+   ],
+   "type": "unit",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:EAST WINDSOR-G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "EAST WINDSOR-G2"
+   ],
+   "type": "unit",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:EAST WINDSOR-G3",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "EAST WINDSOR-G3"
+   ],
+   "type": "unit",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GREENFIELD ENERGY CENTRE-G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GREENFIELD ENERGY CENTRE-G1"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GREENFIELD ENERGY CENTRE-G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GREENFIELD ENERGY CENTRE-G2"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GREENFIELD ENERGY CENTRE-G3",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GREENFIELD ENERGY CENTRE-G3"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GREENFIELD ENERGY CENTRE-G4",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GREENFIELD ENERGY CENTRE-G4"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GREENFIELD SOUTH-G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GREENFIELD SOUTH-G1"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GREENFIELD SOUTH-G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GREENFIELD SOUTH-G2"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GTAA-G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GTAA-G1"
+   ],
+   "type": "unit",
+   "lon": -79.577617,
+   "lat": 43.683812,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GTAA-G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GTAA-G2"
+   ],
+   "type": "unit",
+   "lon": -79.577617,
+   "lat": 43.683812,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GTAA-G3",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "GTAA-G3"
+   ],
+   "type": "unit",
+   "lon": -79.577617,
+   "lat": 43.683812,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HALTONHILLS-LT.G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "HALTONHILLS-LT.G1"
+   ],
+   "type": "unit",
+   "lon": -79.733457,
+   "lat": 43.52778,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HALTONHILLS-LT.G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "HALTONHILLS-LT.G2"
+   ],
+   "type": "unit",
+   "lon": -79.733457,
+   "lat": 43.52778,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HALTONHILLS-LT.G3",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "HALTONHILLS-LT.G3"
+   ],
+   "type": "unit",
+   "lon": -79.733457,
+   "lat": 43.52778,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HYDROGEN READY POWER PLANT (HRPP)",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "HYDROGEN READY POWER PLANT (HRPP)"
+   ],
+   "type": "unit",
+   "lon": -79.733457,
+   "lat": 43.52778,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:KAPGS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "KAPGS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LAKESUPERIOR",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "LAKESUPERIOR"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LENNOX-G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "LENNOX-G1"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LENNOX-G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "LENNOX-G2"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LENNOX-G3",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "LENNOX-G3"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LENNOX-G4",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "LENNOX-G4"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NAPANEE-G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "NAPANEE-G1"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NAPANEE-G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "NAPANEE-G2"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NAPANEE-G3",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "NAPANEE-G3"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NIPIGONGS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "NIPIGONGS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NORTHBAYGS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "NORTHBAYGS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NPIROQFALLS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "NPIROQFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NPKIRKLAND-G1-G5",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "NPKIRKLAND-G1-G5"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NPKIRKLAND-G6",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "NPKIRKLAND-G6"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PORTLANDS-G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "PORTLANDS-G1"
+   ],
+   "type": "unit",
+   "lon": -79.577617,
+   "lat": 43.683812,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PORTLANDS-G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "PORTLANDS-G2"
+   ],
+   "type": "unit",
+   "lon": -79.577617,
+   "lat": 43.683812,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PORTLANDS-G3",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "PORTLANDS-G3"
+   ],
+   "type": "unit",
+   "lon": -79.577617,
+   "lat": 43.683812,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SITHE GOREWAY-G11",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "SITHE GOREWAY-G11"
+   ],
+   "type": "unit",
+   "lon": -79.615028,
+   "lat": 43.764152,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SITHE GOREWAY-G12",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "SITHE GOREWAY-G12"
+   ],
+   "type": "unit",
+   "lon": -79.615028,
+   "lat": 43.764152,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SITHE GOREWAY-G13",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "SITHE GOREWAY-G13"
+   ],
+   "type": "unit",
+   "lon": -79.615028,
+   "lat": 43.764152,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SITHE GOREWAY-G15",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "SITHE GOREWAY-G15"
+   ],
+   "type": "unit",
+   "lon": -79.615028,
+   "lat": 43.764152,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:STCLAIRCGS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "STCLAIRCGS"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:TAOHSC",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "TAOHSC"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:TASARNIA",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "TASARNIA"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:TAWINDSOR",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "TAWINDSOR"
+   ],
+   "type": "unit",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:THOROLDCGS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "THOROLDCGS"
+   ],
+   "type": "unit",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:TUNISGS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "TUNISGS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:WESTWINDSOR",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "WESTWINDSOR"
+   ],
+   "type": "unit",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:WHITBYCGS",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "WHITBYCGS"
+   ],
+   "type": "unit",
+   "lon": -79.113709,
+   "lat": 43.852465,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:YORKCGS-G1",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "YORKCGS-G1"
+   ],
+   "type": "unit",
+   "lon": -79.815546,
+   "lat": 44.354611,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:YORKCGS-G2",
+   "path": [
+    "Generation",
+    "Gas",
+    "Units (IESO)",
+    "YORKCGS-G2"
+   ],
+   "type": "unit",
+   "lon": -79.815546,
+   "lat": 44.354611,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ABKENORA",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "ABKENORA"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:AGUASABON",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "AGUASABON"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ALEXANDER",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "ALEXANDER"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:APIROQUOIS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "APIROQUOIS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ARNPRIOR",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "ARNPRIOR"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:AUBREYFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "AUBREYFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BARRETT",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "BARRETT"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BECK1",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "BECK1"
+   ],
+   "type": "unit",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BECK2",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "BECK2"
+   ],
+   "type": "unit",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BECK2 PGS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "BECK2 PGS"
+   ],
+   "type": "unit",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CAMERONFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "CAMERONFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CANYON",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "CANYON"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CARIBOUFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "CARIBOUFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CARMICHAEL",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "CARMICHAEL"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CHATSFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "CHATSFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CHENAUX",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "CHENAUX"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CLERGUE",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "CLERGUE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DA WATSON",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "DA WATSON"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DECEWFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "DECEWFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DECEWND1",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "DECEWND1"
+   ],
+   "type": "unit",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DESJOACHIMS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "DESJOACHIMS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:EARFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "EARFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:FORTFRANCSWC",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "FORTFRANCSWC"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GARTSHORE",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "GARTSHORE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HARMON",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "HARMON"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HARMON 2",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "HARMON 2"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HARRIS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "HARRIS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HOLDEN",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "HOLDEN"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HOLINGSWTH",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "HOLINGSWTH"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:KAKABEKA",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "KAKABEKA"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:KIPLING",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "KIPLING"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:KIPLING 2",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "KIPLING 2"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LITTLELONG",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "LITTLELONG"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LITTLELONG 2",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "LITTLELONG 2"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LONGSAULTE",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "LONGSAULTE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LOWER WHITE RIVER",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "LOWER WHITE RIVER"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LOWERNOTCH",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "LOWERNOTCH"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:MACKAYGS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "MACKAYGS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:MANITOUFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "MANITOUFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:MISSION",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "MISSION"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:MTNCHUTE",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "MTNCHUTE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NAGAGAMI",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "NAGAGAMI"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:OTTERRAPIDS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "OTTERRAPIDS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PETER SUTHERLAND SR",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "PETER SUTHERLAND SR"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PINEPORTAGE",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "PINEPORTAGE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:RAYNER",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "RAYNER"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:REDROCK",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "REDROCK"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SAUNDERS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "SAUNDERS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SILVERFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "SILVERFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SMOKY 2",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "SMOKY 2"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:STEEPHILL",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "STEEPHILL"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:STEWARTVLE",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "STEWARTVLE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:UMBATAFALLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "UMBATAFALLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:UPPER WHITE RIVER",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "UPPER WHITE RIVER"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:WELLS",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "WELLS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:WHITEDOG",
+   "path": [
+    "Generation",
+    "Hydro",
+    "Units (IESO)",
+    "WHITEDOG"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ADELAIDE",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "ADELAIDE"
+   ],
+   "type": "unit",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:AMARANTH",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "AMARANTH"
+   ],
+   "type": "unit",
+   "lon": -80.159754,
+   "lat": 43.915413,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:AMHERST ISLAND",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "AMHERST ISLAND"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ARMOW",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "ARMOW"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BELLE RIVER",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "BELLE RIVER"
+   ],
+   "type": "unit",
+   "lon": -82.606977,
+   "lat": 42.208309,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BLAKE",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "BLAKE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BORNISH",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "BORNISH"
+   ],
+   "type": "unit",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BOW LAKE",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "BOW LAKE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:BOW LAKE 2",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "BOW LAKE 2"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CEDAR POINT 2",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "CEDAR POINT 2"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:COMBER",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "COMBER"
+   ],
+   "type": "unit",
+   "lon": -82.606977,
+   "lat": 42.208309,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CRYSLER",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "CRYSLER"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:DILLON",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "DILLON"
+   ],
+   "type": "unit",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:EAST LAKE",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "EAST LAKE"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ERIEAU",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "ERIEAU"
+   ],
+   "type": "unit",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GOSFIELDWGS",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "GOSFIELDWGS"
+   ],
+   "type": "unit",
+   "lon": -82.606977,
+   "lat": 42.208309,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GOSHEN",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "GOSHEN"
+   ],
+   "type": "unit",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GOULAIS",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "GOULAIS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GRAND VALLEY 3",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "GRAND VALLEY 3"
+   ],
+   "type": "unit",
+   "lon": -80.159754,
+   "lat": 43.915413,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GRANDWF",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "GRANDWF"
+   ],
+   "type": "unit",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GREENWICH",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "GREENWICH"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HENVEY NORTH",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "HENVEY NORTH"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HENVEY SOUTH",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "HENVEY SOUTH"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:JERICHO",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "JERICHO"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:K2WIND",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "K2WIND"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:KINGSBRIDGE",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "KINGSBRIDGE"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:LANDON",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "LANDON"
+   ],
+   "type": "unit",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:MCLEANSMTNWF-LT.AG_T1",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "MCLEANSMTNWF-LT.AG_T1"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NORTH KENT",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "NORTH KENT"
+   ],
+   "type": "unit",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PAROCHES",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "PAROCHES"
+   ],
+   "type": "unit",
+   "lon": -82.606977,
+   "lat": 42.208309,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PORT BURWELL",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "PORT BURWELL"
+   ],
+   "type": "unit",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PORTALMA-T1",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "PORTALMA-T1"
+   ],
+   "type": "unit",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PORTALMA-T3",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "PORTALMA-T3"
+   ],
+   "type": "unit",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:PRINCEFARM",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "PRINCEFARM"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:RAILBEDWF-LT.AG_SR",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "RAILBEDWF-LT.AG_SR"
+   ],
+   "type": "unit",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:RIPLEY SOUTH",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "RIPLEY SOUTH"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ROMNEY",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "ROMNEY"
+   ],
+   "type": "unit",
+   "lon": -82.606977,
+   "lat": 42.208309,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SANDUSK-LT.AG_T1",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "SANDUSK-LT.AG_T1"
+   ],
+   "type": "unit",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SHANNON",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "SHANNON"
+   ],
+   "type": "unit",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SPENCE",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "SPENCE"
+   ],
+   "type": "unit",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SUMMERHAVEN",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "SUMMERHAVEN"
+   ],
+   "type": "unit",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:UNDERWOOD",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "UNDERWOOD"
+   ],
+   "type": "unit",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:WEST LINCOLN NRWF",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "WEST LINCOLN NRWF"
+   ],
+   "type": "unit",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:WOLFE ISLAND",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "WOLFE ISLAND"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ZURICH",
+   "path": [
+    "Generation",
+    "Wind",
+    "Units (IESO)",
+    "ZURICH"
+   ],
+   "type": "unit",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GRANDSF",
+   "path": [
+    "Generation",
+    "Solar",
+    "Units (IESO)",
+    "GRANDSF"
+   ],
+   "type": "unit",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:KINGSTONSF",
+   "path": [
+    "Generation",
+    "Solar",
+    "Units (IESO)",
+    "KINGSTONSF"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NANTICOKE SOLAR",
+   "path": [
+    "Generation",
+    "Solar",
+    "Units (IESO)",
+    "NANTICOKE SOLAR"
+   ],
+   "type": "unit",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NORTHLAND POWER SOLAR FACILITIES",
+   "path": [
+    "Generation",
+    "Solar",
+    "Units (IESO)",
+    "NORTHLAND POWER SOLAR FACILITIES"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:SOUTHGATE SF",
+   "path": [
+    "Generation",
+    "Solar",
+    "Units (IESO)",
+    "SOUTHGATE SF"
+   ],
+   "type": "unit",
+   "lon": -80.159754,
+   "lat": 43.915413,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:STONE MILLS SF",
+   "path": [
+    "Generation",
+    "Solar",
+    "Units (IESO)",
+    "STONE MILLS SF"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:WINDSOR AIRPORT SF",
+   "path": [
+    "Generation",
+    "Solar",
+    "Units (IESO)",
+    "WINDSOR AIRPORT SF"
+   ],
+   "type": "unit",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ATIKOKAN-G1",
+   "path": [
+    "Generation",
+    "Biofuel",
+    "Units (IESO)",
+    "ATIKOKAN-G1"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:CALSTOCKGS",
+   "path": [
+    "Generation",
+    "Biofuel",
+    "Units (IESO)",
+    "CALSTOCKGS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:TBAYBOWATER CTS",
+   "path": [
+    "Generation",
+    "Biofuel",
+    "Units (IESO)",
+    "TBAYBOWATER CTS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ARLEN BESS",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Units (IESO)",
+    "ARLEN BESS"
+   ],
+   "type": "unit",
+   "lon": -80.332454,
+   "lat": 43.412222,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:GOREWAY BESS",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Units (IESO)",
+    "GOREWAY BESS"
+   ],
+   "type": "unit",
+   "lon": -79.615028,
+   "lat": 43.764152,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:HAGERSVILLE BESS",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Units (IESO)",
+    "HAGERSVILLE BESS"
+   ],
+   "type": "unit",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:NAPANEE BESS",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Units (IESO)",
+    "NAPANEE BESS"
+   ],
+   "type": "unit",
+   "lon": -79.4,
+   "lat": 45.3,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:ONEIDA ENERGY STORAGE",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Units (IESO)",
+    "ONEIDA ENERGY STORAGE"
+   ],
+   "type": "unit",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:TILBURY BATTERY STORAGE",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Units (IESO)",
+    "TILBURY BATTERY STORAGE"
+   ],
+   "type": "unit",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:VAUGHAN 1 BESS",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Units (IESO)",
+    "VAUGHAN 1 BESS"
+   ],
+   "type": "unit",
+   "lon": -79.615028,
+   "lat": 43.764152,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "gen:YORK BESS",
+   "path": [
+    "Generation",
+    "Storage/Other",
+    "Units (IESO)",
+    "YORK BESS"
+   ],
+   "type": "unit",
+   "lon": -79.815546,
+   "lat": 44.354611,
+   "pos_est": true,
+   "src": [
+    "ieso_gen"
+   ]
+  },
+  {
+   "id": "br:BRU-MIL",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "BRU-MIL"
+   ],
+   "type": "branch",
+   "lon": -80.72544099999999,
+   "lat": 43.928076000000004,
+   "src": [
+    "b2m_lp",
+    "b2m_news"
+   ]
+  },
+  {
+   "id": "br:BRU-LON",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "BRU-LON"
+   ],
+   "type": "branch",
+   "lon": -81.5931065,
+   "lat": 43.5864415,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:LON-NAN",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "LON-NAN"
+   ],
+   "type": "branch",
+   "lon": -80.821045,
+   "lat": 42.8277985,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:NAN-MID",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "NAN-MID"
+   ],
+   "type": "branch",
+   "lon": -80.044039,
+   "lat": 42.961096999999995,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:MID-MIL",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "MID-MIL"
+   ],
+   "type": "branch",
+   "lon": -79.9417835,
+   "lat": 43.330295,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:MIL-CLA",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "MIL-CLA"
+   ],
+   "type": "branch",
+   "lon": -79.733076,
+   "lat": 43.6513915,
+   "src": [
+    "osm",
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "br:MIL-TRA",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "MIL-TRA"
+   ],
+   "type": "branch",
+   "lon": -79.79229050000001,
+   "lat": 43.5332055,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:CLA-CHE",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "CLA-CHE"
+   ],
+   "type": "branch",
+   "lon": -79.3643685,
+   "lat": 43.8083085,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:CLA-ESS",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "CLA-ESS"
+   ],
+   "type": "branch",
+   "lon": -79.71528699999999,
+   "lat": 44.0593815,
+   "src": [
+    "osm",
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "br:CHE-BOW",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "CHE-BOW"
+   ],
+   "type": "branch",
+   "lon": -78.919281,
+   "lat": 43.864805000000004,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:CHE-CLR",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "CHE-CLR"
+   ],
+   "type": "branch",
+   "lon": -78.978364,
+   "lat": 43.919404,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:CLR-BOW",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "CLR-BOW"
+   ],
+   "type": "branch",
+   "lon": -78.783936,
+   "lat": 43.931743999999995,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:TRA-RIC",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "TRA-RIC"
+   ],
+   "type": "branch",
+   "lon": -79.65553700000001,
+   "lat": 43.605796,
+   "src": [
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "br:CHE-PIC",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "CHE-PIC"
+   ],
+   "type": "branch",
+   "lon": -79.091059,
+   "lat": 43.832187000000005,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:CHE-RIC",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "CHE-RIC"
+   ],
+   "type": "branch",
+   "lon": -79.345663,
+   "lat": 43.768138500000006,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:BEC-MID",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "BEC-MID"
+   ],
+   "type": "branch",
+   "lon": -79.540279,
+   "lat": 43.132184499999994,
+   "src": [
+    "apo_interfaces",
+    "osm"
+   ]
+  },
+  {
+   "id": "br:BEC-BUR",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "BEC-BUR"
+   ],
+   "type": "branch",
+   "lon": -79.44045399999999,
+   "lat": 43.2366485,
+   "src": [
+    "apo_interfaces",
+    "osm"
+   ]
+  },
+  {
+   "id": "br:BUR-MID",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "BUR-MID"
+   ],
+   "type": "branch",
+   "lon": -79.93261799999999,
+   "lat": 43.226423,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:BUR-TRA",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "BUR-TRA"
+   ],
+   "type": "branch",
+   "lon": -79.783125,
+   "lat": 43.4293335,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:MID-PRE",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "MID-PRE"
+   ],
+   "type": "branch",
+   "lon": -80.18244849999999,
+   "lat": 43.267090499999995,
+   "src": [
+    "osm",
+    "kwcg_scope24"
+   ]
+  },
+  {
+   "id": "br:PRE-DET",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "PRE-DET"
+   ],
+   "type": "branch",
+   "lon": -80.445987,
+   "lat": 43.420193499999996,
+   "src": [
+    "osm",
+    "kwcg_scope24"
+   ]
+  },
+  {
+   "id": "br:DET-SCH",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "DET-SCH"
+   ],
+   "type": "branch",
+   "lon": -80.5470935,
+   "lat": 43.4627715,
+   "src": [
+    "kwcg_irrp26"
+   ]
+  },
+  {
+   "id": "br:SCH-ORA",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "SCH-ORA"
+   ],
+   "type": "branch",
+   "lon": -80.3472105,
+   "lat": 43.7063955,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:ORA-ESS",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "ORA-ESS"
+   ],
+   "type": "branch",
+   "lon": -79.98765,
+   "lat": 44.135012,
+   "src": [
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "br:BRU-ORA",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "BRU-ORA"
+   ],
+   "type": "branch",
+   "lon": -80.879756,
+   "lat": 44.116467,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:DET-BUC",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "DET-BUC"
+   ],
+   "type": "branch",
+   "lon": -80.8743815,
+   "lat": 43.183357,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:BUC-LON",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "BUC-LON"
+   ],
+   "type": "branch",
+   "lon": -81.387849,
+   "lat": 42.896955500000004,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:LON-LAM",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "LON-LAM"
+   ],
+   "type": "branch",
+   "lon": -82.02683350000001,
+   "lat": 42.826279,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:LAM-CHA",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "LAM-CHA"
+   ],
+   "type": "branch",
+   "lon": -82.281549,
+   "lat": 42.592870000000005,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:LON-CHA",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "LON-CHA"
+   ],
+   "type": "branch",
+   "lon": -81.8411705,
+   "lat": 42.621953000000005,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:CHA-LAK",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "CHA-LAK"
+   ],
+   "type": "branch",
+   "lon": -82.35143149999999,
+   "lat": 42.298426500000005,
+   "src": [
+    "osm",
+    "ho_cxl",
+    "oeb_cxl_isd"
+   ]
+  },
+  {
+   "id": "br:LAK-KEI",
+   "path": [
+    "Transmission",
+    "230 kV",
+    "LAK-KEI"
+   ],
+   "type": "branch",
+   "lon": -82.849415,
+   "lat": 42.2446055,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "br:ESS-REST",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "ESS-REST"
+   ],
+   "type": "branch",
+   "lon": -79.60777300000001,
+   "lat": 44.827305499999994,
+   "src": [
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "br:BOW-REST",
+   "path": [
+    "Transmission",
+    "500 kV",
+    "BOW-REST"
+   ],
+   "type": "branch",
+   "lon": -79.0624265,
+   "lat": 44.5885725,
+   "src": [
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "br:L4D",
+   "path": [
+    "Interties",
+    "345 kV",
+    "L4D"
+   ],
+   "type": "branch",
+   "lon": -82.47090800000001,
+   "lat": 42.780726,
+   "src": [
+    "nyiso_op09",
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "br:L51D",
+   "path": [
+    "Interties",
+    "230 kV",
+    "L51D"
+   ],
+   "type": "branch",
+   "lon": -82.47090800000001,
+   "lat": 42.780726,
+   "src": [
+    "nyiso_op09"
+   ]
+  },
+  {
+   "id": "br:B3N",
+   "path": [
+    "Interties",
+    "230 kV",
+    "B3N"
+   ],
+   "type": "branch",
+   "lon": -82.47090800000001,
+   "lat": 42.780726,
+   "src": [
+    "nyiso_op09"
+   ]
+  },
+  {
+   "id": "br:J5D",
+   "path": [
+    "Interties",
+    "230 kV",
+    "J5D"
+   ],
+   "type": "branch",
+   "lon": -82.7832285,
+   "lat": 42.522579,
+   "src": [
+    "nyiso_op09"
+   ]
+  },
+  {
+   "id": "br:PA301",
+   "path": [
+    "Interties",
+    "345 kV",
+    "PA301"
+   ],
+   "type": "branch",
+   "lon": -79.03800749999999,
+   "lat": 43.141183999999996,
+   "src": [
+    "nyiso_ties"
+   ]
+  },
+  {
+   "id": "br:PA302",
+   "path": [
+    "Interties",
+    "345 kV",
+    "PA302"
+   ],
+   "type": "branch",
+   "lon": -79.03800749999999,
+   "lat": 43.141183999999996,
+   "src": [
+    "nyiso_ties"
+   ]
+  },
+  {
+   "id": "br:BP76",
+   "path": [
+    "Interties",
+    "230 kV",
+    "BP76"
+   ],
+   "type": "branch",
+   "lon": -79.03800749999999,
+   "lat": 43.141183999999996,
+   "src": [
+    "nyiso_ties"
+   ]
+  },
+  {
+   "id": "bus:BRUCE",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Bruce (A+B switchyards)"
+   ],
+   "type": "bus",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:LONGWOOD",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Longwood TS"
+   ],
+   "type": "bus",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:MILTON",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Milton SS"
+   ],
+   "type": "bus",
+   "lon": -79.851124,
+   "lat": 43.538631,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:TRAFALGAR",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Trafalgar TS"
+   ],
+   "type": "bus",
+   "lon": -79.733457,
+   "lat": 43.52778,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:CLAIREVILLE",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Claireville TS"
+   ],
+   "type": "bus",
+   "lon": -79.615028,
+   "lat": 43.764152,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:RICHVIEW",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Richview TS"
+   ],
+   "type": "bus",
+   "lon": -79.577617,
+   "lat": 43.683812,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:CHERRYWOOD",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Cherrywood TS"
+   ],
+   "type": "bus",
+   "lon": -79.113709,
+   "lat": 43.852465,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:PICKERING",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Pickering SS (A/B)"
+   ],
+   "type": "bus",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:CLARINGTON",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Clarington TS"
+   ],
+   "type": "bus",
+   "lon": -78.843019,
+   "lat": 43.986343,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:BOWMANVILLE",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Bowmanville SS (Darlington)"
+   ],
+   "type": "bus",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:ESSA",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Essa TS"
+   ],
+   "type": "bus",
+   "lon": -79.815546,
+   "lat": 44.354611,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:NANTICOKE",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Nanticoke TS"
+   ],
+   "type": "bus",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:MIDDLEPORT",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Middleport TS"
+   ],
+   "type": "bus",
+   "lon": -80.032443,
+   "lat": 43.121959,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:BURLINGTON",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Burlington TS"
+   ],
+   "type": "bus",
+   "lon": -79.832793,
+   "lat": 43.330887,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:BECK",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Beck 2 TS (Niagara)"
+   ],
+   "type": "bus",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:PRESTON",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Preston TS (Cambridge)"
+   ],
+   "type": "bus",
+   "lon": -80.332454,
+   "lat": 43.412222,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:DETWEILER",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Detweiler TS (Kitchener)"
+   ],
+   "type": "bus",
+   "lon": -80.55952,
+   "lat": 43.428165,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:SCHEIFELE",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Scheifele TS (Waterloo)"
+   ],
+   "type": "bus",
+   "lon": -80.534667,
+   "lat": 43.497378,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:ORANGEVILLE",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Orangeville TS"
+   ],
+   "type": "bus",
+   "lon": -80.159754,
+   "lat": 43.915413,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:BUCHANAN",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Buchanan TS (London)"
+   ],
+   "type": "bus",
+   "lon": -81.189243,
+   "lat": 42.938549,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:LAMBTON",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Lambton TS (Sarnia/St. Clair)"
+   ],
+   "type": "bus",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:CHATHAM",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Chatham SS"
+   ],
+   "type": "bus",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:LAKESHORE",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Lakeshore TS"
+   ],
+   "type": "bus",
+   "lon": -82.606977,
+   "lat": 42.208309,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:KEITH",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Keith TS (Windsor)"
+   ],
+   "type": "bus",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:REST",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Rest of Ontario (equivalent; slack)"
+   ],
+   "type": "bus",
+   "lon": -79.4,
+   "lat": 45.3,
+   "src": []
+  },
+  {
+   "id": "bus:MI",
+   "path": [
+    "Stations",
+    "Model buses",
+    "Michigan (MISO) equivalent"
+   ],
+   "type": "bus",
+   "lon": -82.474604,
+   "lat": 42.764256,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "bus:NY",
+   "path": [
+    "Stations",
+    "Model buses",
+    "New York (NYISO) equivalent"
+   ],
+   "type": "bus",
+   "lon": -79.0279,
+   "lat": 43.139958,
+   "src": [
+    "osm"
+   ]
+  },
+  {
+   "id": "plan:p_lxl1",
+   "path": [
+    "Planned",
+    "line",
+    "Longwood-Lakeshore 500 kV Line 1"
+   ],
+   "type": "planned",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "src": [
+    "ho_lxl",
+    "ho_lxl_esr",
+    "oeb_swo_biannual"
+   ]
+  },
+  {
+   "id": "plan:p_lxl2",
+   "path": [
+    "Planned",
+    "line",
+    "Longwood-Lakeshore 500 kV Line 2"
+   ],
+   "type": "planned",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "src": [
+    "oeb_swo_biannual",
+    "ho_lxl"
+   ]
+  },
+  {
+   "id": "plan:p_stl",
+   "path": [
+    "Planned",
+    "line",
+    "St. Thomas TS-Lakeshore TS 500 kV"
+   ],
+   "type": "planned",
+   "lon": -81.19,
+   "lat": 42.78,
+   "src": [
+    "oeb_swo_biannual"
+   ]
+  },
+  {
+   "id": "plan:p_lxc",
+   "path": [
+    "Planned",
+    "line",
+    "Lambton-Chatham 230 kV"
+   ],
+   "type": "planned",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "src": [
+    "oeb_swo_biannual"
+   ]
+  },
+  {
+   "id": "plan:p_wlx",
+   "path": [
+    "Planned",
+    "line",
+    "Windsor (Lauzon)-Lakeshore 230 kV"
+   ],
+   "type": "planned",
+   "lon": -82.917032,
+   "lat": 42.2868,
+   "src": [
+    "oeb_swo_biannual"
+   ]
+  },
+  {
+   "id": "plan:p_brc_essa",
+   "path": [
+    "Planned",
+    "line",
+    "Bruce C-Essa 500 kV double circuit"
+   ],
+   "type": "planned",
+   "lon": -81.6,
+   "lat": 44.32,
+   "src": [
+    "sac_memo25"
+   ]
+  },
+  {
+   "id": "plan:p_brc_lon",
+   "path": [
+    "Planned",
+    "line",
+    "Bruce C-Longwood 500 kV double circuit"
+   ],
+   "type": "planned",
+   "lon": -81.6,
+   "lat": 44.32,
+   "src": [
+    "sac_memo25"
+   ]
+  },
+  {
+   "id": "plan:p_bow_par",
+   "path": [
+    "Planned",
+    "line",
+    "Bowmanville-Parkway 500 kV double circuit"
+   ],
+   "type": "planned",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "src": [
+    "sac_memo25"
+   ]
+  },
+  {
+   "id": "plan:p_essa_kl",
+   "path": [
+    "Planned",
+    "line",
+    "Essa-Kleinburg 500 kV"
+   ],
+   "type": "planned",
+   "lon": -79.815546,
+   "lat": 44.354611,
+   "src": [
+    "sac_memo25"
+   ]
+  },
+  {
+   "id": "plan:p_han_essa",
+   "path": [
+    "Planned",
+    "line",
+    "Hanmer-Essa 500 kV (Sudbury-Barrie)"
+   ],
+   "type": "planned",
+   "lon": -80.95,
+   "lat": 46.65,
+   "src": [
+    "sac_memo25",
+    "on_ieP"
+   ]
+  },
+  {
+   "id": "plan:p_ess_ora",
+   "path": [
+    "Planned",
+    "upgrade",
+    "Essa-Orangeville 230 kV advanced reconductoring"
+   ],
+   "type": "planned",
+   "lon": -79.815546,
+   "lat": 44.354611,
+   "src": [
+    "sac_memo25"
+   ]
+  },
+  {
+   "id": "plan:p_mdv_hur",
+   "path": [
+    "Planned",
+    "line",
+    "Meadowvale-Hurontario 230 kV double circuit"
+   ],
+   "type": "planned",
+   "lon": -79.79316,
+   "lat": 43.590466,
+   "src": [
+    "sac_memo25"
+   ]
+  },
+  {
+   "id": "plan:p_oak_tra",
+   "path": [
+    "Planned",
+    "line",
+    "Oakville-Trafalgar 230 kV double circuit"
+   ],
+   "type": "planned",
+   "lon": -79.658822,
+   "lat": 43.482,
+   "src": [
+    "sac_memo25",
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_mil_hur",
+   "path": [
+    "Planned",
+    "line",
+    "Milton TS-Hurontario SS 230 kV double circuit"
+   ],
+   "type": "planned",
+   "lon": -79.851124,
+   "lat": 43.538631,
+   "src": [
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_tra_ric",
+   "path": [
+    "Planned",
+    "upgrade",
+    "Richview-Trafalgar 230 kV reconductoring"
+   ],
+   "type": "planned",
+   "lon": -79.733457,
+   "lat": 43.52778,
+   "src": [
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "plan:p_wellington",
+   "path": [
+    "Planned",
+    "station",
+    "Wellington TS 500/230 kV + 230 kV to Preston"
+   ],
+   "type": "planned",
+   "lon": -80.22,
+   "lat": 43.45,
+   "src": [
+    "kwcg_irrp26"
+   ]
+  },
+  {
+   "id": "plan:p_gbe2",
+   "path": [
+    "Planned",
+    "station",
+    "GrandBridge Energy MTS #2 (115 kV, up to 75 MW)"
+   ],
+   "type": "planned",
+   "lon": -80.33,
+   "lat": 43.39,
+   "src": [
+    "kwcg_irrp26"
+   ]
+  },
+  {
+   "id": "plan:p_kw_uprate",
+   "path": [
+    "Planned",
+    "upgrade",
+    "Uprate B5C/B6C, D7F/D9F, F11C/F12C (115 kV)"
+   ],
+   "type": "planned",
+   "lon": -80.55952,
+   "lat": 43.428165,
+   "src": [
+    "kwcg_irrp26"
+   ]
+  },
+  {
+   "id": "plan:p_kw_230st",
+   "path": [
+    "Planned",
+    "station",
+    "New 230 kV stations: 11 TS, Office MTS, Snider TS"
+   ],
+   "type": "planned",
+   "lon": -80.52,
+   "lat": 43.45,
+   "src": [
+    "kwcg_irrp26"
+   ]
+  },
+  {
+   "id": "plan:p_kit8",
+   "path": [
+    "Planned",
+    "station",
+    "Kitchener MTS #8 new 230 kV DESN"
+   ],
+   "type": "planned",
+   "lon": -80.47,
+   "lat": 43.42,
+   "src": [
+    "kwcg_irrp26"
+   ]
+  },
+  {
+   "id": "plan:p_dxv",
+   "path": [
+    "Planned",
+    "upgrade",
+    "Uprate DxV + Detweiler TS station work"
+   ],
+   "type": "planned",
+   "lon": -80.55952,
+   "lat": 43.428165,
+   "src": [
+    "kwcg_irrp26"
+   ]
+  },
+  {
+   "id": "plan:p_d11k",
+   "path": [
+    "Planned",
+    "upgrade",
+    "Uprate D11K/D12K (115 kV)"
+   ],
+   "type": "planned",
+   "lon": -80.55952,
+   "lat": 43.428165,
+   "src": [
+    "kwcg_irrp26",
+    "kwcg_scope24"
+   ]
+  },
+  {
+   "id": "plan:p_halton2",
+   "path": [
+    "Planned",
+    "station",
+    "Halton #2 TS (230/27.6 kV, Milton)"
+   ],
+   "type": "planned",
+   "lon": -79.87,
+   "lat": 43.5,
+   "src": [
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_goreway2",
+   "path": [
+    "Planned",
+    "station",
+    "Goreway #2 MTS (NE Brampton)"
+   ],
+   "type": "planned",
+   "lon": -79.68,
+   "lat": 43.78,
+   "src": [
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_caledon",
+   "path": [
+    "Planned",
+    "station",
+    "Caledon #1 and #2 TS"
+   ],
+   "type": "planned",
+   "lon": -79.8,
+   "lat": 43.85,
+   "src": [
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_heritage",
+   "path": [
+    "Planned",
+    "station",
+    "Heritage Heights MTS (NW Brampton)"
+   ],
+   "type": "planned",
+   "lon": -79.82,
+   "lat": 43.72,
+   "src": [
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_lakeview",
+   "path": [
+    "Planned",
+    "station",
+    "Lakeview MTS (Cooksville)"
+   ],
+   "type": "planned",
+   "lon": -79.6,
+   "lat": 43.58,
+   "src": [
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_gateway",
+   "path": [
+    "Planned",
+    "station",
+    "Gateway MTS (Mississauga)"
+   ],
+   "type": "planned",
+   "lon": -79.65,
+   "lat": 43.69,
+   "src": [
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_nwgta",
+   "path": [
+    "Planned",
+    "line",
+    "NWGTA corridor 230 kV double circuits (Kleinburg/Milton to Brampton)"
+   ],
+   "type": "planned",
+   "lon": -79.682845,
+   "lat": 43.852908,
+   "src": [
+    "gtaw_26"
+   ]
+  },
+  {
+   "id": "plan:p_dnnp",
+   "path": [
+    "Planned",
+    "plant",
+    "Darlington New Nuclear (BWRX-300 SMRs)"
+   ],
+   "type": "planned",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "src": [
+    "opg_smr",
+    "opg_q3_26"
+   ]
+  },
+  {
+   "id": "plan:p_brucec",
+   "path": [
+    "Planned",
+    "plant",
+    "Bruce C (up to 4,800 MW option)"
+   ],
+   "type": "planned",
+   "lon": -81.6,
+   "lat": 44.32,
+   "src": [
+    "bp_c",
+    "iaac_brucec"
+   ]
+  },
+  {
+   "id": "hist:ev000",
+   "path": [
+    "History",
+    "1922",
+    "Queenston-Chippawa (Sir Adam Beck I) in service"
+   ],
+   "type": "event",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "src": [
+    "wiki_beck"
+   ]
+  },
+  {
+   "id": "hist:ev001",
+   "path": [
+    "History",
+    "1954",
+    "Sir Adam Beck II in service"
+   ],
+   "type": "event",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "src": [
+    "wiki_beck"
+   ]
+  },
+  {
+   "id": "hist:ev002",
+   "path": [
+    "History",
+    "1962",
+    "Lakeview GS (coal, Mississauga) in service"
+   ],
+   "type": "event",
+   "lon": -79.57,
+   "lat": 43.57,
+   "src": [
+    "wiki_lakeview"
+   ]
+  },
+  {
+   "id": "hist:ev003",
+   "path": [
+    "History",
+    "1969",
+    "Lambton GS (coal) in service"
+   ],
+   "type": "event",
+   "lon": -82.45,
+   "lat": 42.79,
+   "src": [
+    "wiki_lambton"
+   ]
+  },
+  {
+   "id": "hist:ev004",
+   "path": [
+    "History",
+    "1971",
+    "Pickering A first unit in service"
+   ],
+   "type": "event",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "src": [
+    "wiki_pick"
+   ]
+  },
+  {
+   "id": "hist:ev005",
+   "path": [
+    "History",
+    "1972",
+    "Nanticoke GS (coal) first units"
+   ],
+   "type": "event",
+   "lon": -80.05,
+   "lat": 42.8,
+   "src": [
+    "wiki_nanticoke"
+   ]
+  },
+  {
+   "id": "hist:ev006",
+   "path": [
+    "History",
+    "1977",
+    "Bruce A first unit in service"
+   ],
+   "type": "event",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "src": [
+    "wiki_bruce"
+   ]
+  },
+  {
+   "id": "hist:ev007",
+   "path": [
+    "History",
+    "1983",
+    "Pickering B units enter service (1983-86)"
+   ],
+   "type": "event",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "src": [
+    "wiki_pick"
+   ]
+  },
+  {
+   "id": "hist:ev008",
+   "path": [
+    "History",
+    "1984",
+    "Bruce B units enter service (1984-87)"
+   ],
+   "type": "event",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "src": [
+    "wiki_bruce"
+   ]
+  },
+  {
+   "id": "hist:ev009",
+   "path": [
+    "History",
+    "1990",
+    "Darlington units enter service (1990-93)"
+   ],
+   "type": "event",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "src": [
+    "wiki_darl"
+   ]
+  },
+  {
+   "id": "hist:ev010",
+   "path": [
+    "History",
+    "2003",
+    "Northeast blackout"
+   ],
+   "type": "event",
+   "lon": -79.4,
+   "lat": 45.3,
+   "src": [
+    "wiki_blackout"
+   ]
+  },
+  {
+   "id": "hist:ev011",
+   "path": [
+    "History",
+    "2005",
+    "Lakeview GS closes (coal, 2,400 MW)"
+   ],
+   "type": "event",
+   "lon": -79.57,
+   "lat": 43.57,
+   "src": [
+    "on_end_coal",
+    "on_coal_bg"
+   ]
+  },
+  {
+   "id": "hist:ev012",
+   "path": [
+    "History",
+    "2009",
+    "Green Energy Act / FIT programme"
+   ],
+   "type": "event",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "src": [
+    "wiki_gea"
+   ]
+  },
+  {
+   "id": "hist:ev013",
+   "path": [
+    "History",
+    "2010",
+    "Two units each at Nanticoke and Lambton shut"
+   ],
+   "type": "event",
+   "lon": -80.05,
+   "lat": 42.8,
+   "src": [
+    "on_coal_bg"
+   ]
+  },
+  {
+   "id": "hist:ev014",
+   "path": [
+    "History",
+    "2012",
+    "Bruce-Milton 500 kV double circuit in service"
+   ],
+   "type": "event",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "src": [
+    "ho_2012",
+    "b2m_news",
+    "b2m_lp"
+   ]
+  },
+  {
+   "id": "hist:ev015",
+   "path": [
+    "History",
+    "2012",
+    "Atikokan GS burns last coal"
+   ],
+   "type": "event",
+   "lon": -91.62,
+   "lat": 48.84,
+   "src": [
+    "opg_atikokan",
+    "on_end_coal"
+   ]
+  },
+  {
+   "id": "hist:ev016",
+   "path": [
+    "History",
+    "2012",
+    "Bruce A units 1 and 2 return after restart"
+   ],
+   "type": "event",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "src": [
+    "wiki_bruce"
+   ]
+  },
+  {
+   "id": "hist:ev017",
+   "path": [
+    "History",
+    "2013",
+    "Lambton GS closes (coal, 1,980 MW)"
+   ],
+   "type": "event",
+   "lon": -82.45,
+   "lat": 42.79,
+   "src": [
+    "on_end_coal",
+    "sierra_coal"
+   ]
+  },
+  {
+   "id": "hist:ev018",
+   "path": [
+    "History",
+    "2013",
+    "Nanticoke GS closes (coal, 3,940 MW)"
+   ],
+   "type": "event",
+   "lon": -80.05,
+   "lat": 42.8,
+   "src": [
+    "on_end_coal",
+    "sierra_coal"
+   ]
+  },
+  {
+   "id": "hist:ev019",
+   "path": [
+    "History",
+    "2014",
+    "Thunder Bay GS burns last coal; Ontario coal-free"
+   ],
+   "type": "event",
+   "lon": -89.22,
+   "lat": 48.36,
+   "src": [
+    "opg_atikokan",
+    "sierra_coal",
+    "on_end_coal",
+    "wiki_tbay"
+   ]
+  },
+  {
+   "id": "hist:ev020",
+   "path": [
+    "History",
+    "2014",
+    "Atikokan GS returns on 100% biomass"
+   ],
+   "type": "event",
+   "lon": -91.62,
+   "lat": 48.84,
+   "src": [
+    "opg_atikokan",
+    "on_end_coal"
+   ]
+  },
+  {
+   "id": "hist:ev021",
+   "path": [
+    "History",
+    "2016",
+    "Darlington refurbishment begins (Unit 2)"
+   ],
+   "type": "event",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "src": [
+    "wiki_darl"
+   ]
+  },
+  {
+   "id": "hist:ev022",
+   "path": [
+    "History",
+    "2020",
+    "Bruce Unit 6 Major Component Replacement begins"
+   ],
+   "type": "event",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "src": [
+    "wiki_bruce"
+   ]
+  },
+  {
+   "id": "hist:ev023",
+   "path": [
+    "History",
+    "2024",
+    "Pickering units 1 and 4 shut down"
+   ],
+   "type": "event",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "src": [
+    "wiki_pick"
+   ]
+  },
+  {
+   "id": "hist:ev024",
+   "path": [
+    "History",
+    "2024",
+    "Chatham-Lakeshore 230 kV double circuit in service"
+   ],
+   "type": "event",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "src": [
+    "oeb_cxl_isd",
+    "ho_cxl"
+   ]
+  },
+  {
+   "id": "hist:ev025",
+   "path": [
+    "History",
+    "2026",
+    "Pickering B units 5-8 at 0 MW in IESO report"
+   ],
+   "type": "event",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "src": [
+    "ieso_gen"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1822 @@
+{
+ "version": "0.1.0",
+ "generated": "2026-11-18",
+ "base_mva": 100,
+ "slack": "REST",
+ "buses": [
+  {
+   "id": "BRUCE",
+   "name": "Bruce (A+B switchyards)",
+   "lon": -81.599758,
+   "lat": 44.317521,
+   "kind": "station",
+   "zone": "Bruce",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/273639295",
+   "osm_name": "Bruce B Switchyard",
+   "kvs": [
+    500
+   ]
+  },
+  {
+   "id": "LONGWOOD",
+   "name": "Longwood TS",
+   "lon": -81.586455,
+   "lat": 42.855362,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/180763902",
+   "osm_name": "Longwood TS",
+   "kvs": [
+    500,
+    230
+   ]
+  },
+  {
+   "id": "MILTON",
+   "name": "Milton SS",
+   "lon": -79.851124,
+   "lat": 43.538631,
+   "kind": "station",
+   "zone": "Toronto",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/33297515",
+   "osm_name": "Milton SS",
+   "kvs": [
+    500
+   ]
+  },
+  {
+   "id": "TRAFALGAR",
+   "name": "Trafalgar TS",
+   "lon": -79.733457,
+   "lat": 43.52778,
+   "kind": "station",
+   "zone": "Toronto",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/33299685",
+   "osm_name": "Trafalgar TS",
+   "kvs": [
+    500
+   ]
+  },
+  {
+   "id": "CLAIREVILLE",
+   "name": "Claireville TS",
+   "lon": -79.615028,
+   "lat": 43.764152,
+   "kind": "station",
+   "zone": "Toronto",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/124486016",
+   "osm_name": "Claireville TS",
+   "kvs": [
+    500
+   ]
+  },
+  {
+   "id": "RICHVIEW",
+   "name": "Richview TS",
+   "lon": -79.577617,
+   "lat": 43.683812,
+   "kind": "station",
+   "zone": "Toronto",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/43923733",
+   "osm_name": "Richview Transformer Station",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "CHERRYWOOD",
+   "name": "Cherrywood TS",
+   "lon": -79.113709,
+   "lat": 43.852465,
+   "kind": "station",
+   "zone": "Toronto",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/32963410",
+   "osm_name": "Cherrywood TS",
+   "kvs": [
+    500,
+    230
+   ]
+  },
+  {
+   "id": "PICKERING",
+   "name": "Pickering SS (A/B)",
+   "lon": -79.068409,
+   "lat": 43.811909,
+   "kind": "station",
+   "zone": "Toronto",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/43935197",
+   "osm_name": "Pickering SS A",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "CLARINGTON",
+   "name": "Clarington TS",
+   "lon": -78.843019,
+   "lat": 43.986343,
+   "kind": "station",
+   "zone": "Toronto",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/481393007",
+   "osm_name": "Clarington TS",
+   "kvs": [
+    500,
+    230
+   ]
+  },
+  {
+   "id": "BOWMANVILLE",
+   "name": "Bowmanville SS (Darlington)",
+   "lon": -78.724853,
+   "lat": 43.877145,
+   "kind": "station",
+   "zone": "Toronto",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/33728777",
+   "osm_name": "Bowmanville SS",
+   "kvs": [
+    500
+   ]
+  },
+  {
+   "id": "ESSA",
+   "name": "Essa TS",
+   "lon": -79.815546,
+   "lat": 44.354611,
+   "kind": "station",
+   "zone": "Essa",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/77418180",
+   "osm_name": "Essa TS",
+   "kvs": [
+    500,
+    230
+   ]
+  },
+  {
+   "id": "NANTICOKE",
+   "name": "Nanticoke TS",
+   "lon": -80.055635,
+   "lat": 42.800235,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/67214412",
+   "osm_name": "Nanticoke TS",
+   "kvs": [
+    500
+   ]
+  },
+  {
+   "id": "MIDDLEPORT",
+   "name": "Middleport TS",
+   "lon": -80.032443,
+   "lat": 43.121959,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/273895557",
+   "osm_name": "Middleport TS",
+   "kvs": [
+    500,
+    230
+   ]
+  },
+  {
+   "id": "BURLINGTON",
+   "name": "Burlington TS",
+   "lon": -79.832793,
+   "lat": 43.330887,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/142216464",
+   "osm_name": "Burlington Transformer Station",
+   "kvs": [
+    230,
+    115
+   ]
+  },
+  {
+   "id": "BECK",
+   "name": "Beck 2 TS (Niagara)",
+   "lon": -79.048115,
+   "lat": 43.14241,
+   "kind": "station",
+   "zone": "Niagara",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": true,
+   "osm": "https://www.openstreetmap.org/way/158460657",
+   "note": "unnamed OSM 345/230 kV substation next to Sir Adam Beck GS; name ESTIMATE"
+  },
+  {
+   "id": "PRESTON",
+   "name": "Preston TS (Cambridge)",
+   "lon": -80.332454,
+   "lat": 43.412222,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/67740026",
+   "osm_name": "Preston TS",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "DETWEILER",
+   "name": "Detweiler TS (Kitchener)",
+   "lon": -80.55952,
+   "lat": 43.428165,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/43280918",
+   "osm_name": "Detweiler TS",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "SCHEIFELE",
+   "name": "Scheifele TS (Waterloo)",
+   "lon": -80.534667,
+   "lat": 43.497378,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/43280927",
+   "osm_name": "Howard Scheifele Transformer Station",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "ORANGEVILLE",
+   "name": "Orangeville TS",
+   "lon": -80.159754,
+   "lat": 43.915413,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/66495745",
+   "osm_name": "Orangeville TS",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "BUCHANAN",
+   "name": "Buchanan TS (London)",
+   "lon": -81.189243,
+   "lat": 42.938549,
+   "kind": "station",
+   "zone": "Southwest",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/125243550",
+   "osm_name": "E. V. Buchanan Transformer Station",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "LAMBTON",
+   "name": "Lambton TS (Sarnia/St. Clair)",
+   "lon": -82.467212,
+   "lat": 42.797196,
+   "kind": "station",
+   "zone": "West",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/117955755",
+   "osm_name": "Lambton Substation",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "CHATHAM",
+   "name": "Chatham SS",
+   "lon": -82.095886,
+   "lat": 42.388544,
+   "kind": "station",
+   "zone": "West",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/208148561",
+   "osm_name": "Chatham Switching Station",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "LAKESHORE",
+   "name": "Lakeshore TS",
+   "lon": -82.606977,
+   "lat": 42.208309,
+   "kind": "station",
+   "zone": "West",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/1123935154",
+   "osm_name": "Lakeshore Transmission Station",
+   "kvs": [
+    230
+   ]
+  },
+  {
+   "id": "KEITH",
+   "name": "Keith TS (Windsor)",
+   "lon": -83.091853,
+   "lat": 42.280902,
+   "kind": "station",
+   "zone": "West",
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/274904647",
+   "osm_name": "W. Clark Keith transformer Substation",
+   "kvs": [
+    230,
+    115
+   ]
+  },
+  {
+   "id": "REST",
+   "name": "Rest of Ontario (equivalent; slack)",
+   "lon": -79.4,
+   "lat": 45.3,
+   "kind": "equivalent",
+   "zone": null,
+   "pos_src": [],
+   "pos_est": true,
+   "osm": null,
+   "note": "schematic position (not a real place)"
+  },
+  {
+   "id": "MI",
+   "name": "Michigan (MISO) equivalent",
+   "lon": -82.474604,
+   "lat": 42.764256,
+   "kind": "external",
+   "zone": null,
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/163865779",
+   "osm_name": "Saint Clair Power Plant Substation",
+   "kvs": [
+    345,
+    230,
+    120
+   ]
+  },
+  {
+   "id": "NY",
+   "name": "New York (NYISO) equivalent",
+   "lon": -79.0279,
+   "lat": 43.139958,
+   "kind": "external",
+   "zone": null,
+   "pos_src": [
+    "osm"
+   ],
+   "pos_est": false,
+   "osm": "https://www.openstreetmap.org/way/118097924",
+   "osm_name": "Robert Moses Substation",
+   "kvs": [
+    345,
+    230,
+    115
+   ]
+  }
+ ],
+ "branches": [
+  {
+   "id": "BRU-MIL",
+   "a": "BRUCE",
+   "b": "MILTON",
+   "kv": 500,
+   "circuits": 4,
+   "circuits_est": false,
+   "length_km": 175.3,
+   "length_est": false,
+   "x_pu": 0.004908,
+   "x_est": true,
+   "limit_mw": 8000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 4",
+   "osm_refs": [
+    "B560V",
+    "B561M"
+   ],
+   "osm_ways": [
+    "way/205175829",
+    "way/1245124845",
+    "way/273639693",
+    "way/273639290"
+   ],
+   "src": [
+    "b2m_lp",
+    "b2m_news"
+   ],
+   "note": "Four 500 kV circuits Bruce-Milton (two owned by B2M LP); new double circuit in service 2012",
+   "tie": false
+  },
+  {
+   "id": "BRU-LON",
+   "a": "BRUCE",
+   "b": "LONGWOOD",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 187.6,
+   "length_est": false,
+   "x_pu": 0.010506,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/474262498",
+    "way/474262500",
+    "way/178581671",
+    "way/273639291",
+    "way/175288157",
+    "way/183473183"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM ways named 'Bruce to Longwood'; wind connections tap at K2 and Evergreen SS",
+   "tie": false
+  },
+  {
+   "id": "LON-NAN",
+   "a": "LONGWOOD",
+   "b": "NANTICOKE",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 157.1,
+   "length_est": false,
+   "x_pu": 0.008798,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/176222636",
+    "way/203958917",
+    "way/201043629",
+    "way/200373756",
+    "way/197215986",
+    "way/1245142908",
+    "way/179372063",
+    "way/183916901"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "NAN-MID",
+   "a": "NANTICOKE",
+   "b": "MIDDLEPORT",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 43.9,
+   "length_est": false,
+   "x_pu": 0.002458,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [
+    "M585M",
+    "N580M",
+    "V586M"
+   ],
+   "osm_ways": [
+    "way/273895568",
+    "way/67473194",
+    "way/270518052",
+    "way/67215463",
+    "way/292008288",
+    "way/292008105",
+    "way/67213021"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs include N580M/N581M",
+   "tie": false
+  },
+  {
+   "id": "MID-MIL",
+   "a": "MIDDLEPORT",
+   "b": "MILTON",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 66.3,
+   "length_est": false,
+   "x_pu": 0.003713,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [
+    "M585M",
+    "V586M"
+   ],
+   "osm_ways": [
+    "way/273895563"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs M585M/V586M",
+   "tie": false
+  },
+  {
+   "id": "MIL-CLA",
+   "a": "MILTON",
+   "b": "CLAIREVILLE",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 33.5,
+   "length_est": false,
+   "x_pu": 0.001876,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [
+    "B560V",
+    "M571V"
+   ],
+   "osm_ways": [
+    "way/35356937",
+    "way/33298048",
+    "way/274178686",
+    "way/33297935"
+   ],
+   "src": [
+    "osm",
+    "apo_interfaces"
+   ],
+   "note": "Part of FETT ('four 500 kV circuits into Claireville')",
+   "tie": false
+  },
+  {
+   "id": "MIL-TRA",
+   "a": "MILTON",
+   "b": "TRAFALGAR",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 12.9,
+   "length_est": false,
+   "x_pu": 0.000722,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [
+    "M572T"
+   ],
+   "osm_ways": [
+    "way/33297934"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs M572T/M573T",
+   "tie": false
+  },
+  {
+   "id": "CLA-CHE",
+   "a": "CLAIREVILLE",
+   "b": "CHERRYWOOD",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 45.4,
+   "length_est": false,
+   "x_pu": 0.002542,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [
+    "C550V"
+   ],
+   "osm_ways": [
+    "way/26741352"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs C550V/C551V",
+   "tie": false
+  },
+  {
+   "id": "CLA-ESS",
+   "a": "CLAIREVILLE",
+   "b": "ESSA",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 69.0,
+   "length_est": false,
+   "x_pu": 0.003864,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/26741499"
+   ],
+   "src": [
+    "osm",
+    "apo_interfaces"
+   ],
+   "note": "Part of FETT",
+   "tie": false
+  },
+  {
+   "id": "CHE-BOW",
+   "a": "CHERRYWOOD",
+   "b": "BOWMANVILLE",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 45.2,
+   "length_est": false,
+   "x_pu": 0.002531,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [
+    "B542C",
+    "B543C"
+   ],
+   "osm_ways": [
+    "way/32963518",
+    "way/167785161",
+    "way/33728891"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs B542C/B543C",
+   "tie": false
+  },
+  {
+   "id": "CHE-CLR",
+   "a": "CHERRYWOOD",
+   "b": "CLARINGTON",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 25.9,
+   "length_est": false,
+   "x_pu": 0.00145,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [
+    "B540C",
+    "B541C"
+   ],
+   "osm_ways": [
+    "way/32963636"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs B540C/B541C",
+   "tie": false
+  },
+  {
+   "id": "CLR-BOW",
+   "a": "CLARINGTON",
+   "b": "BOWMANVILLE",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 18.7,
+   "length_est": false,
+   "x_pu": 0.001047,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [
+    "B540C",
+    "B541C"
+   ],
+   "osm_ways": [
+    "way/1245392420",
+    "way/167785168",
+    "way/33728931"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "TRA-RIC",
+   "a": "TRAFALGAR",
+   "b": "RICHVIEW",
+   "kv": 230,
+   "circuits": 4,
+   "circuits_est": false,
+   "length_km": 24.6,
+   "length_est": true,
+   "x_pu": 0.00465,
+   "x_est": true,
+   "limit_mw": 1800,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 4",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "apo_interfaces"
+   ],
+   "note": "'four 230 kV circuits out of Trafalgar TS to Richview TS and Hurontario SS'; the FETT-limiting path; reconductoring expected Q4 2026",
+   "tie": false
+  },
+  {
+   "id": "CHE-PIC",
+   "a": "CHERRYWOOD",
+   "b": "PICKERING",
+   "kv": 230,
+   "circuits": 4,
+   "circuits_est": false,
+   "length_km": 6.4,
+   "length_est": false,
+   "x_pu": 0.00121,
+   "x_est": true,
+   "limit_mw": 1800,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 4",
+   "osm_refs": [
+    "P6C",
+    "P7C"
+   ],
+   "osm_ways": [
+    "way/33390379"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs P6C/P7C (A) and P30C/P31C (B)",
+   "tie": false
+  },
+  {
+   "id": "CHE-RIC",
+   "a": "CHERRYWOOD",
+   "b": "RICHVIEW",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": false,
+   "length_km": 43.7,
+   "length_est": false,
+   "x_pu": 0.016522,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [
+    "C4R",
+    "C5R"
+   ],
+   "osm_ways": [
+    "way/1335874230",
+    "way/32963006",
+    "way/32827845",
+    "way/32802818",
+    "way/32739463",
+    "way/32357703"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs C4R/C5R",
+   "tie": false
+  },
+  {
+   "id": "BEC-MID",
+   "a": "BECK",
+   "b": "MIDDLEPORT",
+   "kv": 230,
+   "circuits": 3,
+   "circuits_est": false,
+   "length_km": 91.9,
+   "length_est": true,
+   "x_pu": 0.023163,
+   "x_est": true,
+   "limit_mw": 1350,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 3",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "apo_interfaces",
+    "osm"
+   ],
+   "note": "QFW: 'three 230 kV circuits into Middleport TS'; via Allanburg TS (OSM Q-circuits)",
+   "tie": false
+  },
+  {
+   "id": "BEC-BUR",
+   "a": "BECK",
+   "b": "BURLINGTON",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 90.7,
+   "length_est": false,
+   "x_pu": 0.034291,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [
+    "Q23BM",
+    "Q25BM",
+    "Q30M"
+   ],
+   "osm_ways": [
+    "way/27239657",
+    "way/77086786",
+    "way/26569865",
+    "way/27239608",
+    "way/273897575",
+    "way/34260957",
+    "way/98088428",
+    "way/1089320224",
+    "way/1089320225",
+    "way/273896424",
+    "way/70050028",
+    "way/70017054",
+    "way/70012409",
+    "way/394749310",
+    "way/1074345182"
+   ],
+   "src": [
+    "apo_interfaces",
+    "osm"
+   ],
+   "note": "QFW remainder of 'four 230 kV circuits out of Beck 2'; OSM refs Q23BM/Q25BM (via Allanburg)",
+   "tie": false
+  },
+  {
+   "id": "BUR-MID",
+   "a": "BURLINGTON",
+   "b": "MIDDLEPORT",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 32.8,
+   "length_est": false,
+   "x_pu": 0.012401,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [
+    "Q23BM",
+    "Q25BM",
+    "Q30M"
+   ],
+   "osm_ways": [
+    "way/27239657",
+    "way/77086786",
+    "way/26569865",
+    "way/27239608",
+    "way/273897575",
+    "way/34260957",
+    "way/98088428",
+    "way/1089320224",
+    "way/1089320225",
+    "way/97926012"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "BUR-TRA",
+   "a": "BURLINGTON",
+   "b": "TRAFALGAR",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 26.8,
+   "length_est": true,
+   "x_pu": 0.010132,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs T36B/T37B (Trafalgar-Burlington via Palermo)",
+   "tie": false
+  },
+  {
+   "id": "MID-PRE",
+   "a": "MIDDLEPORT",
+   "b": "PRESTON",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": false,
+   "length_km": 43.9,
+   "length_est": false,
+   "x_pu": 0.016597,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [
+    "M20D",
+    "M21D",
+    "Q24HM"
+   ],
+   "osm_ways": [
+    "way/142569211",
+    "way/217500676",
+    "way/274196406",
+    "way/123263001",
+    "way/274193631",
+    "way/274193630"
+   ],
+   "src": [
+    "osm",
+    "kwcg_scope24"
+   ],
+   "note": "M20D/M21D (KWCG 2024: Galt JCT-Cambridge JCT section overload need by 2026)",
+   "tie": false
+  },
+  {
+   "id": "PRE-DET",
+   "a": "PRESTON",
+   "b": "DETWEILER",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": false,
+   "length_km": 53.3,
+   "length_est": false,
+   "x_pu": 0.020151,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/274197343",
+    "way/160930836",
+    "way/123263001",
+    "way/274193631",
+    "way/274193630"
+   ],
+   "src": [
+    "osm",
+    "kwcg_scope24"
+   ],
+   "note": "M20D/M21D continue to Detweiler (KWCG 'MxD sub-system')",
+   "tie": false
+  },
+  {
+   "id": "DET-SCH",
+   "a": "DETWEILER",
+   "b": "SCHEIFELE",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 9.1,
+   "length_est": true,
+   "x_pu": 0.00344,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "kwcg_irrp26"
+   ],
+   "note": "Waterloo supply (KWCG 'DxV sub-system'); route not traced in OSM extract",
+   "tie": false
+  },
+  {
+   "id": "SCH-ORA",
+   "a": "SCHEIFELE",
+   "b": "ORANGEVILLE",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 55.6,
+   "length_est": false,
+   "x_pu": 0.021021,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/39942476",
+    "way/58897362",
+    "way/58897366",
+    "way/58897359",
+    "way/275143697"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "ORA-ESS",
+   "a": "ORANGEVILLE",
+   "b": "ESSA",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": false,
+   "length_km": 64.4,
+   "length_est": true,
+   "x_pu": 0.024348,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "apo_interfaces"
+   ],
+   "note": "'two 230 kV circuits out of Orangeville TS to Essa TS' (FETT)",
+   "tie": false
+  },
+  {
+   "id": "BRU-ORA",
+   "a": "BRUCE",
+   "b": "ORANGEVILLE",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": false,
+   "length_km": 123.1,
+   "length_est": false,
+   "x_pu": 0.046541,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [
+    "B4V",
+    "B5V"
+   ],
+   "osm_ways": [
+    "way/69778255",
+    "way/275155354",
+    "way/551465900",
+    "way/227981639",
+    "way/227888483",
+    "way/227873531",
+    "way/227721829",
+    "way/229020288",
+    "way/229020390",
+    "way/69278026",
+    "way/273647194",
+    "way/69782375",
+    "way/273639691",
+    "way/60723700",
+    "way/275147678",
+    "way/275147681"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "OSM refs B4V/B5V via Hanover TS",
+   "tie": false
+  },
+  {
+   "id": "DET-BUC",
+   "a": "DETWEILER",
+   "b": "BUCHANAN",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 78.5,
+   "length_est": false,
+   "x_pu": 0.029679,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/43280904"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "BUC-LON",
+   "a": "BUCHANAN",
+   "b": "LONGWOOD",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 48.8,
+   "length_est": false,
+   "x_pu": 0.01845,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/474271036",
+    "way/183780496",
+    "way/474271035",
+    "way/474285508"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "LON-LAM",
+   "a": "LONGWOOD",
+   "b": "LAMBTON",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 75.2,
+   "length_est": false,
+   "x_pu": 0.028431,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/474271036",
+    "way/182262081",
+    "way/210886099",
+    "way/210864043",
+    "way/210665889",
+    "way/210665918"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "LAM-CHA",
+   "a": "LAMBTON",
+   "b": "CHATHAM",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 58.6,
+   "length_est": false,
+   "x_pu": 0.022155,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/207820865",
+    "way/207994527",
+    "way/210097310",
+    "way/210665907",
+    "way/932199534",
+    "way/210665904"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "LON-CHA",
+   "a": "LONGWOOD",
+   "b": "CHATHAM",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 83.2,
+   "length_est": false,
+   "x_pu": 0.031456,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/183916901",
+    "way/180336716",
+    "way/176083081"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "via Cowal Junction",
+   "tie": false
+  },
+  {
+   "id": "CHA-LAK",
+   "a": "CHATHAM",
+   "b": "LAKESHORE",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": false,
+   "length_km": 47.3,
+   "length_est": false,
+   "x_pu": 0.017883,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/1189920368",
+    "way/208148536"
+   ],
+   "src": [
+    "osm",
+    "ho_cxl",
+    "oeb_cxl_isd"
+   ],
+   "note": "Chatham x Lakeshore double-circuit 230 kV, in service 2024-12-17",
+   "tie": false
+  },
+  {
+   "id": "LAK-KEI",
+   "a": "LAKESHORE",
+   "b": "KEITH",
+   "kv": 230,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 42.1,
+   "length_est": false,
+   "x_pu": 0.015917,
+   "x_est": true,
+   "limit_mw": 900,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [
+    "way/1339367847",
+    "way/205151909",
+    "way/274905536"
+   ],
+   "src": [
+    "osm"
+   ],
+   "note": "",
+   "tie": false
+  },
+  {
+   "id": "ESS-REST",
+   "a": "ESSA",
+   "b": "REST",
+   "kv": 500,
+   "circuits": 2,
+   "circuits_est": true,
+   "length_km": 126.6,
+   "length_est": true,
+   "x_pu": 0.00709,
+   "x_est": true,
+   "limit_mw": 4000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 2",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "apo_interfaces"
+   ],
+   "note": "Equivalent for the Flow North/Flow South interface (Essa-Hanmer); length schematic",
+   "tie": false
+  },
+  {
+   "id": "BOW-REST",
+   "a": "BOWMANVILLE",
+   "b": "REST",
+   "kv": 500,
+   "circuits": 4,
+   "circuits_est": false,
+   "length_km": 192.1,
+   "length_est": true,
+   "x_pu": 0.005379,
+   "x_est": true,
+   "limit_mw": 8000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 2000 MW per 500 kV circuit x 4",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "apo_interfaces"
+   ],
+   "note": "Equivalent for TEC ('four 500 kV circuits out of Bowmanville SS'); length schematic",
+   "tie": false
+  },
+  {
+   "id": "L4D",
+   "a": "LAMBTON",
+   "b": "MI",
+   "kv": 345,
+   "circuits": 1,
+   "circuits_est": false,
+   "length_km": 4.3,
+   "length_est": true,
+   "x_pu": 0.001156,
+   "x_est": true,
+   "limit_mw": 1000,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 1000 MW per 345 kV circuit x 1",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "nyiso_op09",
+    "apo_interfaces"
+   ],
+   "note": "Lambton-St. Clair 345 kV, phase-angle regulated",
+   "tie": true
+  },
+  {
+   "id": "L51D",
+   "a": "LAMBTON",
+   "b": "MI",
+   "kv": 230,
+   "circuits": 1,
+   "circuits_est": false,
+   "length_km": 4.3,
+   "length_est": true,
+   "x_pu": 0.003251,
+   "x_est": true,
+   "limit_mw": 450,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 1",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "nyiso_op09"
+   ],
+   "note": "Lambton-St. Clair 230 kV, phase-angle regulated",
+   "tie": true
+  },
+  {
+   "id": "B3N",
+   "a": "LAMBTON",
+   "b": "MI",
+   "kv": 230,
+   "circuits": 1,
+   "circuits_est": false,
+   "length_km": 4.3,
+   "length_est": true,
+   "x_pu": 0.003251,
+   "x_est": true,
+   "limit_mw": 450,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 1",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "nyiso_op09"
+   ],
+   "note": "Scott TS (Sarnia)-Bunce Creek 230 kV, PAR; drawn from Lambton bus (ESTIMATE)",
+   "tie": true
+  },
+  {
+   "id": "J5D",
+   "a": "KEITH",
+   "b": "MI",
+   "kv": 230,
+   "circuits": 1,
+   "circuits_est": false,
+   "length_km": 84.9,
+   "length_est": true,
+   "x_pu": 0.064197,
+   "x_est": true,
+   "limit_mw": 450,
+   "limit_est": true,
+   "limit_src": null,
+   "limit_note": "ESTIMATE: generic 450 MW per 230 kV circuit x 1",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "nyiso_op09"
+   ],
+   "note": "Keith-Waterman 230 kV, phase-angle regulated",
+   "tie": true
+  },
+  {
+   "id": "PA301",
+   "a": "BECK",
+   "b": "NY",
+   "kv": 345,
+   "circuits": 1,
+   "circuits_est": false,
+   "length_km": 3.0,
+   "length_est": true,
+   "x_pu": 0.000807,
+   "x_est": true,
+   "limit_mw": 1000,
+   "limit_est": false,
+   "limit_src": [
+    "nyiso_ties"
+   ],
+   "limit_note": "transformer MVA rating (sourced) used as MW limit",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "nyiso_ties"
+   ],
+   "note": "Beck 2-Niagara (Moses) 345 kV with 1000 MVA regulating transformer",
+   "tie": true
+  },
+  {
+   "id": "PA302",
+   "a": "BECK",
+   "b": "NY",
+   "kv": 345,
+   "circuits": 1,
+   "circuits_est": false,
+   "length_km": 3.0,
+   "length_est": true,
+   "x_pu": 0.000807,
+   "x_est": true,
+   "limit_mw": 1000,
+   "limit_est": false,
+   "limit_src": [
+    "nyiso_ties"
+   ],
+   "limit_note": "transformer MVA rating (sourced) used as MW limit",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "nyiso_ties"
+   ],
+   "note": "Beck 2-Niagara (Moses) 345 kV with 1000 MVA regulating transformer",
+   "tie": true
+  },
+  {
+   "id": "BP76",
+   "a": "BECK",
+   "b": "NY",
+   "kv": 230,
+   "circuits": 1,
+   "circuits_est": false,
+   "length_km": 3.0,
+   "length_est": true,
+   "x_pu": 0.002268,
+   "x_est": true,
+   "limit_mw": 400,
+   "limit_est": false,
+   "limit_src": [
+    "nyiso_ties"
+   ],
+   "limit_note": "transformer MVA rating (sourced) used as MW limit",
+   "osm_refs": [],
+   "osm_ways": [],
+   "src": [
+    "nyiso_ties"
+   ],
+   "note": "Beck-Packard 230 kV with 400 MVA transformer",
+   "tie": true
+  }
+ ],
+ "interfaces": [
+  {
+   "id": "FETT",
+   "name": "Flow East Towards Toronto",
+   "branches": [
+    [
+     "MIL-CLA",
+     1
+    ],
+    [
+     "CLA-ESS",
+     -1
+    ],
+    [
+     "TRA-RIC",
+     1
+    ],
+    [
+     "ORA-ESS",
+     1
+    ]
+   ],
+   "ttc_mw": 5900,
+   "src": [
+    "apo_interfaces"
+   ],
+   "est_membership": true,
+   "note": "Membership simplified to model branches (ESTIMATE)"
+  },
+  {
+   "id": "QFW",
+   "name": "Queenston Flow West",
+   "branches": [
+    [
+     "BEC-MID",
+     1
+    ],
+    [
+     "BEC-BUR",
+     1
+    ]
+   ],
+   "ttc_mw": 2025,
+   "src": [
+    "apo_interfaces"
+   ],
+   "est_membership": true
+  },
+  {
+   "id": "ON-MI",
+   "name": "Ontario to Michigan",
+   "branches": [
+    [
+     "L4D",
+     1
+    ],
+    [
+     "L51D",
+     1
+    ],
+    [
+     "B3N",
+     1
+    ],
+    [
+     "J5D",
+     1
+    ]
+   ],
+   "ttc_mw": 1500,
+   "ttc_rev_mw": 1650,
+   "src": [
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "ON-NY",
+   "name": "Ontario to New York at Niagara",
+   "branches": [
+    [
+     "PA301",
+     1
+    ],
+    [
+     "PA302",
+     1
+    ],
+    [
+     "BP76",
+     1
+    ]
+   ],
+   "ttc_mw": 2150,
+   "ttc_rev_mw": 1835,
+   "src": [
+    "apo_interfaces"
+   ]
+  },
+  {
+   "id": "FN",
+   "name": "Flow North (proxy: Essa to Rest)",
+   "branches": [
+    [
+     "ESS-REST",
+     1
+    ]
+   ],
+   "ttc_mw": 1960,
+   "ttc_rev_mw": 2150,
+   "src": [
+    "apo_interfaces"
+   ],
+   "est_membership": true,
+   "note": "FS TTC used for reverse direction"
+  }
+ ],
+ "load_weights": {
+  "Toronto": {
+   "RICHVIEW": 0.28,
+   "CLAIREVILLE": 0.22,
+   "TRAFALGAR": 0.16,
+   "CHERRYWOOD": 0.2,
+   "PICKERING": 0.04,
+   "CLARINGTON": 0.05,
+   "MILTON": 0.05
+  },
+  "Southwest": {
+   "DETWEILER": 0.13,
+   "PRESTON": 0.1,
+   "SCHEIFELE": 0.08,
+   "BUCHANAN": 0.2,
+   "BURLINGTON": 0.22,
+   "MIDDLEPORT": 0.1,
+   "NANTICOKE": 0.07,
+   "ORANGEVILLE": 0.05,
+   "LONGWOOD": 0.05
+  },
+  "West": {
+   "LAMBTON": 0.25,
+   "CHATHAM": 0.2,
+   "LAKESHORE": 0.25,
+   "KEITH": 0.3
+  },
+  "Niagara": {
+   "BECK": 1.0
+  },
+  "Bruce": {
+   "BRUCE": 1.0
+  },
+  "Essa": {
+   "ESSA": 1.0
+  },
+  "Northwest": {
+   "REST": 1.0
+  },
+  "Northeast": {
+   "REST": 1.0
+  },
+  "Ottawa": {
+   "REST": 1.0
+  },
+  "East": {
+   "REST": 1.0
+  }
+ },
+ "load_weights_est": true,
+ "load_weights_note": "IESO zonal demand (sourced) split to model buses by ESTIMATE weights",
+ "notes": [
+  "DC power flow on a reduced equivalent of the SW Ontario/GTA bulk system. Reactances, most circuit counts and all thermal limits except Niagara tie transformer ratings are ESTIMATE.",
+  "REST is an equivalent for the rest of Ontario (north, east, Ottawa) and absorbs the balance (slack). Quebec/Manitoba/Minnesota/St. Lawrence interchange is lumped at REST.",
+  "Phase-angle regulators on the Michigan ties are not modelled (free-flowing DC split)."
+ ],
+ "est_params": {
+  "ohm_per_km": {
+   "500": 0.28,
+   "345": 0.32,
+   "230": 0.4
+  },
+  "mw_per_circuit": {
+   "500": 2000,
+   "345": 1000,
+   "230": 450
+  }
+ },
+ "src": [
+  "osm",
+  "apo_interfaces"
+ ]
+}

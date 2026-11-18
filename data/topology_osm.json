@@ -1,0 +1,2640 @@
+{
+"note": "Derived automatically from OSM line geometry: endpoints snapped to named substations within {500: 1.2, 345: 1.0, 230: 0.8, 115: 0.5} km. Tees and mid-span taps are not followed. Topology ESTIMATE; not a Hydro One single-line diagram.",
+"source_url": "https://www.openstreetmap.org/copyright",
+"corridors": [
+{
+"a": "Cherrywood TS",
+"b": "Clarington TS",
+"kv": 500,
+"length_km": 25.9,
+"refs": [
+"B540C",
+"B541C"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/32963636"
+]
+},
+{
+"a": "Bowmanville SS",
+"b": "Cherrywood TS",
+"kv": 500,
+"length_km": 45.2,
+"refs": [
+"B542C",
+"B543C"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/32963518",
+"way/167785161",
+"way/33728891"
+]
+},
+{
+"a": "Cherrywood TS",
+"b": "Claireville TS",
+"kv": 500,
+"length_km": 45.4,
+"refs": [
+"C550V"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/26741352"
+]
+},
+{
+"a": "Claireville TS",
+"b": "Milton SS",
+"kv": 500,
+"length_km": 33.5,
+"refs": [
+"B560V",
+"M571V"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/35356937",
+"way/33298048",
+"way/274178686",
+"way/33297935"
+]
+},
+{
+"a": "Claireville TS",
+"b": "Essa TS",
+"kv": 500,
+"length_km": 69.0,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/26741499"
+]
+},
+{
+"a": "Bowmanville SS",
+"b": "Clarington TS",
+"kv": 500,
+"length_km": 18.7,
+"refs": [
+"B540C",
+"B541C"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1245392420",
+"way/167785168",
+"way/33728931"
+]
+},
+{
+"a": "Middleport TS",
+"b": "Nanticoke TS",
+"kv": 500,
+"length_km": 43.9,
+"refs": [
+"M585M",
+"N580M",
+"V586M"
+],
+"circuits_osm": 1,
+"osm_ways": [
+"way/273895568",
+"way/67473194",
+"way/270518052",
+"way/67215463",
+"way/292008288",
+"way/292008105",
+"way/67213021"
+]
+},
+{
+"a": "Middleport TS",
+"b": "Milton SS",
+"kv": 500,
+"length_km": 66.3,
+"refs": [
+"M585M",
+"V586M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/273895563"
+]
+},
+{
+"a": "Milton SS",
+"b": "Trafalgar TS",
+"kv": 500,
+"length_km": 12.9,
+"refs": [
+"M572T"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/33297934"
+]
+},
+{
+"a": "Bruce A Switchyard",
+"b": "Milton SS",
+"kv": 500,
+"length_km": 174.9,
+"refs": [
+"B560V",
+"B561M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/205175829",
+"way/273639304"
+]
+},
+{
+"a": "Bruce B Switchyard",
+"b": "Milton SS",
+"kv": 500,
+"length_km": 175.3,
+"refs": [
+"B560V",
+"B561M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/205175829",
+"way/1245124845",
+"way/273639693",
+"way/273639290"
+]
+},
+{
+"a": "K2 Substation",
+"b": "Milton SS",
+"kv": 500,
+"length_km": 199.6,
+"refs": [
+"B560V",
+"B561M",
+"M585M",
+"V586M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/234300074",
+"way/33297740",
+"way/474262497",
+"way/474262501",
+"way/474262498"
+]
+},
+{
+"a": "Longwood TS",
+"b": "Nanticoke TS",
+"kv": 500,
+"length_km": 157.1,
+"refs": [],
+"circuits_osm": 3,
+"osm_ways": [
+"way/176222636",
+"way/203958917",
+"way/201043629",
+"way/200373756",
+"way/197215986",
+"way/1245142908",
+"way/179372063",
+"way/183916901"
+]
+},
+{
+"a": "Bruce A Switchyard",
+"b": "Bruce B Switchyard",
+"kv": 500,
+"length_km": 4.5,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/113854487",
+"way/273639692",
+"way/273639289"
+]
+},
+{
+"a": "Bruce B Switchyard",
+"b": "K2 Substation",
+"kv": 500,
+"length_km": 60.8,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/474262498",
+"way/474262500",
+"way/178581671",
+"way/178581674"
+]
+},
+{
+"a": "Evergreen SS",
+"b": "Parhill CTS",
+"kv": 500,
+"length_km": 0.1,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/1510185529"
+]
+},
+{
+"a": "Evergreen SS",
+"b": "Longwood TS",
+"kv": 500,
+"length_km": 37.1,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/183473183"
+]
+},
+{
+"a": "Evergreen SS",
+"b": "K2 Substation",
+"kv": 500,
+"length_km": 89.6,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/175288157"
+]
+},
+{
+"a": "Bruce A Switchyard",
+"b": "K2 Substation",
+"kv": 500,
+"length_km": 60.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/474262498",
+"way/474262500",
+"way/178581671",
+"way/273639291"
+]
+},
+{
+"a": "Crimson Substation",
+"b": "Jewell Substation",
+"kv": 345,
+"length_km": 4.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/175530861"
+]
+},
+{
+"a": "Crimson Substation",
+"b": "Fitz Substation",
+"kv": 345,
+"length_km": 41.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/175146018",
+"way/175146046",
+"way/584377135"
+]
+},
+{
+"a": "Belle River Substation",
+"b": "Crimson Substation",
+"kv": 345,
+"length_km": 41.8,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/74200074",
+"way/1215484111",
+"way/583527332"
+]
+},
+{
+"a": "Crimson Substation",
+"b": "Puttygut Substation",
+"kv": 345,
+"length_km": 42.6,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/74200074",
+"way/1215484107",
+"way/1215484106"
+]
+},
+{
+"a": "Jewell Substation",
+"b": "Lenox Substation",
+"kv": 345,
+"length_km": 12.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/175530903"
+]
+},
+{
+"a": "Bismarck Substation",
+"b": "Jewell Substation",
+"kv": 345,
+"length_km": 14.0,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/175530897"
+]
+},
+{
+"a": "Jewell Substation",
+"b": "Stephens Substation",
+"kv": 345,
+"length_km": 26.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/75838708"
+]
+},
+{
+"a": "Caniff Station",
+"b": "Stephens Substation",
+"kv": 345,
+"length_km": 11.8,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/1354007005"
+]
+},
+{
+"a": "Bismarck Substation",
+"b": "Stephens Substation",
+"kv": 345,
+"length_km": 13.1,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/581918893",
+"way/595454496",
+"way/586146145"
+]
+},
+{
+"a": "Belle River Substation",
+"b": "Saint Clair Power Plant Substation",
+"kv": 345,
+"length_km": 1.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/163860233"
+]
+},
+{
+"a": "Lambton 345kV Substation",
+"b": "Saint Clair Power Plant Substation",
+"kv": 345,
+"length_km": 4.2,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/206905956"
+]
+},
+{
+"a": "Belle River Substation",
+"b": "Puttygut Substation",
+"kv": 345,
+"length_km": 1.0,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1215484109"
+]
+},
+{
+"a": "Belle River Substation",
+"b": "Lenox Substation",
+"kv": 345,
+"length_km": 30.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/175530859"
+]
+},
+{
+"a": "Fitz Substation",
+"b": "Greenwood Substation",
+"kv": 345,
+"length_km": 21.5,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/556867532"
+]
+},
+{
+"a": "Banner Substation",
+"b": "Greenwood Substation",
+"kv": 345,
+"length_km": 34.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/556867529"
+]
+},
+{
+"a": "Grassmere Substation",
+"b": "Pinnebog Wind Park Substation",
+"kv": 345,
+"length_km": 0.0,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/568803233"
+]
+},
+{
+"a": "Grassmere Substation",
+"b": "Rapson Substation",
+"kv": 345,
+"length_km": 23.1,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/556862807",
+"way/680618401",
+"way/680618400"
+]
+},
+{
+"a": "Banner Substation",
+"b": "Rapson Substation",
+"kv": 345,
+"length_km": 55.5,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/556863414"
+]
+},
+{
+"a": "Fitz Substation",
+"b": "Puttygut Substation",
+"kv": 345,
+"length_km": 31.8,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/556868318"
+]
+},
+{
+"a": "Blue Water Energy Center Substation",
+"b": "Puttygut Substation",
+"kv": 345,
+"length_km": 1.7,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/1215471369"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Horning TS",
+"kv": 230,
+"length_km": 15.7,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/27239670",
+"way/161071939",
+"way/19927407"
+]
+},
+{
+"a": "Horning TS",
+"b": "Middleport Junction",
+"kv": 230,
+"length_km": 16.4,
+"refs": [
+"M27B",
+"M28B"
+],
+"circuits_osm": null,
+"osm_ways": [
+"way/34260985"
+]
+},
+{
+"a": "Erie East Substation",
+"b": "South Ripley Switching Station",
+"kv": 230,
+"length_km": 7.6,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/176046710"
+]
+},
+{
+"a": "Dunkirk Substation",
+"b": "South Ripley Switching Station",
+"kv": 230,
+"length_km": 50.4,
+"refs": [
+"68"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/20042402",
+"way/149073180"
+]
+},
+{
+"a": "Ellesmere TS",
+"b": "Sheppard TS",
+"kv": 230,
+"length_km": 3.8,
+"refs": [
+"C2L",
+"C3L"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1335845423",
+"way/34617648"
+]
+},
+{
+"a": "Cherrywood TS",
+"b": "Sheppard TS",
+"kv": 230,
+"length_km": 5.8,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/439189410",
+"way/70639017",
+"way/70639015"
+]
+},
+{
+"a": "Scarboro TS",
+"b": "Sheppard TS",
+"kv": 230,
+"length_km": 10.2,
+"refs": [
+"C2L",
+"C3L"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/25792350"
+]
+},
+{
+"a": "Bermondsey TS",
+"b": "Sheppard TS",
+"kv": 230,
+"length_km": 15.8,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/22979218"
+]
+},
+{
+"a": "Bermondsey TS",
+"b": "Leaside Transformer Station",
+"kv": 230,
+"length_km": 2.4,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/28596475"
+]
+},
+{
+"a": "A.W Manby TS",
+"b": "Richview Transformer Station",
+"kv": 230,
+"length_km": 6.5,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/26288676"
+]
+},
+{
+"a": "Applewood Junction",
+"b": "Richview Transformer Station",
+"kv": 230,
+"length_km": 12.4,
+"refs": [
+"L24CR"
+],
+"circuits_osm": null,
+"osm_ways": [
+"way/33806035",
+"way/34111778",
+"way/80478628"
+]
+},
+{
+"a": "Fairchild TS",
+"b": "Richview Transformer Station",
+"kv": 230,
+"length_km": 18.2,
+"refs": [
+"C18R",
+"C20R"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/22987693"
+]
+},
+{
+"a": "Cavanagh TS",
+"b": "Richview Transformer Station",
+"kv": 230,
+"length_km": 28.1,
+"refs": [
+"P21R",
+"P22R"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/32802817",
+"way/590218840",
+"way/590218842"
+]
+},
+{
+"a": "Richview Transformer Station",
+"b": "William C. Lazenby TS",
+"kv": 230,
+"length_km": 37.7,
+"refs": [
+"P21R",
+"P22R"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/32802817",
+"way/590218840",
+"way/167785125",
+"way/22979223",
+"way/33723227"
+]
+},
+{
+"a": "Cherrywood TS",
+"b": "Richview Transformer Station",
+"kv": 230,
+"length_km": 43.7,
+"refs": [
+"C4R",
+"C5R"
+],
+"circuits_osm": 3,
+"osm_ways": [
+"way/1335874230",
+"way/32963006",
+"way/32827845",
+"way/32802818",
+"way/32739463",
+"way/32357703"
+]
+},
+{
+"a": "Cherrywood TS",
+"b": "Fairchild TS",
+"kv": 230,
+"length_km": 25.2,
+"refs": [
+"C18R",
+"C20R",
+"C35P",
+"C36P",
+"C4R",
+"C5R"
+],
+"circuits_osm": 4,
+"osm_ways": [
+"way/587300219",
+"way/167785155",
+"way/1335874231",
+"way/1335874230"
+]
+},
+{
+"a": "Cavanagh TS",
+"b": "Fairchild TS",
+"kv": 230,
+"length_km": 38.4,
+"refs": [
+"C18R",
+"C20R",
+"C35P",
+"C36P",
+"C4R",
+"C5R",
+"IDLE"
+],
+"circuits_osm": 4,
+"osm_ways": [
+"way/587300219",
+"way/167785155",
+"way/1335874231",
+"way/32963006",
+"way/32963003",
+"way/32827870"
+]
+},
+{
+"a": "Scarboro TS",
+"b": "Warden TS",
+"kv": 230,
+"length_km": 4.3,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/23322805"
+]
+},
+{
+"a": "Ellesmere TS",
+"b": "Scarboro TS",
+"kv": 230,
+"length_km": 4.8,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/1335837669"
+]
+},
+{
+"a": "Leaside Transformer Station",
+"b": "Scarboro TS",
+"kv": 230,
+"length_km": 7.7,
+"refs": [
+"C2L",
+"C3L"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/167697815"
+]
+},
+{
+"a": "Beach TS",
+"b": "Hamilton Lake TS",
+"kv": 230,
+"length_km": 4.0,
+"refs": [],
+"circuits_osm": 3,
+"osm_ways": [
+"way/1159313785",
+"way/1159313789",
+"way/1159313766",
+"way/97927951"
+]
+},
+{
+"a": "Beach TS",
+"b": "Nebo TS",
+"kv": 230,
+"length_km": 10.9,
+"refs": [
+"A8G",
+"M34H",
+"Q24HM"
+],
+"circuits_osm": 4,
+"osm_ways": [
+"way/23973316",
+"way/100576222",
+"way/607395492",
+"way/1089320192",
+"way/163831535"
+]
+},
+{
+"a": "Beach TS",
+"b": "Burlington Transformer Station",
+"kv": 230,
+"length_km": 11.7,
+"refs": [],
+"circuits_osm": 4,
+"osm_ways": [
+"way/1159313785",
+"way/856486541",
+"way/25481976"
+]
+},
+{
+"a": "Beach TS",
+"b": "Middleport Junction",
+"kv": 230,
+"length_km": 32.4,
+"refs": [
+"A8G",
+"Q23BM",
+"Q24HM",
+"Q25BM",
+"Q30M"
+],
+"circuits_osm": 4,
+"osm_ways": [
+"way/23973316",
+"way/100576222",
+"way/607395492",
+"way/430204186",
+"way/607395491",
+"way/273897575",
+"way/34260957",
+"way/98088428",
+"way/1089320224",
+"way/1089320225",
+"way/97926012"
+]
+},
+{
+"a": "Beach TS",
+"b": "Preston TS",
+"kv": 230,
+"length_km": 67.2,
+"refs": [
+"A8G",
+"M20D",
+"M21D",
+"Q23BM",
+"Q24HM",
+"Q29HM"
+],
+"circuits_osm": 4,
+"osm_ways": [
+"way/23973316",
+"way/100576222",
+"way/607395492",
+"way/430204186",
+"way/607395491",
+"way/273897578",
+"way/263298243",
+"way/273896199",
+"way/217500676",
+"way/274196406",
+"way/123263001",
+"way/274193631",
+"way/274193630"
+]
+},
+{
+"a": "Beach TS",
+"b": "Detweiler TS",
+"kv": 230,
+"length_km": 79.5,
+"refs": [
+"A8G",
+"M20D",
+"M21D",
+"Q23BM",
+"Q24HM",
+"Q29HM"
+],
+"circuits_osm": 4,
+"osm_ways": [
+"way/23973316",
+"way/100576222",
+"way/607395492",
+"way/430204186",
+"way/607395491",
+"way/273897578",
+"way/263298243",
+"way/273896199",
+"way/217500676",
+"way/274196406",
+"way/160930836",
+"way/274197343"
+]
+},
+{
+"a": "Allanburg TS",
+"b": "Beach TS",
+"kv": 230,
+"length_km": 90.3,
+"refs": [
+"A8G",
+"Q23BM",
+"Q24HM",
+"Q25BM",
+"Q30M"
+],
+"circuits_osm": 4,
+"osm_ways": [
+"way/23973316",
+"way/100576222",
+"way/607395492",
+"way/430204186",
+"way/607395491",
+"way/273897575",
+"way/34260957",
+"way/98088428",
+"way/1089320224",
+"way/1089320225",
+"way/273896424",
+"way/70050028",
+"way/70017054",
+"way/70012409",
+"way/394749310",
+"way/1074345182"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Palermo TS",
+"kv": 230,
+"length_km": 14.2,
+"refs": [
+"T36B",
+"T37B"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/25481834"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Cumberland TS",
+"kv": 230,
+"length_km": 5.0,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/150663543",
+"way/278633344"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Tremaine TS",
+"kv": 230,
+"length_km": 11.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/25697011",
+"way/748711131"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Hamilton Lake TS",
+"kv": 230,
+"length_km": 12.8,
+"refs": [],
+"circuits_osm": 4,
+"osm_ways": [
+"way/97927951",
+"way/1159313766",
+"way/257854676",
+"way/1159313780",
+"way/25481976"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Nebo TS",
+"kv": 230,
+"length_km": 25.1,
+"refs": [
+"Q23BM",
+"Q24HM",
+"Q25BM",
+"Q29HM"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/27239657",
+"way/77086786",
+"way/26569865",
+"way/27239608",
+"way/273897578",
+"way/1089366376"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Middleport Junction",
+"kv": 230,
+"length_km": 32.8,
+"refs": [
+"Q23BM",
+"Q25BM",
+"Q30M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/27239657",
+"way/77086786",
+"way/26569865",
+"way/27239608",
+"way/273897575",
+"way/34260957",
+"way/98088428",
+"way/1089320224",
+"way/1089320225",
+"way/97926012"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Preston TS",
+"kv": 230,
+"length_km": 67.6,
+"refs": [
+"M20D",
+"M21D",
+"Q23BM",
+"Q24HM",
+"Q25BM",
+"Q29HM"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/27239657",
+"way/77086786",
+"way/26569865",
+"way/27239608",
+"way/273897578",
+"way/263298243",
+"way/273896199",
+"way/217500676",
+"way/274196406",
+"way/123263001",
+"way/274193631",
+"way/274193630"
+]
+},
+{
+"a": "Burlington Transformer Station",
+"b": "Detweiler TS",
+"kv": 230,
+"length_km": 79.9,
+"refs": [
+"M20D",
+"M21D",
+"Q23BM",
+"Q24HM",
+"Q25BM",
+"Q29HM"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/27239657",
+"way/77086786",
+"way/26569865",
+"way/27239608",
+"way/273897578",
+"way/263298243",
+"way/273896199",
+"way/217500676",
+"way/274196406",
+"way/160930836",
+"way/274197343"
+]
+},
+{
+"a": "Allanburg TS",
+"b": "Burlington Transformer Station",
+"kv": 230,
+"length_km": 90.7,
+"refs": [
+"Q23BM",
+"Q25BM",
+"Q30M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/27239657",
+"way/77086786",
+"way/26569865",
+"way/27239608",
+"way/273897575",
+"way/34260957",
+"way/98088428",
+"way/1089320224",
+"way/1089320225",
+"way/273896424",
+"way/70050028",
+"way/70017054",
+"way/70012409",
+"way/394749310",
+"way/1074345182"
+]
+},
+{
+"a": "A.W Manby TS",
+"b": "Applewood Junction",
+"kv": 230,
+"length_km": 5.8,
+"refs": [],
+"circuits_osm": 3,
+"osm_ways": [
+"way/34369495",
+"way/1334953489"
+]
+},
+{
+"a": "Cavanagh TS",
+"b": "William C. Lazenby TS",
+"kv": 230,
+"length_km": 12.8,
+"refs": [
+"P21R",
+"P22R"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/33723227",
+"way/22979223",
+"way/167785125",
+"way/590218842"
+]
+},
+{
+"a": "Kleinburg TS",
+"b": "Woodbridge TS",
+"kv": 230,
+"length_km": 10.0,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/33528796"
+]
+},
+{
+"a": "Brown Hill TS",
+"b": "Woodbridge TS",
+"kv": 230,
+"length_km": 56.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/26741513",
+"way/59728383",
+"way/169867491"
+]
+},
+{
+"a": "Cavanagh TS",
+"b": "Cherrywood TS",
+"kv": 230,
+"length_km": 15.6,
+"refs": [
+"C4R",
+"C5R",
+"IDLE"
+],
+"circuits_osm": 3,
+"osm_ways": [
+"way/32827870",
+"way/32963003",
+"way/32963006",
+"way/1335874230"
+]
+},
+{
+"a": "Cavanagh TS",
+"b": "Clarington TS",
+"kv": 230,
+"length_km": 42.1,
+"refs": [
+"C10A",
+"C28C"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/32919184",
+"way/1568405374",
+"way/67367680"
+]
+},
+{
+"a": "Applewood Junction",
+"b": "Lorne Park TS",
+"kv": 230,
+"length_km": 5.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/80798125",
+"way/33997558"
+]
+},
+{
+"a": "Lorne Park TS",
+"b": "Oakville TS #2",
+"kv": 230,
+"length_km": 7.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/33301705",
+"way/368826876"
+]
+},
+{
+"a": "Cherrywood TS",
+"b": "Pickering SS A",
+"kv": 230,
+"length_km": 6.4,
+"refs": [
+"P6C",
+"P7C"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/33390379"
+]
+},
+{
+"a": "Cherrywood TS",
+"b": "Pickering SS B",
+"kv": 230,
+"length_km": 6.8,
+"refs": [
+"P30C",
+"P31C"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/33390382"
+]
+},
+{
+"a": "Cherrywood TS",
+"b": "Clarington TS",
+"kv": 230,
+"length_km": 25.7,
+"refs": [
+"B23C",
+"H24C",
+"H26C",
+"M29C"
+],
+"circuits_osm": 4,
+"osm_ways": [
+"way/167785158",
+"way/33393813"
+]
+},
+{
+"a": "Hurontario SS",
+"b": "Jim Yarrow TS",
+"kv": 230,
+"length_km": 2.8,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/34144383"
+]
+},
+{
+"a": "Jim Yarrow TS",
+"b": "Mount Pleasant TS",
+"kv": 230,
+"length_km": 5.6,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/61857739"
+]
+},
+{
+"a": "Middleport Junction",
+"b": "Middleport TS",
+"kv": 230,
+"length_km": 1.1,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/136691223"
+]
+},
+{
+"a": "Middleport Junction",
+"b": "Nebo TS",
+"kv": 230,
+"length_km": 21.5,
+"refs": [
+"Q23BM",
+"Q24HM",
+"Q25BM",
+"Q29HM",
+"Q30M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/97926012",
+"way/1089320225",
+"way/1089320224",
+"way/98088428",
+"way/34260957",
+"way/273897575",
+"way/273897578",
+"way/1089366376"
+]
+},
+{
+"a": "Middleport Junction",
+"b": "Preston TS",
+"kv": 230,
+"length_km": 43.9,
+"refs": [
+"M20D",
+"M21D",
+"Q24HM"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/142569211",
+"way/217500676",
+"way/274196406",
+"way/123263001",
+"way/274193631",
+"way/274193630"
+]
+},
+{
+"a": "Detweiler TS",
+"b": "Middleport Junction",
+"kv": 230,
+"length_km": 56.1,
+"refs": [
+"M20D",
+"M21D",
+"Q24HM"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/142569211",
+"way/217500676",
+"way/274196406",
+"way/160930836",
+"way/274197343"
+]
+},
+{
+"a": "Allanburg TS",
+"b": "Middleport Junction",
+"kv": 230,
+"length_km": 69.7,
+"refs": [
+"Q25BM",
+"Q30M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/97926012",
+"way/273896424",
+"way/70050028",
+"way/70017054",
+"way/70012409",
+"way/394749310",
+"way/1074345182"
+]
+},
+{
+"a": "E. V. Buchanan Transformer Station",
+"b": "Middleport Junction",
+"kv": 230,
+"length_km": 95.9,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/125250014",
+"way/273896194",
+"way/218018799"
+]
+},
+{
+"a": "Nebo TS",
+"b": "Preston TS",
+"kv": 230,
+"length_km": 56.0,
+"refs": [
+"M20D",
+"M21D",
+"Q24HM",
+"Q25BM",
+"Q29HM"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1089366376",
+"way/263298243",
+"way/273896199",
+"way/217500676",
+"way/274196406",
+"way/123263001",
+"way/274193631",
+"way/274193630"
+]
+},
+{
+"a": "Allanburg TS",
+"b": "Nebo TS",
+"kv": 230,
+"length_km": 57.8,
+"refs": [
+"Q25BM",
+"Q26M",
+"Q28A",
+"Q29HM"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/274903528",
+"way/1089366366",
+"way/1089366365",
+"way/1089366374",
+"way/70012135",
+"way/70018323",
+"way/34261177"
+]
+},
+{
+"a": "Detweiler TS",
+"b": "Nebo TS",
+"kv": 230,
+"length_km": 68.3,
+"refs": [
+"M20D",
+"M21D",
+"Q24HM",
+"Q25BM",
+"Q29HM"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1089366376",
+"way/263298243",
+"way/273896199",
+"way/217500676",
+"way/274196406",
+"way/160930836",
+"way/274197343"
+]
+},
+{
+"a": "Howard Scheifele Transformer Station",
+"b": "Waterloo Municipal Transformer Station 3",
+"kv": 230,
+"length_km": 3.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/141901400"
+]
+},
+{
+"a": "Howard Scheifele Transformer Station",
+"b": "Orangeville TS",
+"kv": 230,
+"length_km": 55.6,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/39942476",
+"way/58897362",
+"way/58897366",
+"way/58897359",
+"way/275143697"
+]
+},
+{
+"a": "Detweiler TS",
+"b": "Stratford TS",
+"kv": 230,
+"length_km": 35.0,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/43280895",
+"way/43280893",
+"way/274197865",
+"way/274197869",
+"way/274197866",
+"way/274197870"
+]
+},
+{
+"a": "Seaforth TS",
+"b": "Stratford TS",
+"kv": 230,
+"length_km": 48.6,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/43280895",
+"way/43280896"
+]
+},
+{
+"a": "Detweiler TS",
+"b": "Seaforth TS",
+"kv": 230,
+"length_km": 80.5,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/274197870",
+"way/274197866",
+"way/274197869",
+"way/274197865",
+"way/43280893",
+"way/43280896"
+]
+},
+{
+"a": "Bruce A Switchyard",
+"b": "Seaforth TS",
+"kv": 230,
+"length_km": 110.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/227234533",
+"way/474262504",
+"way/474262505",
+"way/474262496",
+"way/227712561",
+"way/273639280",
+"way/273639292",
+"way/273639695"
+]
+},
+{
+"a": "Detweiler TS",
+"b": "Waterloo Municipal Transformer Station 3",
+"kv": 230,
+"length_km": 5.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/43280913",
+"way/43280908"
+]
+},
+{
+"a": "Detweiler TS",
+"b": "Preston TS",
+"kv": 230,
+"length_km": 53.3,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/274197343",
+"way/160930836",
+"way/123263001",
+"way/274193631",
+"way/274193630"
+]
+},
+{
+"a": "Detweiler TS",
+"b": "E. V. Buchanan Transformer Station",
+"kv": 230,
+"length_km": 78.5,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/43280904"
+]
+},
+{
+"a": "Allanburg TS",
+"b": "Detweiler TS",
+"kv": 230,
+"length_km": 134.1,
+"refs": [
+"M20D",
+"M21D",
+"Q23BM",
+"Q24HM",
+"Q25BM",
+"Q29HM",
+"Q30M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1074345182",
+"way/394749310",
+"way/70012409",
+"way/70017054",
+"way/70050028",
+"way/273896424",
+"way/1089320225",
+"way/1089320224",
+"way/98088428",
+"way/34260957",
+"way/273897575",
+"way/273897578",
+"way/263298243",
+"way/273896199",
+"way/217500676",
+"way/274196406",
+"way/160930836",
+"way/274197343"
+]
+},
+{
+"a": "Clarke TS",
+"b": "E. V. Buchanan Transformer Station",
+"kv": 230,
+"length_km": 10.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/273924977",
+"way/125419258"
+]
+},
+{
+"a": "E. V. Buchanan Transformer Station",
+"b": "London Wonderland TS",
+"kv": 230,
+"length_km": 13.7,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/183248375",
+"way/138994902"
+]
+},
+{
+"a": "E. V. Buchanan Transformer Station",
+"b": "Edgeware Transformer Station",
+"kv": 230,
+"length_km": 16.4,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/273939141",
+"way/197215944"
+]
+},
+{
+"a": "Cowal Junction Station",
+"b": "E. V. Buchanan Transformer Station",
+"kv": 230,
+"length_km": 31.8,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/147708437"
+]
+},
+{
+"a": "E. V. Buchanan Transformer Station",
+"b": "Longwood TS",
+"kv": 230,
+"length_km": 48.8,
+"refs": [],
+"circuits_osm": 4,
+"osm_ways": [
+"way/474271036",
+"way/183780496",
+"way/474271035",
+"way/474285508"
+]
+},
+{
+"a": "E. V. Buchanan Transformer Station",
+"b": "Lambton 345kV Substation",
+"kv": 230,
+"length_km": 110.1,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/474285508",
+"way/474271035",
+"way/183780496",
+"way/182262081",
+"way/210886099",
+"way/210864043",
+"way/210665889",
+"way/210665909"
+]
+},
+{
+"a": "E. V. Buchanan Transformer Station",
+"b": "Lambton Substation",
+"kv": 230,
+"length_km": 110.1,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/474285508",
+"way/474271035",
+"way/183780496",
+"way/182262081",
+"way/210886099",
+"way/210864043",
+"way/210665889",
+"way/210665918"
+]
+},
+{
+"a": "Brown Hill TS",
+"b": "LIndsay TS",
+"kv": 230,
+"length_km": 59.3,
+"refs": [
+"M801B"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/59728751",
+"way/169868631"
+]
+},
+{
+"a": "Hanover TS",
+"b": "Orangeville TS",
+"kv": 230,
+"length_km": 75.6,
+"refs": [
+"B4V",
+"B5V"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/60723700",
+"way/275147678",
+"way/275147681"
+]
+},
+{
+"a": "Bruce A Switchyard",
+"b": "Owen Sound TS",
+"kv": 230,
+"length_km": 68.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/60853092",
+"way/60850448",
+"way/275160110",
+"way/229111171",
+"way/229109440",
+"way/229026125",
+"way/113893533",
+"way/113887974",
+"way/273639688"
+]
+},
+{
+"a": "Jarvis TS",
+"b": "Nanticoke Generating Station Transformer",
+"kv": 230,
+"length_km": 2.5,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1338994512",
+"way/67214362"
+]
+},
+{
+"a": "Nanticoke Generating Station Transformer",
+"b": "US Steel - Lake Erie Works TS #1",
+"kv": 230,
+"length_km": 2.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/176229319"
+]
+},
+{
+"a": "Caledonia TS",
+"b": "Nanticoke Generating Station Transformer",
+"kv": 230,
+"length_km": 32.1,
+"refs": [
+"N5M",
+"N6M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/67213584",
+"way/67473990"
+]
+},
+{
+"a": "Jarvis TS",
+"b": "Sandusk SS",
+"kv": 230,
+"length_km": 2.5,
+"refs": [
+"K40M",
+"S39M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1089366355"
+]
+},
+{
+"a": "US Steel - Lake Erie Works TS #2",
+"b": "US Steel - Lake Erie Works TS #3",
+"kv": 230,
+"length_km": 0.5,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/67215363"
+]
+},
+{
+"a": "Sandusk SS",
+"b": "Summerhaven Wind Farm",
+"kv": 230,
+"length_km": 7.6,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/1153770707"
+]
+},
+{
+"a": "Caledonia TS",
+"b": "Sandusk SS",
+"kv": 230,
+"length_km": 26.7,
+"refs": [
+"K40M",
+"S39M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/67214711",
+"way/1089366356",
+"way/67474524"
+]
+},
+{
+"a": "US Steel - Lake Erie Works TS #1",
+"b": "US Steel - Lake Erie Works TS #2",
+"kv": 230,
+"length_km": 1.5,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/67215146"
+]
+},
+{
+"a": "Caledonia TS",
+"b": "Middleport TS",
+"kv": 230,
+"length_km": 11.8,
+"refs": [
+"Q26M",
+"Q35M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1089366360",
+"way/962747256",
+"way/273895565",
+"way/161010229"
+]
+},
+{
+"a": "Allanburg TS",
+"b": "Caledonia TS",
+"kv": 230,
+"length_km": 63.6,
+"refs": [
+"Q26M",
+"Q35M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1089366368",
+"way/1089366369",
+"way/164031248",
+"way/394749303",
+"way/70018080",
+"way/70012271",
+"way/70011843",
+"way/70051866",
+"way/70051966",
+"way/70052196",
+"way/531325395"
+]
+},
+{
+"a": "Bruce A Switchyard",
+"b": "Hanover TS",
+"kv": 230,
+"length_km": 47.5,
+"refs": [
+"B4V",
+"B5V"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/69778255",
+"way/275155354",
+"way/551465900",
+"way/227981639",
+"way/227888483",
+"way/227873531",
+"way/227721829",
+"way/229020288",
+"way/229020390",
+"way/69278026",
+"way/273647194",
+"way/69782375",
+"way/273639691"
+]
+},
+{
+"a": "Crimson Substation",
+"b": "Jewell Substation",
+"kv": 230,
+"length_km": 4.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/175530861"
+]
+},
+{
+"a": "Jewell Substation",
+"b": "Sterling Substation",
+"kv": 230,
+"length_km": 15.4,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/581374051",
+"way/188360084",
+"way/75543089"
+]
+},
+{
+"a": "Essa TS",
+"b": "Stayner TS",
+"kv": 230,
+"length_km": 25.4,
+"refs": [],
+"circuits_osm": 4,
+"osm_ways": [
+"way/77142831",
+"way/1548474279"
+]
+},
+{
+"a": "Barrie TS",
+"b": "Essa TS",
+"kv": 230,
+"length_km": 8.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1548400290"
+]
+},
+{
+"a": "Essa TS",
+"b": "Midhurst TS",
+"kv": 230,
+"length_km": 10.4,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/77374215"
+]
+},
+{
+"a": "Packard Substation",
+"b": "Robert Moses Substation",
+"kv": 230,
+"length_km": 5.1,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/147381640",
+"way/1442257748",
+"way/151626029"
+]
+},
+{
+"a": "Packard Substation",
+"b": "Sawyer Avenue Substation",
+"kv": 230,
+"length_km": 17.6,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/147381639"
+]
+},
+{
+"a": "Packard Substation",
+"b": "Robinson Road Substation",
+"kv": 230,
+"length_km": 28.0,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/147381640",
+"way/1442257748",
+"way/175836273"
+]
+},
+{
+"a": "Huntley Substation",
+"b": "Sawyer Avenue Substation",
+"kv": 230,
+"length_km": 0.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/148017085"
+]
+},
+{
+"a": "Gardenville Substation",
+"b": "Sawyer Avenue Substation",
+"kv": 230,
+"length_km": 30.8,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/148017044"
+]
+},
+{
+"a": "Cowal Junction Station",
+"b": "Longwood TS",
+"kv": 230,
+"length_km": 18.6,
+"refs": [],
+"circuits_osm": 3,
+"osm_ways": [
+"way/183916901"
+]
+},
+{
+"a": "Chatham Switching Station",
+"b": "Cowal Junction Station",
+"kv": 230,
+"length_km": 64.6,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/180336716",
+"way/176083081"
+]
+},
+{
+"a": "Gardenville Substation",
+"b": "Seneca Terminal Station",
+"kv": 230,
+"length_km": 4.8,
+"refs": [
+"71",
+"72"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1441513101"
+]
+},
+{
+"a": "Gardenville Substation",
+"b": "Stebbins Road Substation",
+"kv": 230,
+"length_km": 53.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/148896354",
+"way/12276262",
+"way/176046693",
+"way/149071653",
+"way/149089236"
+]
+},
+{
+"a": "Dunkirk Substation",
+"b": "Gardenville Substation",
+"kv": 230,
+"length_km": 75.6,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/148896354",
+"way/12276262",
+"way/176046693",
+"way/149180739",
+"way/1436851744",
+"way/149073185"
+]
+},
+{
+"a": "Elm Street Station",
+"b": "Huntley Substation",
+"kv": 230,
+"length_km": 11.3,
+"refs": [
+"70"
+],
+"circuits_osm": null,
+"osm_ways": [
+"way/1441635670"
+]
+},
+{
+"a": "Dunkirk Substation",
+"b": "Stebbins Road Substation",
+"kv": 230,
+"length_km": 21.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/149073185",
+"way/1436851745",
+"way/1436919291"
+]
+},
+{
+"a": "Ball Hill Wind Substation",
+"b": "Stebbins Road Substation",
+"kv": 230,
+"length_km": 0.1,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/1436919293"
+]
+},
+{
+"a": "Robert Moses Substation",
+"b": "Robinson Road Substation",
+"kv": 230,
+"length_km": 27.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/151626029",
+"way/175836273"
+]
+},
+{
+"a": "Belle River Substation",
+"b": "Saint Clair Power Plant Substation",
+"kv": 230,
+"length_km": 1.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/163860233"
+]
+},
+{
+"a": "Belle River Substation",
+"b": "Lambton 345kV Substation",
+"kv": 230,
+"length_km": 4.7,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/175530860"
+]
+},
+{
+"a": "Allanburg TS",
+"b": "Preston TS",
+"kv": 230,
+"length_km": 121.9,
+"refs": [
+"M20D",
+"M21D",
+"Q23BM",
+"Q24HM",
+"Q25BM",
+"Q29HM",
+"Q30M"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1074345182",
+"way/394749310",
+"way/70012409",
+"way/70017054",
+"way/70050028",
+"way/273896424",
+"way/1089320225",
+"way/1089320224",
+"way/98088428",
+"way/34260957",
+"way/273897575",
+"way/273897578",
+"way/263298243",
+"way/273896199",
+"way/217500676",
+"way/274196406",
+"way/123263001",
+"way/274193631",
+"way/274193630"
+]
+},
+{
+"a": "Ingersoll TS",
+"b": "Karn TS",
+"kv": 230,
+"length_km": 10.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1334963989"
+]
+},
+{
+"a": "Crimson Substation",
+"b": "Spokane Substation",
+"kv": 230,
+"length_km": 14.3,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/175146047"
+]
+},
+{
+"a": "Lambton 345kV Substation",
+"b": "Lambton Substation",
+"kv": 230,
+"length_km": 6.1,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/210665909",
+"way/210665918"
+]
+},
+{
+"a": "Lambton 345kV Substation",
+"b": "Longwood TS",
+"kv": 230,
+"length_km": 75.2,
+"refs": [],
+"circuits_osm": 4,
+"osm_ways": [
+"way/474271036",
+"way/182262081",
+"way/210886099",
+"way/210864043",
+"way/210665889",
+"way/210665909"
+]
+},
+{
+"a": "Erie South Substation",
+"b": "Four Mile Junction Substation",
+"kv": 230,
+"length_km": 6.3,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/819100276",
+"way/1263126366"
+]
+},
+{
+"a": "Erie East Substation",
+"b": "Four Mile Junction Substation",
+"kv": 230,
+"length_km": 14.6,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/1263126351",
+"way/1263126354",
+"way/176046690"
+]
+},
+{
+"a": "Chatham Switching Station",
+"b": "Kent Transformer Station",
+"kv": 230,
+"length_km": 7.4,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/207820865",
+"way/207820956"
+]
+},
+{
+"a": "Chatham Switching Station",
+"b": "Lakeshore Transmission Station",
+"kv": 230,
+"length_km": 47.3,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/1189920368",
+"way/208148536"
+]
+},
+{
+"a": "Chatham Switching Station",
+"b": "Lambton Substation",
+"kv": 230,
+"length_km": 58.6,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/207820865",
+"way/207994527",
+"way/210097310",
+"way/210665907",
+"way/932199534",
+"way/210665904"
+]
+},
+{
+"a": "Lambton Substation",
+"b": "Longwood TS",
+"kv": 230,
+"length_km": 75.2,
+"refs": [],
+"circuits_osm": 4,
+"osm_ways": [
+"way/474271036",
+"way/182262081",
+"way/210886099",
+"way/210864043",
+"way/210665889",
+"way/210665918"
+]
+},
+{
+"a": "Lakeshore Transmission Station",
+"b": "Lauzon Transformer Station",
+"kv": 230,
+"length_km": 33.4,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/205009729"
+]
+},
+{
+"a": "Lakeshore Transmission Station",
+"b": "South Middle Road Transformer Station",
+"kv": 230,
+"length_km": 0.4,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1339367847"
+]
+},
+{
+"a": "Leamington Substation",
+"b": "South Middle Road Transformer Station",
+"kv": 230,
+"length_km": 11.9,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1168125518"
+]
+},
+{
+"a": "South Middle Road Transformer Station",
+"b": "W. Clark Keith transformer Substation",
+"kv": 230,
+"length_km": 41.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/205151909",
+"way/274905536"
+]
+},
+{
+"a": "DBGEN 41 Substation",
+"b": "DBGEN GIS Substation",
+"kv": 230,
+"length_km": 0.1,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1493782081"
+]
+},
+{
+"a": "DBGEN 48/49A Substation",
+"b": "DBGEN GIS Substation",
+"kv": 230,
+"length_km": 1.4,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/207468416"
+]
+},
+{
+"a": "DBGEN GIS Substation",
+"b": "Navarre Substation",
+"kv": 230,
+"length_km": 1.7,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/606507699"
+]
+},
+{
+"a": "DBGEN GIS Substation",
+"b": "Waterman Substation",
+"kv": 230,
+"length_km": 4.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/214322963",
+"way/606507697",
+"way/606507698",
+"way/606425665",
+"way/606425666",
+"way/207468417"
+]
+},
+{
+"a": "DBGEN 42 Substation",
+"b": "DBGEN 48/49A Substation",
+"kv": 230,
+"length_km": 0.1,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1493774061"
+]
+},
+{
+"a": "Baxter Substation",
+"b": "DBGEN 48/49A Substation",
+"kv": 230,
+"length_km": 0.7,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/534565804"
+]
+},
+{
+"a": "W. Clark Keith transformer Substation",
+"b": "Waterman Substation",
+"kv": 230,
+"length_km": 2.4,
+"refs": [],
+"circuits_osm": 1,
+"osm_ways": [
+"way/1509388240",
+"way/274904650"
+]
+},
+{
+"a": "Kent Transformer Station",
+"b": "Lambton Substation",
+"kv": 230,
+"length_km": 56.8,
+"refs": [],
+"circuits_osm": null,
+"osm_ways": [
+"way/210665904",
+"way/932199534",
+"way/210665907",
+"way/210097310",
+"way/207994527",
+"way/207820956"
+]
+},
+{
+"a": "Northeast Substation",
+"b": "Stephens Substation",
+"kv": 230,
+"length_km": 5.2,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/210648790",
+"way/1521115609",
+"way/596603799"
+]
+},
+{
+"a": "Baxter Substation",
+"b": "Navarre Substation",
+"kv": 230,
+"length_km": 0.8,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/534565814"
+]
+},
+{
+"a": "Baxter Substation",
+"b": "Warren Substation",
+"kv": 230,
+"length_km": 5.8,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/214322955",
+"way/606395750"
+]
+},
+{
+"a": "Bismarck Substation",
+"b": "Red Run Substation",
+"kv": 230,
+"length_km": 11.0,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/224880381",
+"way/595454503",
+"way/595454496",
+"way/586146145"
+]
+},
+{
+"a": "Armitage TS",
+"b": "Holland TS",
+"kv": 230,
+"length_km": 8.4,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/275163223"
+]
+},
+{
+"a": "Rotunda Substation",
+"b": "Warren Substation",
+"kv": 230,
+"length_km": 4.6,
+"refs": [],
+"circuits_osm": 2,
+"osm_ways": [
+"way/603512707",
+"way/659079223",
+"way/659079225",
+"way/603511497"
+]
+},
+{
+"a": "Elm Street Station",
+"b": "Seneca Terminal Station",
+"kv": 230,
+"length_km": 4.3,
+"refs": [
+"71",
+"72"
+],
+"circuits_osm": 2,
+"osm_ways": [
+"way/1441635661"
+]
+}
+]
+}

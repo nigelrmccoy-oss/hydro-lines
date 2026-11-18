@@ -1,0 +1,926 @@
+{
+ "type": "FeatureCollection",
+ "note": "Planned/recommended projects from public plans. Geometry is schematic.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -81.586455,
+      42.855362
+     ],
+     [
+      -82.606977,
+      42.208309
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_lxl1",
+    "name": "Longwood-Lakeshore 500 kV Line 1",
+    "kind": "line",
+    "kv": 500,
+    "isd": "2030",
+    "isd_est": false,
+    "status": "planning/LTC filed",
+    "detail": "~120 km single circuit; construction 2027",
+    "src": [
+     "ho_lxl",
+     "ho_lxl_esr",
+     "oeb_swo_biannual"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -81.586455,
+      42.855362
+     ],
+     [
+      -82.606977,
+      42.208309
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_lxl2",
+    "name": "Longwood-Lakeshore 500 kV Line 2",
+    "kind": "line",
+    "kv": 500,
+    "isd": "2045+",
+    "isd_est": true,
+    "status": "deferred",
+    "detail": "Deferred beyond 2045 per IESO South and Central Bulk Plan draft",
+    "src": [
+     "oeb_swo_biannual",
+     "ho_lxl"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -81.19,
+      42.78
+     ],
+     [
+      -82.606977,
+      42.208309
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_stl",
+    "name": "St. Thomas TS-Lakeshore TS 500 kV",
+    "kind": "line",
+    "kv": 500,
+    "isd": "2045+",
+    "isd_est": true,
+    "status": "draft recommendation",
+    "detail": "IESO draft (Apr 2026 webinar) per Hydro One OEB report",
+    "src": [
+     "oeb_swo_biannual"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -82.467212,
+      42.797196
+     ],
+     [
+      -82.095886,
+      42.388544
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_lxc",
+    "name": "Lambton-Chatham 230 kV",
+    "kind": "line",
+    "kv": 230,
+    "isd": "ESTIMATE 2028",
+    "isd_est": true,
+    "status": "development",
+    "detail": "Project #1 of OIC 875/2022 directive",
+    "src": [
+     "oeb_swo_biannual"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -82.917032,
+      42.2868
+     ],
+     [
+      -82.606977,
+      42.208309
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_wlx",
+    "name": "Windsor (Lauzon)-Lakeshore 230 kV",
+    "kind": "line",
+    "kv": 230,
+    "isd": "ESTIMATE 2030",
+    "isd_est": true,
+    "status": "development",
+    "detail": "Project #4 of OIC 875/2022 directive",
+    "src": [
+     "oeb_swo_biannual"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -81.6,
+      44.32
+     ],
+     [
+      -79.815546,
+      44.354611
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_brc_essa",
+    "name": "Bruce C-Essa 500 kV double circuit",
+    "kind": "line",
+    "kv": 500,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "IESO recommendation",
+    "detail": "To enable Bruce C",
+    "src": [
+     "sac_memo25"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -81.6,
+      44.32
+     ],
+     [
+      -81.586455,
+      42.855362
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_brc_lon",
+    "name": "Bruce C-Longwood 500 kV double circuit",
+    "kind": "line",
+    "kv": 500,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "IESO recommendation",
+    "detail": "",
+    "src": [
+     "sac_memo25"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -78.724853,
+      43.877145
+     ],
+     [
+      -79.337471,
+      43.838205
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_bow_par",
+    "name": "Bowmanville-Parkway 500 kV double circuit",
+    "kind": "line",
+    "kv": 500,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "IESO recommendation",
+    "detail": "Enables Darlington SMRs",
+    "src": [
+     "sac_memo25"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -79.815546,
+      44.354611
+     ],
+     [
+      -79.682845,
+      43.852908
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_essa_kl",
+    "name": "Essa-Kleinburg 500 kV",
+    "kind": "line",
+    "kv": 500,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "IESO recommendation",
+    "detail": "",
+    "src": [
+     "sac_memo25"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -80.95,
+      46.65
+     ],
+     [
+      -79.815546,
+      44.354611
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_han_essa",
+    "name": "Hanmer-Essa 500 kV (Sudbury-Barrie)",
+    "kind": "line",
+    "kv": 500,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "IEP implementation",
+    "detail": "Second line development work also recommended",
+    "src": [
+     "sac_memo25",
+     "on_ieP"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -79.815546,
+      44.354611
+     ],
+     [
+      -80.159754,
+      43.915413
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_ess_ora",
+    "name": "Essa-Orangeville 230 kV advanced reconductoring",
+    "kind": "upgrade",
+    "kv": 230,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "IEP implementation",
+    "detail": "",
+    "src": [
+     "sac_memo25"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -79.79316,
+      43.590466
+     ],
+     [
+      -79.719008,
+      43.648509
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_mdv_hur",
+    "name": "Meadowvale-Hurontario 230 kV double circuit",
+    "kind": "line",
+    "kv": 230,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "IESO recommendation",
+    "detail": "",
+    "src": [
+     "sac_memo25"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -79.658822,
+      43.482
+     ],
+     [
+      -79.733457,
+      43.52778
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_oak_tra",
+    "name": "Oakville-Trafalgar 230 kV double circuit",
+    "kind": "line",
+    "kv": 230,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "IESO recommendation",
+    "detail": "Also in GTA West draft (Cooksville/West Toronto growth)",
+    "src": [
+     "sac_memo25",
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -79.851124,
+      43.538631
+     ],
+     [
+      -79.719008,
+      43.648509
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_mil_hur",
+    "name": "Milton TS-Hurontario SS 230 kV double circuit",
+    "kind": "line",
+    "kv": 230,
+    "isd": "TBD",
+    "isd_est": true,
+    "status": "GTA West draft",
+    "detail": "New Milton bulk supply point",
+    "src": [
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -79.733457,
+      43.52778
+     ],
+     [
+      -79.577617,
+      43.683812
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_tra_ric",
+    "name": "Richview-Trafalgar 230 kV reconductoring",
+    "kind": "upgrade",
+    "kv": 230,
+    "isd": "Q4 2026",
+    "isd_est": false,
+    "status": "under construction",
+    "detail": "Raises FETT capability",
+    "src": [
+     "apo_interfaces"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.22,
+     43.45
+    ]
+   },
+   "properties": {
+    "id": "p_wellington",
+    "name": "Wellington TS 500/230 kV + 230 kV to Preston",
+    "kind": "station",
+    "kv": 500,
+    "isd": "2031 or earlier",
+    "isd_est": false,
+    "status": "IRRP recommendation",
+    "detail": "New autotransformer station in Puslinch with double-circuit 230 kV lines to Preston TS",
+    "src": [
+     "kwcg_irrp26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.33,
+     43.39
+    ]
+   },
+   "properties": {
+    "id": "p_gbe2",
+    "name": "GrandBridge Energy MTS #2 (115 kV, up to 75 MW)",
+    "kind": "station",
+    "kv": 115,
+    "isd": "2028",
+    "isd_est": false,
+    "status": "IRRP recommendation",
+    "detail": "",
+    "src": [
+     "kwcg_irrp26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.55952,
+     43.428165
+    ]
+   },
+   "properties": {
+    "id": "p_kw_uprate",
+    "name": "Uprate B5C/B6C, D7F/D9F, F11C/F12C (115 kV)",
+    "kind": "upgrade",
+    "kv": 115,
+    "isd": "2028",
+    "isd_est": false,
+    "status": "IRRP recommendation",
+    "detail": "Position schematic",
+    "src": [
+     "kwcg_irrp26"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "At existing station"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.52,
+     43.45
+    ]
+   },
+   "properties": {
+    "id": "p_kw_230st",
+    "name": "New 230 kV stations: 11 TS, Office MTS, Snider TS",
+    "kind": "station",
+    "kv": 230,
+    "isd": "2030+",
+    "isd_est": false,
+    "status": "IRRP recommendation",
+    "detail": "Enova Power",
+    "src": [
+     "kwcg_irrp26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.47,
+     43.42
+    ]
+   },
+   "properties": {
+    "id": "p_kit8",
+    "name": "Kitchener MTS #8 new 230 kV DESN",
+    "kind": "station",
+    "kv": 230,
+    "isd": "2030+",
+    "isd_est": false,
+    "status": "IRRP recommendation",
+    "detail": "",
+    "src": [
+     "kwcg_irrp26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -80.55952,
+      43.428165
+     ],
+     [
+      -80.534667,
+      43.497378
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_dxv",
+    "name": "Uprate DxV + Detweiler TS station work",
+    "kind": "upgrade",
+    "kv": 230,
+    "isd": "2031",
+    "isd_est": false,
+    "status": "IRRP recommendation",
+    "detail": "",
+    "src": [
+     "kwcg_irrp26"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -80.55952,
+     43.428165
+    ]
+   },
+   "properties": {
+    "id": "p_d11k",
+    "name": "Uprate D11K/D12K (115 kV)",
+    "kind": "upgrade",
+    "kv": 115,
+    "isd": "2033",
+    "isd_est": false,
+    "status": "IRRP recommendation",
+    "detail": "",
+    "src": [
+     "kwcg_irrp26",
+     "kwcg_scope24"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "At existing station"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.87,
+     43.5
+    ]
+   },
+   "properties": {
+    "id": "p_halton2",
+    "name": "Halton #2 TS (230/27.6 kV, Milton)",
+    "kind": "station",
+    "kv": 230,
+    "isd": "2031",
+    "isd_est": false,
+    "status": "GTA West draft",
+    "detail": "",
+    "src": [
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.68,
+     43.78
+    ]
+   },
+   "properties": {
+    "id": "p_goreway2",
+    "name": "Goreway #2 MTS (NE Brampton)",
+    "kind": "station",
+    "kv": 230,
+    "isd": "2032",
+    "isd_est": false,
+    "status": "GTA West draft",
+    "detail": "",
+    "src": [
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.8,
+     43.85
+    ]
+   },
+   "properties": {
+    "id": "p_caledon",
+    "name": "Caledon #1 and #2 TS",
+    "kind": "station",
+    "kv": 230,
+    "isd": "2032",
+    "isd_est": false,
+    "status": "GTA West draft",
+    "detail": "Supplied from Kleinburg TS",
+    "src": [
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.82,
+     43.72
+    ]
+   },
+   "properties": {
+    "id": "p_heritage",
+    "name": "Heritage Heights MTS (NW Brampton)",
+    "kind": "station",
+    "kv": 230,
+    "isd": "2033",
+    "isd_est": false,
+    "status": "GTA West draft",
+    "detail": "",
+    "src": [
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.6,
+     43.58
+    ]
+   },
+   "properties": {
+    "id": "p_lakeview",
+    "name": "Lakeview MTS (Cooksville)",
+    "kind": "station",
+    "kv": 230,
+    "isd": "2033",
+    "isd_est": false,
+    "status": "GTA West draft",
+    "detail": "",
+    "src": [
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -79.65,
+     43.69
+    ]
+   },
+   "properties": {
+    "id": "p_gateway",
+    "name": "Gateway MTS (Mississauga)",
+    "kind": "station",
+    "kv": 230,
+    "isd": "2034",
+    "isd_est": false,
+    "status": "GTA West draft",
+    "detail": "",
+    "src": [
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -79.682845,
+      43.852908
+     ],
+     [
+      -79.82,
+      43.72
+     ],
+     [
+      -79.851124,
+      43.538631
+     ]
+    ]
+   },
+   "properties": {
+    "id": "p_nwgta",
+    "name": "NWGTA corridor 230 kV double circuits (Kleinburg/Milton to Brampton)",
+    "kind": "line",
+    "kv": 230,
+    "isd": "2032-2033",
+    "isd_est": true,
+    "status": "GTA West draft",
+    "detail": "Corridor protected for 500 and 230 kV; route schematic",
+    "src": [
+     "gtaw_26"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Schematic straight line between endpoints (route not drawn)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -78.724853,
+     43.877145
+    ]
+   },
+   "properties": {
+    "id": "p_dnnp",
+    "name": "Darlington New Nuclear (BWRX-300 SMRs)",
+    "kind": "plant",
+    "kv": null,
+    "isd": "after 2030 (revised schedule pending)",
+    "isd_est": true,
+    "status": "construction",
+    "detail": "Unit 1 no longer expected Oct 2030; four units planned",
+    "src": [
+     "opg_smr",
+     "opg_q3_26"
+    ],
+    "route_est": true,
+    "pos_est": false,
+    "note": "At existing station"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -81.6,
+     44.32
+    ]
+   },
+   "properties": {
+    "id": "p_brucec",
+    "name": "Bruce C (up to 4,800 MW option)",
+    "kind": "plant",
+    "kv": null,
+    "isd": "TBD (no build decision)",
+    "isd_est": true,
+    "status": "impact assessment",
+    "detail": "",
+    "src": [
+     "bp_c",
+     "iaac_brucec"
+    ],
+    "route_est": true,
+    "pos_est": true,
+    "note": "Position ESTIMATE"
+   }
+  }
+ ]
+}
