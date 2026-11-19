@@ -1,6 +1,6 @@
 {
   "name": "hydro-lines",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Unofficial 3D Ontario power grid game (SW Ontario + GTA slice): OSM lines, IESO data, DC flow engine (CesiumJS, public data, no keys).",
   "license": "MIT",

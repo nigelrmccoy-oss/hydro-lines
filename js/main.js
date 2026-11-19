@@ -138,8 +138,8 @@ hnd.setInputAction(m => { const r = pickAt(m.endPosition); if (!r) { tip.style.d
 E.setDay(prof.days.find(d => d.id === hs.get('day')) ? hs.get('day') : prof.default, Math.min(24, Math.max(1, +hs.get('hour') || 18)));
 apply(); update();
 if (hs.get('open')) openId(hs.get('open'), !hs.get('view'));
-banner.innerHTML = `Imagery: Esri World Imagery · Terrain: <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank">AWS Terrain Tiles</a> · Grid: © OpenStreetMap contributors (ODbL) · Demand/units/interties: IESO public reports (2026-11-16) · cross-check: Gridwatch · Plans: IESO, Hydro One, OEB · Unofficial; model values marked ESTIMATE · v0.1.0`;
-window.HL = { viewer, E, model, gens, prof, hist, planned, reg, layers, groups, apply, update, openId, fly, byId, get R() { return R; }, version: '0.1.0' };
+banner.innerHTML = `Imagery: Esri World Imagery · Terrain: <a href="https://registry.opendata.aws/terrain-tiles/" target="_blank">AWS Terrain Tiles</a> · Grid: © OpenStreetMap contributors (ODbL) · Demand/units/interties: IESO public reports (2026-11-16) · cross-check: Gridwatch · Plans: IESO, Hydro One, OEB · Unofficial; model values marked ESTIMATE · v0.1.1`;
+window.HL = { viewer, E, model, gens, prof, hist, planned, reg, layers, groups, apply, update, openId, fly, byId, get R() { return R; }, version: '0.1.1' };
 
 // ---------- #tour: scripted click-through for on-display QA ----------
 if (hs.has('tour')) { const S = [() => fly('on'), () => fly('kw'), () => openId('br:MID-PRE'), () => { E.toggleBranch('BRU-MIL'); update(); fly('on'); }, () => { E.toggleBranch('BRU-MIL'); update(); layers.planned = true; apply(); fly('gta'); }, () => { layers.history = true; apply(); $('year').value = 2013; showYear(2013); fly('on'); }];

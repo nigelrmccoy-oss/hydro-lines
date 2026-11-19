@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Hydro-Lines — UI mockup v0.2 (static; real v0.1.0 data, scenario 2025-06-24 h19)</title>
+<style>
+:root{
+  --bg:#0a0d10; --bg2:#0f1317; --panel:#12171c; --panel2:#181e25; --edge:#26303a; --edge2:#33404c;
+  --txt:#c9d3dc; --dim:#7d8b98; --faint:#4d5a66; --hi:#e9f1f7;
+  --v500:#e0483e; --v345:#e8902a; --v230:#3d8fe0; --v115:#2fb874;
+  --nuc:#c66bff; --hyd:#2fb6ff; --gas:#ff8a3d; --wind:#9ee34a; --sol:#ffd23d; --oth:#3df0d8; --bio:#a3846a;
+  --p1:#ff2d3a; --p2:#ff9a1f; --p3:#f2d43a; --ev:#4ec9ff; --ok:#38d07a; --est:#ffb84d; --sel:#4ec9ff;
+  --mono:"DejaVu Sans Mono","Noto Sans Mono",ui-monospace,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;width:1600px;height:900px;overflow:hidden;background:var(--bg);color:var(--txt);font:12px/1.3 "DejaVu Sans","Segoe UI",system-ui,sans-serif}
+.mono{font-family:var(--mono)} .dim{color:var(--dim)} .faint{color:var(--faint)}
+#globe{position:absolute;inset:0;background:radial-gradient(ellipse 70% 80% at 53% 48%,#17222a 0%,#0e161c 55%,#070a0d 100%)}
+#globe svg{position:absolute;inset:0}
+.vign{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 62% 70% at 53% 48%,transparent 60%,rgba(0,0,0,.55) 100%)}
+/* top bar */
+#top{position:absolute;left:0;right:0;top:0;height:44px;display:flex;align-items:stretch;background:linear-gradient(#11161b,#0c1014);border-bottom:1px solid var(--edge2);z-index:5}
+#top>div{display:flex;align-items:center;border-right:1px solid var(--edge);padding:0 8px;gap:6px;flex:none}
+.brand{width:236px}
+.logo{width:22px;height:22px;border:2px solid var(--v500);border-radius:3px;position:relative;flex:none}
+.logo:after{content:"";position:absolute;left:3px;right:3px;top:8px;height:2px;background:var(--v230);box-shadow:0 -5px 0 var(--v500),0 5px 0 var(--v115)}
+.brand b{letter-spacing:2px;color:var(--hi);font-size:13px} .brand small{color:var(--dim);font-size:9.5px;display:block}
+.sel{font-family:var(--mono);font-size:11px;background:#080b0e;border:1px solid var(--edge2);padding:3px 6px;color:var(--hi);white-space:nowrap}
+.btn{font-family:var(--mono);font-size:11px;padding:3px 7px;border:1px solid var(--edge2);background:var(--panel2);color:var(--txt);border-radius:2px;white-space:nowrap}
+.btn.on{border-color:var(--sel);color:var(--sel)}
+.kpi{display:flex;flex-direction:column;justify-content:center;min-width:64px}
+.kpi label{font-size:8.5px;letter-spacing:1px;color:var(--dim);text-transform:uppercase;white-space:nowrap}
+.kpi span{font-family:var(--mono);font-size:14px;color:var(--hi);white-space:nowrap} .kpi span em{font-style:normal;font-size:9.5px;color:var(--dim);margin-left:2px}
+.lab{font-size:8.5px;letter-spacing:1px;color:var(--dim);text-transform:uppercase}
+.almct span{font-family:var(--mono);font-size:11px;padding:2px 6px;border-radius:2px;color:#000;font-weight:bold}
+.p1b{background:var(--p1);animation:blink 1s steps(2) infinite}.p2b{background:var(--p2)}.p3b{background:var(--p3)}.evb{background:var(--ev)}
+@keyframes blink{50%{opacity:.35}}
+.est{font-family:var(--mono);font-size:8.5px;letter-spacing:.5px;color:#1a1000;background:var(--est);padding:0 3px;border-radius:2px;font-weight:bold;white-space:nowrap}
+.est.o{background:transparent;color:var(--est);border:1px dashed var(--est)}
+.sim{font-family:var(--mono);font-size:8.5px;color:#001a22;background:var(--ev);padding:0 3px;border-radius:2px;font-weight:bold}
+.warn{font-family:var(--mono);font-size:8.5px;color:var(--p2);border:1px solid var(--p2);padding:0 3px;border-radius:2px}
+/* rail */
+#rail{position:absolute;left:0;top:44px;bottom:24px;width:44px;background:var(--bg2);border-right:1px solid var(--edge);z-index:4;display:flex;flex-direction:column;align-items:center;padding-top:6px;gap:3px}
+.ri{width:36px;height:33px;border:1px solid transparent;border-radius:3px;display:flex;align-items:center;justify-content:center;flex-direction:column;font-size:8px;color:var(--dim);font-family:var(--mono)}
+.ri.on{border-color:var(--edge2);background:var(--panel2);color:var(--hi)} .ri .sw{width:18px;height:3px;margin-bottom:3px} .ri .key{font-size:7px;color:var(--faint)}
+.rsep{width:26px;border-top:1px solid var(--edge);margin:3px 0}
+/* explorer */
+#exp{position:absolute;left:44px;top:44px;bottom:24px;width:360px;background:rgba(15,19,23,.97);border-right:1px solid var(--edge2);z-index:4;display:flex;flex-direction:column;box-shadow:6px 0 18px rgba(0,0,0,.45)}
+.ttl{height:24px;display:flex;align-items:center;padding:0 8px;background:linear-gradient(#1d2630,#161d25);border-bottom:1px solid var(--edge2);font-size:11px;color:var(--hi);gap:6px}
+.ttl .x{margin-left:auto;color:var(--dim);font-family:var(--mono)}
+.tabs{display:flex;padding:4px 6px 0;gap:2px;border-bottom:1px solid var(--edge2)}
+.tab{padding:4px 10px;font-size:11px;border:1px solid var(--edge);border-bottom:none;background:var(--panel);color:var(--dim);border-radius:3px 3px 0 0}
+.tab.on{background:var(--panel2);color:var(--hi);border-color:var(--edge2)} .tab em{font-style:normal;font-family:var(--mono);color:var(--ev);margin-left:4px}
+.addr{display:flex;gap:4px;padding:5px 6px;border-bottom:1px solid var(--edge)}
+.addr div{flex:1;font-family:var(--mono);font-size:10.5px;background:#080b0e;border:1px solid var(--edge2);padding:3px 6px;color:var(--hi);white-space:nowrap;overflow:hidden}
+.addr input{width:92px;font-size:10.5px;background:#080b0e;border:1px solid var(--edge2);color:var(--dim);padding:3px 6px;font-family:inherit}
+.tree{flex:0 0 360px;overflow:hidden;padding:3px 0;font-size:11px;border-bottom:1px solid var(--edge2);font-family:var(--mono)}
+.tree div{white-space:nowrap;padding:0 6px 0 calc(6px + var(--d)*13px);height:17px;display:flex;align-items:center;gap:5px}
+.tree .tw{width:9px;color:var(--dim);font-size:9px}
+.tree .fd{width:12px;height:9px;background:#c9a14a;border-radius:1px;position:relative;opacity:.85;flex:none}
+.tree .fd:before{content:"";position:absolute;left:0;top:-2px;width:5px;height:2px;background:#c9a14a}
+.tree .lf{width:9px;height:3px;flex:none}
+.tree .sl{background:#1f4a73;color:#fff;outline:1px dotted #8cc4ff}
+.tree .cnt{color:var(--faint);font-size:10px} .tree .r{margin-left:auto;font-size:10px}
+.attrh{display:flex;font-size:10px;color:var(--dim);background:var(--panel2);border-bottom:1px solid var(--edge2);font-family:var(--mono)}
+.attrh span,.attr span{padding:3px 6px;border-right:1px solid var(--edge);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.c1{width:92px}.c2{width:92px}.c3{flex:1}.c4{width:40px;text-align:center}
+.attrs{flex:1;overflow:hidden;font-family:var(--mono);font-size:10.5px}
+.attr{display:flex;border-bottom:1px solid #161c22} .attr:nth-child(odd){background:#0d1115}
+.attr .c2{color:#8fb7d9} .attr .c4{color:var(--ev)}
+.foot{height:22px;border-top:1px solid var(--edge2);display:flex;align-items:center;padding:0 8px;font-size:10px;color:var(--dim);gap:8px;font-family:var(--mono)}
+/* right */
+#right{position:absolute;right:0;top:44px;bottom:24px;width:300px;background:rgba(15,19,23,.96);border-left:1px solid var(--edge2);z-index:4;overflow:hidden}
+.sec{border-bottom:1px solid var(--edge2)}
+.sh{height:21px;display:flex;align-items:center;padding:0 8px;font-size:10px;letter-spacing:1.2px;color:var(--dim);background:var(--panel2);border-bottom:1px solid var(--edge);text-transform:uppercase;gap:6px}
+.sh b{color:var(--hi);font-weight:normal} .sh .r{margin-left:auto;letter-spacing:0;font-family:var(--mono);text-transform:none}
+.sb{padding:5px 8px}
+.row{display:flex;align-items:center;gap:6px;height:17px;font-family:var(--mono);font-size:10.5px}
+.row .n{width:66px;white-space:nowrap;overflow:hidden} .row .b{flex:1;height:8px;background:#0a0e12;border:1px solid #1c242c;position:relative}
+.row .b i{position:absolute;top:0;bottom:0;left:0} .row .v{width:76px;text-align:right;color:var(--hi);white-space:nowrap} .row .p{width:36px;text-align:right;color:var(--dim)}
+.ctr .b:before{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--faint)}
+.kvc{display:inline-block;width:28px;text-align:center;font-size:8.5px;border:1px solid;border-radius:2px;flex:none}
+/* dock */
+#dock{position:absolute;left:404px;right:300px;bottom:62px;height:148px;background:rgba(12,15,19,.96);border-top:1px solid var(--edge2);z-index:3}
+.dtabs{display:flex;height:22px;border-bottom:1px solid var(--edge2);background:var(--panel2);font-size:11px}
+.dtabs span{padding:0 12px;display:flex;align-items:center;color:var(--dim);border-right:1px solid var(--edge)}
+.dtabs span.on{color:var(--hi);background:var(--panel);box-shadow:inset 0 2px 0 var(--p1)} .dtabs .r{margin-left:auto;font-family:var(--mono);font-size:10px;border:none}
+table.al{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:10.5px}
+table.al th{text-align:left;font-weight:normal;color:var(--dim);font-size:9.5px;padding:2px 6px;border-bottom:1px solid var(--edge)}
+table.al td{padding:1px 6px;height:19px;white-space:nowrap;border-bottom:1px solid #141a20}
+.pr{display:inline-block;width:22px;text-align:center;color:#000;font-weight:bold;border-radius:1px;font-size:10px}
+tr.un td{color:var(--hi)} tr.ak td{color:var(--dim)} tr.p1 {background:rgba(255,45,58,.09)} tr.p1 td:first-child{box-shadow:inset 3px 0 0 var(--p1)}
+.st{font-size:9px;padding:0 4px;border:1px solid var(--edge2);border-radius:2px}
+#tl{position:absolute;left:404px;right:300px;bottom:24px;height:38px;background:#0b0e12;border-top:1px solid var(--edge2);z-index:3} #tl svg{position:absolute;inset:0}
+#status{position:absolute;left:0;right:0;bottom:0;height:24px;background:#070a0d;border-top:1px solid var(--edge2);display:flex;align-items:center;gap:12px;padding:0 10px;font-family:var(--mono);font-size:10px;color:var(--dim);z-index:6;white-space:nowrap}
+#status kbd{font-family:var(--mono);font-size:9px;border:1px solid var(--edge2);border-bottom-width:2px;border-radius:2px;padding:0 3px;color:var(--txt);background:var(--panel2)}
+.lbl{font-family:var(--mono);font-size:9.5px;fill:#d8e2ea;paint-order:stroke;stroke:#05080a;stroke-width:3px}
+.lbl.sm{font-size:8.5px;fill:#9fb0bf} .lbl.big{font-size:10.5px;fill:#fff;font-weight:bold}
+.callout{position:absolute;z-index:3;background:rgba(8,11,14,.93);border:1px solid var(--edge2);font-family:var(--mono);font-size:10.5px;padding:5px 7px;color:var(--txt);box-shadow:0 4px 14px rgba(0,0,0,.6);white-space:nowrap}
+.callout b{color:#fff}
+.legend{position:absolute;z-index:3;right:310px;top:54px;background:rgba(8,11,14,.85);border:1px solid var(--edge);padding:5px 8px;font-family:var(--mono);font-size:9.5px;line-height:14px}
+.legend i{display:inline-block;width:18px;height:3px;vertical-align:middle;margin-right:5px}
+.inset{position:absolute;z-index:3;left:1052px;top:470px;width:240px;height:208px;background:rgba(8,11,14,.94);border:1px solid #5d7183;box-shadow:0 8px 30px rgba(0,0,0,.7)}
+.inset .ih{height:19px;display:flex;align-items:center;gap:6px;padding:0 6px;font-family:var(--mono);font-size:9.5px;color:var(--hi);background:#151c23;border-bottom:1px solid var(--edge2)}
+.inset .ih span{color:var(--dim)} .inset svg{position:absolute;left:0;top:19px}
+</style></head><body>
+<div id="globe"><svg id="map" width="1600" height="900"></svg><div class="vign"></div></div>
+
+<div id="top">
+  <div class="brand"><div class="logo"></div><div><b>HYDRO-LINES</b><small>UNOFFICIAL · PUBLIC DATA</small></div></div>
+  <div><div class="kpi"><label>Scenario (day)</label><span class="sel" id="dayl">2025-06-24 · peak ▾</span></div><span class="est o" title="dispatch = 2026-11-16 unit pattern + auto-balance">DISPATCH EST</span></div>
+  <div><div class="kpi"><label>Hour</label><span class="sel">◀ 19:00 ▶</span></div><span class="btn on">▶</span><div class="kpi"><label>Load ×</label><span class="sel">1.00</span></div></div>
+  <div class="kpi"><label>Load (model)</label><span id="k_load"></span></div>
+  <div class="kpi"><label>Generation</label><span id="k_gen"></span></div>
+  <div class="kpi"><label>Balance · REST</label><span id="k_slack" style="color:var(--ok)"></span></div>
+  <div class="kpi"><label>Disp. headroom</label><span id="k_head" style="color:var(--p2)"></span></div>
+  <div class="kpi"><label>Score</label><span id="k_score" style="color:var(--p2)"></span></div>
+  <div class="almct" id="almct" style="margin-left:auto"></div>
+  <div style="border:none"><span class="btn">Auto-balance</span><span class="btn">Reset</span></div>
+</div>
+
+<div id="rail">
+  <div class="ri on"><i class="sw" style="background:var(--v500);height:4px"></i>500<span class="key">1</span></div>
+  <div class="ri on"><i class="sw" style="background:var(--v345)"></i>345<span class="key">2</span></div>
+  <div class="ri on"><i class="sw" style="background:var(--v230)"></i>230<span class="key">3</span></div>
+  <div class="ri"><i class="sw" style="background:var(--v115);height:2px"></i>115<span class="key">4</span></div>
+  <div class="rsep"></div>
+  <div class="ri on"><i class="sw" style="background:#cfd8e0;height:6px;width:6px;transform:rotate(45deg)"></i>SUBS<span class="key">S</span></div>
+  <div class="ri on"><i class="sw" style="background:linear-gradient(90deg,var(--nuc) 33%,var(--hyd) 33% 66%,var(--gas) 66%)"></i>GEN<span class="key">G</span></div>
+  <div class="ri"><i class="sw" style="background:linear-gradient(90deg,var(--ok),var(--p2),var(--p1))"></i>FLOW<span class="key">F</span></div>
+  <div class="ri on"><i class="sw" style="background:repeating-linear-gradient(90deg,var(--est) 0 3px,transparent 3px 6px)"></i>PLAN<span class="key">P</span></div>
+  <div class="ri on"><i class="sw" style="background:#7d8b98"></i>HIST<span class="key">H</span></div>
+  <div style="flex:1"></div>
+  <div class="ri on" style="border-color:var(--sel)"><span style="font-size:13px;color:var(--sel)">⊞</span>EXP<span class="key">E</span></div>
+  <div class="ri on"><span style="font-size:11px">⌖</span>INSET<span class="key">L</span></div>
+  <div class="ri"><span style="font-size:12px">?</span>KEYS<span class="key">?</span></div>
+</div>
+
+<div id="exp">
+  <div class="ttl"><span style="color:#c9a14a">▤</span> Grid Explorer — HKONT <span class="x">_ □ ×</span></div>
+  <div class="tabs"><div class="tab on">In view<em id="inview"></em></div><div class="tab">Full directory<em id="fullc"></em></div><div class="tab">★ Watch<em>3</em></div></div>
+  <div class="addr"><div>HKONT\Transmission\230 kV\BUC-LON</div><input value="⌕ filter  /"></div>
+  <div class="tree" id="tree"></div>
+  <div class="attrh"><span class="c1">Name</span><span class="c2">Type</span><span class="c3">Value</span><span class="c4">Src</span></div>
+  <div class="attrs" id="attrs"></div>
+  <div class="foot"><span id="vfoot"></span><span style="margin-left:auto">⧉ #open=br:BUC-LON  Ctrl+L</span></div>
+</div>
+
+<div class="legend">
+  <div style="color:var(--dim);font-size:8.5px;letter-spacing:1px">VOLTAGE (colour) · LOAD (halo)</div>
+  <div><i style="background:var(--v500);height:4px"></i>500 kV <i style="background:var(--v345);margin-left:6px"></i>345</div>
+  <div><i style="background:var(--v230)"></i>230 kV <i style="background:var(--v115);height:2px;margin-left:6px"></i>115</div>
+  <div><i style="background:repeating-linear-gradient(90deg,#fff 0 5px,transparent 5px 8px)"></i>tie · <i style="background:repeating-linear-gradient(90deg,var(--est) 0 3px,transparent 3px 6px)"></i>planned</div>
+  <div><i style="background:var(--p2);box-shadow:0 0 5px var(--p2)"></i>≥90 % <i style="background:var(--p1);box-shadow:0 0 6px var(--p1);margin-left:6px"></i>&gt;100 %</div>
+</div>
+<div class="callout" id="co1" style="border-left:3px solid var(--p1)"></div>
+<div class="inset"><div class="ih">⌖ ONE-LINE · KW / CAMBRIDGE / GUELPH <span>[L] cycle</span></div><svg id="ins" width="238" height="188"></svg></div>
+
+<div id="right">
+  <div class="sec"><div class="sh"><b>Balance</b><span class="r dim">REST slack · ±1,500 MW</span></div><div class="sb">
+    <div class="row ctr"><span class="n">REST</span><span class="b" id="slackbar"></span><span class="v" id="slackv"></span></div>
+    <svg id="spark" width="284" height="46" style="display:block;margin-top:4px"></svg></div></div>
+  <div class="sec"><div class="sh"><b>Supply mix</b><span class="r"><span class="est o">EST</span> <span class="dim">src ieso_gen</span></span></div><div class="sb" id="mix"></div></div>
+  <div class="sec"><div class="sh"><b>Interfaces</b><span class="r dim">flow / TTC · APO 2025</span></div><div class="sb" id="ifs"></div></div>
+  <div class="sec"><div class="sh"><b>Interties</b><span class="r dim">◀ import · export ▶</span></div><div class="sb" id="ties"></div></div>
+  <div class="sec"><div class="sh"><b>Line loading</b><span class="r dim">top 7 · % of limit</span></div><div class="sb" id="ll"></div></div>
+</div>
+
+<div id="dock">
+  <div class="dtabs"><span class="on">Alarms <b style="color:var(--p1);margin-left:5px" id="alc"></b></span><span>Events</span><span>Dispatch</span><span class="r dim">[A] ack · [Shift+A] ack all · [Enter] fly to · [T] trip/restore</span></div>
+  <table class="al"><thead><tr><th style="width:52px">HOUR</th><th style="width:30px">PRI</th><th style="width:66px">ZONE</th><th style="width:170px">OBJECT</th><th>MESSAGE</th><th style="width:56px">STATE</th></tr></thead><tbody id="alarms"></tbody></table>
+</div>
+<div id="tl"><svg id="tlsvg" width="896" height="38"></svg></div>
+<div id="status">
+  <span><kbd>E</kbd>explorer</span><span><kbd>1</kbd>–<kbd>4</kbd>kV</span><span><kbd>F</kbd>flow</span><span><kbd>L</kbd>inset</span><span><kbd>/</kbd>find</span><span><kbd>Space</kbd>play</span><span><kbd>,</kbd><kbd>.</kbd>hour</span><span><kbd>A</kbd>ack</span><span><kbd>?</kbd>keys</span>
+  <span style="margin-left:auto">43.0129°N 81.2018°W · alt 260 km</span><span>Esri World Imagery · OSM (ODbL) · IESO · Hydro One · OPG</span><span>DC flow 27 bus/41 br</span><span style="color:var(--ok)">● v0.2 mock</span>
+</div>
+
+<script src="mockup-data.js"></script>
+<script>
+const $=id=>document.getElementById(id), fmt=n=>Math.round(n).toLocaleString('en-CA');
+const KV={500:'#e0483e',345:'#e8902a',230:'#3d8fe0',115:'#2fb874'};
+const FU={NUCLEAR:'#c66bff',HYDRO:'#2fb6ff',GAS:'#ff8a3d',WIND:'#9ee34a',SOLAR:'#ffd23d',OTHER:'#3df0d8',BIOFUEL:'#a3846a'};
+const FL={NUCLEAR:'Nuclear',HYDRO:'Hydro',GAS:'Gas',WIND:'Wind',SOLAR:'Solar',OTHER:'Storage/oth',BIOFUEL:'Biofuel'};
+const C={lon:-80.25,lat:43.5,x:858,y:378,s:292}, K=Math.cos(43.6*Math.PI/180);
+const P=(lon,lat,c=C)=>[c.x+(lon-c.lon)*c.s*K,c.y-(lat-c.lat)*c.s];
+const path=(pts,c)=>'M'+pts.map(p=>P(p[0],p[1],c).map(v=>v.toFixed(1)).join(',')).join('L');
+const BUS=Object.fromEntries(D.buses.map(b=>[b.id,b]));
+const lc=l=>l>100?'var(--p1)':l>=90?'var(--p2)':l>=80?'var(--p3)':'var(--ok)';
+// KPIs
+const k=D.kpi; $('k_load').innerHTML=fmt(k.load)+'<em>MW</em>'; $('k_gen').innerHTML=fmt(k.gen)+'<em>MW</em>'; $('k_slack').innerHTML=fmt(k.slack)+'<em>MW</em>';
+$('k_head').innerHTML=fmt(k.headroom)+'<em>MW</em>'; $('k_score').innerHTML=k.score+'<em>/100</em>';
+// ---- alarms: rules applied to the real solve() result
+const zoneOf=b=>(BUS[b.a]?.zone||BUS[b.b]?.zone||'—');
+const AL=[];
+for(const b of D.branches){ if(b.load>100) AL.push([1,zoneOf(b),b.id+' '+b.kv+' kV',`Overload ${b.load} % of ${fmt(b.limit)} MW limit · ${fmt(Math.abs(b.flow))} MW`,b.est]);
+  else if(b.load>=90) AL.push([2,zoneOf(b),b.id+' '+b.kv+' kV',`High loading ${b.load} %`,b.est]); else if(b.load>=80) AL.push([3,zoneOf(b),b.id+' '+b.kv+' kV',`Loading ${b.load} %`,b.est]); }
+if(k.headroom<1000) AL.push([2,'System','Dispatchable headroom',`${fmt(k.headroom)} MW gas/hydro/storage left (< 1,000)`,true]);
+for(const i of D.interfaces){const l=Math.abs(i.flow)/i.ttc*100; if(l>=90) AL.push([l>100?1:2,'System',i.id,`Interface ${Math.round(l)} % of TTC`,i.est]);}
+AL.sort((a,b)=>a[0]-b[0]); const nP=p=>AL.filter(a=>a[0]===p).length;
+$('almct').innerHTML=`<span class="p1b">P1 ${nP(1)}</span><span class="p2b">P2 ${nP(2)}</span><span class="p3b">P3 ${nP(3)}</span><span class="evb">EV 4</span>`; $('alc').textContent=AL.length;
+const PC={1:'var(--p1)',2:'var(--p2)',3:'var(--p3)'};
+const EVs=[['19:00','EV','System','Hour 18→19','Hour advanced (play)'],['18:00','EV','System','Day','Scenario 2025-06-24 loaded · dispatch auto-balanced']];
+$('alarms').innerHTML=AL.slice(0,4).map((a,i)=>`<tr class="${i<2?'un':'ak'} ${a[0]===1?'p1':''}"><td>19:00</td><td><span class="pr" style="background:${PC[a[0]]}">${a[0]}</span></td><td>${a[1]}</td><td>${a[2]}</td><td>${a[3]} ${a[4]?'<span class="est o">EST limit</span>':''}</td><td><span class="st" style="${i<2?'color:'+PC[a[0]]+';border-color:'+PC[a[0]]:''}">${i<2?'UNACK':'ACK'}</span></td></tr>`).join('')+
+ EVs.slice(0,1).map(e=>`<tr class="ak"><td>${e[0]}</td><td><span class="pr" style="background:var(--ev)">E</span></td><td>${e[2]}</td><td>${e[3]}</td><td>${e[4]}</td><td><span class="st">LOG</span></td></tr>`).join('');
+// ---- map
+let h='';
+for(let lo=-85;lo<=-75;lo+=0.5){const a=P(lo,46.5),b=P(lo,41);h+=`<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="#18242c" stroke-width="${lo%1?0.4:0.8}"/>`}
+for(let la=41;la<=46.5;la+=0.5){const a=P(-86,la),b=P(-74,la);h+=`<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="#18242c" stroke-width="${la%1?0.4:0.8}"/>`}
+const lakes={huron:[[-82.42,43.0],[-81.72,43.3],[-81.71,43.75],[-81.75,44.1],[-81.42,44.5],[-81.3,45.0],[-81.6,45.25],[-82,45.6],[-83.5,45.9],[-84,45.6],[-83.4,45],[-83.3,44.3],[-83.9,43.9],[-83,44],[-82.6,43.6]],
+ georgian:[[-81.6,45.25],[-81.1,44.9],[-80.9,44.6],[-80.3,44.5],[-80.05,44.6],[-79.85,44.75],[-80,45.2],[-80.4,45.6],[-81,45.95],[-81.6,45.95],[-81.7,45.5]],
+ erie:[[-83.4,41.7],[-82.5,41.4],[-81.7,41.5],[-80.5,42],[-79.8,42.25],[-78.9,42.85],[-79.3,42.87],[-80.2,42.62],[-81,42.65],[-81.8,42.35],[-82.5,42],[-83.1,42.05]],
+ ontario:[[-79.8,43.3],[-79.4,43.65],[-78.9,43.85],[-78,43.95],[-77.3,43.95],[-76.6,44.15],[-76.2,44.1],[-76.1,43.6],[-76.5,43.35],[-77.5,43.25],[-78.5,43.37],[-79.2,43.18]],
+ simcoe:[[-79.62,44.42],[-79.38,44.2],[-79.2,44.33],[-79.28,44.55],[-79.5,44.48]],stclair:[[-82.9,42.3],[-82.42,42.35],[-82.5,42.6],[-82.8,42.6]]};
+for(const n in lakes)h+=`<path d="${path(lakes[n])}Z" fill="#11304a" stroke="#4a7c9c" stroke-width="1"/>`;
+[['LAKE HURON',-82.6,44.6],['LAKE ERIE',-80.9,42.3],['LAKE ONTARIO',-78.3,43.62],['GEORGIAN BAY',-80.75,45.05]].forEach(t=>{const p=P(t[1],t[2]);h+=`<text x="${p[0]}" y="${p[1]}" class="lbl sm" style="fill:#3b5566;font-size:10.5px;letter-spacing:3px;stroke:none">${t[0]}</text>`});
+[[-79.42,43.70,80],[-80.45,43.45,40],[-79.87,43.25,30],[-81.25,42.98,32]].forEach(u=>{const p=P(u[0],u[1]);h+=`<circle cx="${p[0]}" cy="${p[1]}" r="${u[2]}" fill="url(#urb)"/>`});
+// OSM lines by voltage (115 kV hidden at this altitude: LOD rule)
+const W={500:2.6,345:1.8,230:1.3};
+for(const kv of [230,345,500]) h+=`<path d="${D.lines.filter(l=>l.kv===kv).map(l=>path(l.c)).join('')}" stroke="${KV[kv]}" stroke-width="${W[kv]}" fill="none" opacity=".78" stroke-linejoin="round"/>`;
+// history ghosts (retirements with positions)
+D.history.filter(e=>e.type==='retirement'&&e.lon&&/Lakeview|Lambton|Nanticoke/.test(e.title)).forEach(e=>{const p=P(e.lon,e.lat);h+=`<g opacity=".8"><rect x="${p[0]-6}" y="${p[1]-6}" width="12" height="12" fill="none" stroke="#8a96a2" stroke-dasharray="2 2" transform="rotate(45 ${p[0]} ${p[1]})"/><text x="${p[0]-8}" y="${p[1]+17}" class="lbl sm" style="fill:#8a96a2;font-size:8px">${e.title.split(' ')[0]} coal ✝${e.year}</text></g>`});
+// planned
+for(const f of D.planned){ if(f.g.type==='LineString') h+=`<path d="${path(f.g.coordinates)}" stroke="#ffb84d" stroke-width="1.6" stroke-dasharray="5 4" fill="none" opacity=".9"/>`;
+ else {const p=P(...f.g.coordinates); h+=`<rect x="${p[0]-3.5}" y="${p[1]-3.5}" width="7" height="7" fill="none" stroke="#ffb84d" stroke-width="1.3"/>`} }
+// model branches: halos for ≥90 %, schematic dashed for no-OSM branches, tie labels
+const bseg=b=>b.ways.length?b.ways.map(w=>path(w)).join(''):(BUS[b.a]&&BUS[b.b]?path([[BUS[b.a].lon,BUS[b.a].lat],[BUS[b.b].lon,BUS[b.b].lat]]):'');
+for(const b of D.branches){ const d=bseg(b); if(!d) continue;
+ if(!b.ways.length&&!b.tie) h+=`<path d="${d}" stroke="${KV[b.kv]}" stroke-width="1" stroke-dasharray="2 3" fill="none" opacity=".7"/>`;
+ if(b.load>=90){const c=b.load>100?'#ff2d3a':'#ff9a1f';h+=`<path d="${d}" stroke="${c}" stroke-width="10" opacity=".28" fill="none" stroke-linecap="round"/><path d="${d}" stroke="${c}" stroke-width="2.2" fill="none"/>`;
+  const m=b.ways.length?b.ways[0][Math.floor(b.ways[0].length/2)]:[(BUS[b.a].lon+BUS[b.b].lon)/2,(BUS[b.a].lat+BUS[b.b].lat)/2],p=P(m[0],m[1]);
+  h+=`<rect x="${p[0]-17}" y="${p[1]-8}" width="34" height="14" rx="2" fill="${c}"/><text x="${p[0]}" y="${p[1]+3}" text-anchor="middle" style="font:bold 9.5px DejaVu Sans Mono;fill:#000">${b.load}%</text>`;
+  if(b.id==='BUC-LON'){$('co1').style.left=(p[0]+22)+'px';$('co1').style.top=(p[1]-12)+'px';} } }
+// generation
+for(const s of D.stations){const p=P(s.lon,s.lat),r=Math.max(4,Math.min(13,Math.sqrt(s.mw||1)/5.5)),c=FU[s.fuel]||'#aaa';
+ h+=`<circle cx="${p[0]}" cy="${p[1]}" r="${r+3}" fill="${c}" opacity=".16"/><circle cx="${p[0]}" cy="${p[1]}" r="${r}" fill="#0b0f13" stroke="${c}" stroke-width="2"/>`;
+ if(s.mw>900) h+=`<text x="${p[0]+r+4}" y="${p[1]+4}" class="lbl ${s.mw>3000?'big':''}">${s.name.replace(/ \(.*\)/,'')} ${fmt(s.mw)}</text>`;}
+// buses (model) + labels
+const BL={BRUCE:0,MILTON:1,CLAIREVILLE:1,CHERRYWOOD:1,ESSA:1,NANTICOKE:1,MIDDLEPORT:1,LONGWOOD:1,BUCHANAN:1,DETWEILER:1,ORANGEVILLE:1,LAMBTON:1,TRAFALGAR:1,RICHVIEW:1,BECK:0};
+for(const b of D.buses){ if(['REST','MI','NY'].includes(b.id)) continue; const p=P(b.lon,b.lat),sel=b.id==='BUCHANAN'||b.id==='LONGWOOD';
+ h+=`<rect x="${p[0]-4}" y="${p[1]-4}" width="8" height="8" fill="#0b0f13" stroke="${sel?'#4ec9ff':'#cfd8e0'}" stroke-width="${sel?2:1.2}" transform="rotate(45 ${p[0]} ${p[1]})"/>`;
+ if(BL[b.id]) h+=`<text x="${p[0]+7}" y="${p[1]-6}" class="lbl sm">${b.name.split(' (')[0]}</text>`;}
+// interties labels
+[['MI',-82.95,42.55,`◀ MI ${k.mi>=0?'exp':'imp'} ${fmt(Math.abs(k.mi))} MW`],['NY',-78.95,43.05,`NY ${fmt(Math.abs(k.ny))} MW ▶`]].forEach(t=>{const p=P(t[1],t[2]);h+=`<rect x="${p[0]-2}" y="${p[1]-11}" width="${t[3].length*6+8}" height="15" fill="#0b0f13" stroke="#fff" stroke-width=".7"/><text x="${p[0]+2}" y="${p[1]}" class="lbl" style="stroke:none">${t[3]}</text>`});
+$('map').innerHTML=`<defs><radialGradient id="urb"><stop offset="0" stop-color="#ffcf7a" stop-opacity=".2"/><stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/></radialGradient></defs>`+h;
+// callout
+const BUC=D.branches.find(b=>b.id==='BUC-LON');
+$('co1').innerHTML=`<b>BUC-LON · 230 kV corridor</b> <span class="est">EST limit</span><br><span style="color:var(--p1)">${BUC.load} %</span> <span class="dim">· ${fmt(Math.abs(BUC.flow))} / ${fmt(BUC.limit)} MW · Longwood → Buchanan</span><br><span class="dim">[T] trip · [Enter] explorer · ⚠ unvalidated (peak-day dispatch EST)</span>`;
+// ---- one-line inset (KW): model buses + branches, schematic positions
+const IN={MIDDLEPORT:[180,160],PRESTON:[150,108],DETWEILER:[86,96],SCHEIFELE:[70,42],ORANGEVILLE:[160,22],BUCHANAN:[22,150]};
+let g='';const ib=D.branches.filter(b=>IN[b.a]&&IN[b.b]);
+for(const b of ib){const [x1,y1]=IN[b.a],[x2,y2]=IN[b.b],c=b.load>=80?lc(b.load):KV[b.kv];g+=`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c}" stroke-width="${b.load>=80?3:2}"/>`;
+ const mx=(x1+x2)/2,my=(y1+y2)/2;g+=`<text x="${mx+3}" y="${my-3}" class="lbl sm" style="font-size:8px;fill:${b.load>=80?lc(b.load):'#9fb0bf'}">${fmt(Math.abs(b.flow))} MW ${b.load}%</text>`;}
+// exits
+[['BUCHANAN','→ LON',2,150],['MIDDLEPORT','→ MIL/NAN/BEC',180,184],['ORANGEVILLE','→ ESS/BRU',232,22]].forEach(e=>{const [x,y]=IN[e[0]];g+=`<line x1="${x}" y1="${y}" x2="${e[2]}" y2="${e[3]}" stroke="#5d7183" stroke-dasharray="2 2"/>`;});
+g+=`<line x1="150" y1="108" x2="118" y2="64" stroke="#ffb84d" stroke-width="1.6" stroke-dasharray="4 3"/><rect x="113" y="59" width="10" height="10" fill="none" stroke="#ffb84d"/><text x="126" y="66" class="lbl sm" style="font-size:7.5px;fill:#ffb84d">Wellington TS (plan)</text>`;
+for(const [id,[x,y]] of Object.entries(IN)){g+=`<rect x="${x-9}" y="${y-4}" width="18" height="8" fill="#0b0f13" stroke="#cfd8e0"/><text x="${x}" y="${y+16}" text-anchor="middle" class="lbl sm" style="font-size:8px">${BUS[id].name.split(' (')[0]}</text>`;}
+g+=`<text x="4" y="184" class="lbl sm" style="font-size:7.5px">model buses · 230 kV · 115 kV detail at alt &lt; 60 km</text>`;
+$('ins').innerHTML=g;
+// ---- explorer
+const rc=D.regCounts,sum=p=>Object.entries(rc).filter(([k])=>k.startsWith(p)).reduce((a,[,v])=>a+v,0);
+$('fullc').textContent=fmt(D.regTotal+3100+428); $('inview').textContent=fmt(sum('Transmission')+sum('Stations')+64);
+const sib=['MID-PRE','PRE-DET','DET-SCH','DET-BUC','BUC-LON','LON-LAM','LAM-CHA'].map(id=>D.branches.find(b=>b.id===id));
+const T=[[0,'▾','HKONT',''],[1,'▸','Generation',`<span class="cnt">(${sum('Generation')})</span>`],[1,'▾','Transmission',`<span class="cnt">(${sum('Transmission')})</span>`],[2,'▸','500 kV',`<span class="cnt">(${rc['Transmission/500 kV']})</span>`],[2,'▾','230 kV',`<span class="cnt">(${rc['Transmission/230 kV']})</span>`],
+ ...sib.map(b=>[3,'',b.id,`<span class="r" style="color:${lc(b.load)}">${b.load>=90?'⚠ ':''}${b.load}%</span>`,b.id==='BUC-LON','lf']),
+ [1,'▸','Interties',`<span class="cnt">(${sum('Interties')})</span>`],[1,'▸','Stations',`<span class="cnt">(model buses ${rc['Stations/Model buses']} · OSM 428)</span>`],
+ [1,'▸','Planned',`<span class="cnt">(${sum('Planned')}) line · station · upgrade · plant</span>`],[1,'▸','History',`<span class="cnt">(${sum('History')}) 1922–2026</span>`],[1,'▸','OSM lines',`<span class="cnt">(3,100 ways)</span>`]];
+$('tree').innerHTML=T.map(([d,tw,n,x,s,lf])=>`<div style="--d:${d}" class="${s?'sl':''}"><span class="tw">${tw}</span>${lf?`<i class="lf" style="background:${KV[230]}"></i>`:'<i class="fd"></i>'}<span>${n}</span>${x}</div>`).join('');
+const A=[['(Default)','REG_SZ','BUC-LON · 230 kV corridor','—'],['id','REG_SZ','br:BUC-LON','—'],['path','REG_SZ','Transmission\\230 kV\\BUC-LON','reg'],
+ ['from → to','REG_LINK','Buchanan → Longwood (bus:…)','osm'],['flow (model)','REG_SIM',`${fmt(BUC.flow)} MW (${BUC.load} %)`,'sim'],['limit','REG_DWORD','900 MW <span class="est">EST</span> 450×2 generic','—'],
+ ['circuits','REG_DWORD','2 <span class="est">EST</span>','osm'],['length','REG_DWORD','48.8 km','osm'],['reactance','REG_DWORD','0.01845 pu <span class="est">EST</span>','—'],
+ ['OSM refs','REG_MULTI_SZ','—','osm'],['OSM ways','REG_DWORD','4 (way/…)','osm'],['zone','REG_SZ','Southwest (IESO)','ieso'],['plans','REG_LINK','Planned\\line\\Longwood-Lakeshore…','ho'],['sources','REG_LINK','[osm]','osm']];
+$('attrs').innerHTML=A.map(r=>`<div class="attr"><span class="c1">${r[0]}</span><span class="c2">${r[1]}</span><span class="c3">${r[2]}</span><span class="c4">${r[3]}</span></div>`).join('');
+$('vfoot').innerHTML=`${A.length} values · <span class="est">EST</span> 3 · <span class="sim">SIM</span> 1`;
+// ---- right column
+const sl=k.slack,sw=Math.min(Math.abs(sl)/1500*50,50);$('slackbar').innerHTML=`<i style="${sl<0?'right:50%':'left:50%'};width:${Math.max(sw,.6)}%;background:var(--ok)"></i>`;$('slackv').textContent=fmt(sl)+' MW';
+{const dh=D.demand_h,mx=Math.max(...dh)*1.03,mn=Math.min(...dh)*.95,X=i=>i/23*284,Y=v=>44-(v-mn)/(mx-mn)*40;let s=`<rect width="284" height="46" fill="#0a0e12" stroke="#1c242c"/>`;
+ s+=`<path d="${dh.map((v,i)=>(i?'L':'M')+X(i).toFixed(1)+','+Y(v).toFixed(1)).join('')}" stroke="#e9f1f7" fill="none" stroke-width="1.4"/><line x1="${X(D.hour-1)}" y1="0" x2="${X(D.hour-1)}" y2="46" stroke="#4ec9ff"/>`;
+ s+=`<text x="4" y="10" class="lbl sm" style="font-size:8px">Ontario demand (IESO) 24 h</text><text x="${X(D.hour-1)-78}" y="20" class="lbl sm" style="font-size:8px;fill:#4ec9ff">h${D.hour} ${fmt(dh[D.hour-1])} MW</text>`;$('spark').innerHTML=s;}
+const mt=Object.values(D.mix).reduce((a,b)=>a+b,0);
+$('mix').innerHTML=Object.entries(D.mix).sort((a,b)=>b[1]-a[1]).map(([f,v])=>`<div class="row"><span class="n">${FL[f]}</span><span class="b"><i style="width:${v/mt*250}%;background:${FU[f]}"></i></span><span class="v">${fmt(v)}</span><span class="p">${(v/mt*100).toFixed(1)}%</span></div>`).join('');
+$('ifs').innerHTML=D.interfaces.map(i=>{const l=Math.abs(i.flow)/i.ttc*100;return `<div class="row"><span class="n">${i.id}${i.est?' <span class="est o" style="font-size:7px">E</span>':''}</span><span class="b"><i style="width:${Math.min(l,100)}%;background:${lc(l)}"></i></span><span class="v">${fmt(i.flow)}/${fmt(i.ttc)}</span>${i.id==='FETT'?'<span class="warn" title="model FETT well below typical: known issue">LOW?</span>':`<span class="p">${Math.round(l)}%</span>`}</div>`}).join('');
+$('ties').innerHTML=[['Michigan',k.mi,'slider'],['New York',k.ny,'slider'],['Other (QC/MB/MN)',k.other,'data']].map(t=>`<div class="row ctr"><span class="n" style="width:96px">${t[0]}</span><span class="b"><i style="left:49.5%;width:1%;background:#fff"></i></span><span class="v" style="width:60px">${fmt(t[1])}</span><span class="p dim" style="width:40px">${t[2]}</span></div>`).join('')+'<div class="dim mono" style="font-size:8.5px">auto days carry no intertie schedule (0 MW) · drag MI/NY to test</div>';
+$('ll').innerHTML=[...D.branches].sort((a,b)=>b.load-a.load).slice(0,7).map(b=>`<div class="row"><span class="n">${b.id}</span><span class="kvc" style="color:${KV[b.kv]};border-color:${KV[b.kv]}">${b.kv}</span><span class="b"><i style="width:${Math.min(b.load,100)}%;background:${lc(b.load)}"></i></span><span class="p" style="color:${lc(b.load)}">${b.load}%</span></div>`).join('');
+// ---- timeline 1920–2035: history.json events + planned isd
+{const x0=70,x1=880,y0=1920,y1=2036,X=y=>x0+(y-y0)/(y1-y0)*(x1-x0);let t='';const TC={plant_build:'#2fb6ff',line_build:'#e0483e',retirement:'#9aa6b2',refurb:'#c66bff',event:'#ff2d3a',policy:'#9ee34a',conversion:'#a3846a',snapshot:'#4ec9ff'};
+ t+=`<text x="8" y="15" style="font:9px DejaVu Sans Mono;fill:#7d8b98;letter-spacing:1px">HISTORY</text><text x="8" y="28" style="font:9px DejaVu Sans Mono;fill:#4ec9ff">[H] , .</text>`;
+ t+=`<line x1="${x0}" y1="20" x2="${X(2026)}" y2="20" stroke="#33404c" stroke-width="4"/><line x1="${X(2026)}" y1="20" x2="${x1}" y2="20" stroke="#ffb84d" stroke-width="2" stroke-dasharray="4 3" opacity=".6"/>`;
+ for(let y=1920;y<=2030;y+=10)t+=`<line x1="${X(y)}" y1="25" x2="${X(y)}" y2="29" stroke="#4d5a66"/><text x="${X(y)-11}" y="37" style="font:8.5px DejaVu Sans Mono;fill:#4d5a66">${y}</text>`;
+ D.history.forEach(e=>t+=`<rect x="${X(e.year)-1.5}" y="15" width="3" height="10" fill="${TC[e.type]||'#aaa'}"/>`);
+ D.planned.forEach(p=>{const y=parseInt(p.isd);if(y>2026)t+=`<rect x="${X(y)-1.5}" y="16" width="3" height="8" fill="#ffb84d" opacity=".8"/>`});
+ [[1922,'Beck I','#2fb6ff'],[1971,'Pickering A','#c66bff'],[2003,'Blackout','#ff2d3a'],[2005,'Coal out 05–14','#9aa6b2'],[2030,'Planned','#ffb84d']].forEach(l=>t+=`<text x="${X(l[0])-10}" y="11" style="font:8px DejaVu Sans Mono;fill:${l[2]}">${l[1]}</text>`);
+ t+=`<path d="M${X(2026)-6},31 L${X(2026)},22 L${X(2026)+6},31 Z" fill="#4ec9ff"/><text x="${X(2026)+8}" y="33" style="font:bold 9px DejaVu Sans Mono;fill:#4ec9ff">2026</text>`;$('tlsvg').innerHTML=t;}
+</script>
+</body></html>
